@@ -1,4 +1,7 @@
-robots
+Probabilistic-Numerics.Org
 ======
 
-Homepage on robots.ox.ac.uk, made using jekyll, bootstrap and jekyll-scholar (for bibtex publication list).
+This repository hosts the code for
+[probabilistic-numerics.org](http://www.probabilistic-numerics.org). It is
+based on the [robots.ox.ac.uk](https://github.com/jwvdm/robots-homepage) build
+by Jan-Willem van de Meent, using jekyll, bootstrap and jekyll-scholar.
