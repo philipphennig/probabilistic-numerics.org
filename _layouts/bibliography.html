@@ -1,0 +1,24 @@
+---
+---
+{{reference}}
+
+<span id="{{key}}_materials">
+  <ul class="nav nav-pills">
+    {% if entry.abstract %}
+    <li><a class="bib-materials" data-target="#{{key}}_abstract" data-toggle="collapse" href="#{{key}}" onclick="return false">Abstract</a></li>
+    {% endif %}
+
+    <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
+
+    {% if link %}
+    <li><a class="bib-materials" href="{{link}}">PDF</a></li>
+    {% endif %}
+  </ul>
+
+  {% if entry.abstract %}
+  <p id="{{key}}_abstract" class="collapse">{{entry.abstract}}</p>
+  {% endif %}
+
+  <pre id="{{key}}_bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre>
+
+</span>

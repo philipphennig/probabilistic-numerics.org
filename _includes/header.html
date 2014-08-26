@@ -1,0 +1,26 @@
+<div class="row">
+  
+  <a href="http://www.probabilistic-numerics.org"> 
+    <img class="logo" src="{{site.baseurl}}/assets/images/Graphs.png" height="120px" align="bottom"> 
+  </a>
+</div>
+<div class="row">
+    <div class="title pull-left">
+      Probabilistic-Numerics.org
+    </div>
+    <ul class="nav nav-pills pull-right">
+      {% for link in site.navigation %}
+      {% capture url %}{{site.baseurl}}{{link.url}}{% endcapture %}
+      <li {% if page.url == link.url %}class="active"{% endif %}>
+        <a href="{{url}}" title="{{link.title}}">{{link.text}}</a>
+      </li>
+      <!-- class="active"><a href="/">About</a></li> -->
+      <!-- <li><a href="/projects">Projects</a></li> -->
+      <!-- <li><a href="/publications">Publications</a></li> -->
+      {% endfor %}
+    </ul>
+</div>
+
+<script>
+  $()
+</script>
