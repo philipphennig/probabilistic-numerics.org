@@ -1,8 +1,9 @@
-name: "Jan-Willem van de Meent @ robots.ox.ac.uk"
-# url: http://www.robots.ox.ac.uk
-# baseurl: http://www.robots.ox.ac.uk/~jwvdm
+name: "Probabilistic-Numerics.org"
+# url: http://www.probabilistic-numerics.org
+# baseurl: http://www.probabilistic-numerics.org
 permalink: /:year/:month/:day/:title
-timezone: Europe/London
+timezone: Europe/Berlin
+description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
 
 navigation:
 - text: About/News
