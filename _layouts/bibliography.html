@@ -10,6 +10,10 @@
 
     <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
 
+    {% if entry.file %}
+    <li><a class="bib-materials" href="{{entry.file}}">PDF</a></li>
+    {% endif %}
+    
     {% if link %}
     <li><a class="bib-materials" href="{{link}}">PDF</a></li>
     {% endif %}
