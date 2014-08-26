@@ -13,7 +13,10 @@ navigation:
 - text: Literature
   url: /literature/index.html
 
+markdown: kramdown
+
 scholar:
   style: apa
   repository: assets/pdf
   bibliography_template: bibliography
+

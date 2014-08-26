@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <!-- <link rel="shortcut icon"
+href="/assets/ico/favicon.ico"> -->
 
     <title>Probabilistic Numerics.org</title>
 
@@ -29,7 +30,7 @@
         <div class="row">
   
   <a href="http://www.probabilistic-numerics.org"> 
-    <img class="logo" src="/assets/images/Graphs.png" height="120px" align="bottom"> 
+    <img class="logo" src="/assets/images/Graphs.png" height="80px" align="bottom"> 
   </a>
 </div>
 <div class="row">
@@ -71,14 +72,66 @@
        
       </div>
       <div class="content row">
-        <p>This page collects important ongoing areas of research. </p>
+        <p>This page collects important ongoing areas of research. Most of these issues
+have previously been discussed at a community meeting or workshop. If you feel
+that a problem is missing on this list and is addressed by your published
+research, please contact us.</p>
 
-<h2 id="quantification-of-uncertainty-in-deterministic-computations">Quantification of Uncertainty in Deterministic Computations</h2>
+<h2 id="fundamental-aspects">Fundamental Aspects</h2>
 
-<h2 id="adapting-numerical-methods-to-specific-problem-areas">Adapting Numerical Methods to Specific Problem Areas</h2>
+<p>There are some principal questions that apply more or less directly to all
+numerical problems. Chief among them is a philosophical question of what,
+precisely, it means to assign a probability distribution over the result of a
+computation.</p>
 
-<h2 id="propagation-and-control-of-uncertainty-in-computational-pipelines">Propagation and Control of Uncertainty in Computational Pipelines</h2>
+<h1 id="special-challenges-in-individual-areas">Special Challenges in Individual Areas</h1>
 
+<p>Each type of numerical problem poses special challenges that have to be
+addressed by tailored solutions. Often, intended application areas are sources
+of specific computational challenges.</p>
+
+<h2 id="quadrature">Quadrature</h2>
+
+<p>Quadrature is the problem of inferring the integral <script type="math/tex">F=\int f(x)\,dx</script> over a
+function <script type="math/tex">f</script>. Typically, <script type="math/tex">f</script> is only accessible in form of a function
+handle. Probabilistic quadrature rules usually model <script type="math/tex">f</script> using a Gaussian
+process measure.</p>
+
+<h4 id="computational-cost-in-competition-with-mcmc">Computational cost in competition with MCMC</h4>
+
+<p>In statistics and machine learning, quadrature methods compete with
+Markov-Chain Monte-Carlo methods. Can they be similarly fast, even if the
+function <script type="math/tex">f</script> itself has negligible evaluation cost?</p>
+
+<h4 id="model-adaptation">Model adaptation</h4>
+
+<p>If the prior probability distribution of the quadrature method is not well
+calibrated, the posterior probability distribution can be a misleading measure
+of uncertainty. Can this be addressed with automatic model adaptation methods,
+and what is the computational cost of doing so?</p>
+
+<h2 id="linear-algebra">Linear Algebra</h2>
+
+<p>Linear algebra methods solve matrix computations. Of particular interest in
+this area is the solution of linear problems of the type <script type="math/tex">Ax=b</script>, where <script type="math/tex">A</script>
+is a matrix that can not be directly represented in memory, <script type="math/tex">b</script> is a known
+vector, and the solution <script type="math/tex">x</script> needs to be found.</p>
+
+<h2 id="optimization">Optimization</h2>
+
+<p>Optimization aims to find extremal values of a function <script type="math/tex">f</script>. At the moment,
+research on probabilistic numerical optimization methods focusses on the
+optimization of twice-continuously differentiable functions
+<script type="math/tex">f:\mathbb{R}^N\to\mathbb{R}</script>, where <script type="math/tex">N</script> is typically a large number.</p>
+
+<h2 id="ordinary-differential-equations">Ordinary Differential Equations</h2>
+
+<p>Ordinary differential equations are equations of the form
+<script type="math/tex">\partial x(t) / \partial t=f(x,t)</script>. Classic ODE setups require the
+specification of explicit initial or boundary value conditions, i.e. knowledge
+of the form <script type="math/tex">\partial x(t_0) / \partial t = x_0</script> or similar. One interesting
+long-term question for probabilistic solvers for ODEs is whether they can deal
+with problems in which boundary values are only known up to uncertainty.</p>
 
       </div>
       <div class="footer row">
@@ -89,5 +142,7 @@
     </div>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </body>
 </html>
