@@ -29,7 +29,25 @@
   author =	 {T.P. Minka},
   institution =	 {Statistics Department, Carnegie Mellon University},
   title =	 {{Deriving quadrature rules from {G}aussian processes}},
-  year =	 2000
+  year =	 2000,
+  abstract =	 {Quadrature rules are often designed to achieve zero error on
+                  a small set of functions, e.g. polynomials of specified
+                  degree. A more robust method is to minimize average error
+                  over a large class or distribution of functions. If functions
+                  are distributed according to a Gaussian process, then
+                  designing an average-case quadrature rule reduces to solving
+                  a system of 2n equations, where n is the number of nodes in
+                  the rule (O'Hagan, 1991). It is shown how this very general
+                  technique can be used to design customized quadrature rules,
+                  in the style of Yarvin & Rokhlin (1998), without the need for
+                  singular value decomposition and in any number of
+                  dimensions. It is also shown how classical Gaussian
+                  quadrature rules, trigonometric lattice rules, and spline
+                  rules can be extended to the average-case and to multiple
+                  dimensions by deriving them from Gaussian processes. In
+                  addition to being more robust, multidimensional quadrature
+                  rules designed for the average-case are found to be much less
+                  ambiguous than those designed for a given polynomial degree.}
 }
 
 @inproceedings{osborne2012bayesian,
@@ -39,7 +57,18 @@
                   Statistics}},
   pages =	 {832--840},
   title =	 {{Bayesian quadrature for ratios}},
-  year =	 2012
+  year =	 2012,
+  abstract =	 {We describe a novel approach to quadrature for ratios of
+                  probabilistic integrals, such as are used to compute
+                  posterior probabilities. This approach offers performance
+                  superior to Monte Carlo methods by exploiting a Bayesian
+                  quadrature framework. We improve upon previous Bayesian
+                  quadrature techniques by explicitly modelling the
+                  non-negativity of our integrands, and the correlations that
+                  exist between them. It offers most where the integrand is
+                  multi-modal and expensive to evaluate. We demonstrate the
+                  efficacy of our method on data from the Kepler space
+                  telescope.}
 }
 
 
@@ -50,5 +79,21 @@
   pages =	 {46--54},
   title =	 {{Active Learning of Model Evidence Using Bayesian
                   Quadrature.}},
-  year =	 2012
+  year =	 2012,
+  abstract =	 { Numerical integration is a key component of many problems in
+                  scientific computing, statistical modelling, and machine
+                  learning. Bayesian Quadrature is a model-based method for
+                  numerical integration which, relative to standard Monte Carlo
+                  methods, offers increased sample efficiency and a more robust
+                  estimate of the uncertainty in the estimated integral. We
+                  propose a novel Bayesian Quadrature approach for numerical
+                  integration when the integrand is non-negative, such as the
+                  case of computing the marginal likelihood, predictive
+                  distribution, or normalising constant of a probabilistic
+                  model. Our approach approximately marginalises the quadrature
+                  model’s hyperparameters in closed form, and introduces an ac-
+                  tive learning scheme to optimally select function
+                  evaluations, as opposed to using Monte Carlo samples. We
+                  demonstrate our method on both a number of synthetic
+                  benchmarks and a real scientific problem from astronomy.}
 }
