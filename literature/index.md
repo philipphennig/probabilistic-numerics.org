@@ -3,9 +3,11 @@ title: Literature
 layout: default
 ---
 
-<h1>Literature</h1>
-This page collects literature on all areas of probabilistic numerics, sorted by
-problem type. Quick-jump links:
+<h1>Literature</h1> This page collects literature on all areas of probabilistic
+numerics, sorted by problem type. If you would like your publication to be
+featured in this list, please contact us by email.
+
+### Quick-jump links:
 
 * <a href="#General">General and Foundational</a>
 * <a href="#Quadrature">Quadrature</a>
@@ -15,6 +17,8 @@ problem type. Quick-jump links:
 * <a href="#PDEs">Partial Differential Equations</a>
 
 <h2 id="General">General and Foundational</h2>
+The following papers are often cited as early works on the
+idea of uncertainty over the result of deterministic computations.
 
 {% bibliography --file general %}
 

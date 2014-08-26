@@ -1,8 +1,19 @@
 @article{skilling1991bayesian,
-	author = {J. Skilling},
-	journal = {Maximum Entropy and Bayesian Methods, Seattle},
-	title = {{Bayesian solution of ordinary differential equations}},
-	year = {1991}
+  author =	 {J. Skilling},
+  journal =	 {Maximum Entropy and Bayesian Methods, Seattle},
+  title =	 {{Bayesian solution of ordinary differential equations}},
+  year =	 {1991},
+  abstract =	 {In the numerical solution of ordinary differential equations,
+                  a function y(x) is to be reconstructed from knowledge of the
+                  functional form of its derivative: dy/dx=f(x,y), together
+                  with an appropriate boundary condition. The derivative f is
+                  evaluated at a sequence of suitably chosen points (x_k,y_k),
+                  from which the form of y(.) is estimated. This is an
+                  inference problem, which can and perhaps should be treated by
+                  Bayesian techniques. As always, the inference appears as a
+                  probability distribution prob(y(.)), from which random
+                  samples show the probabilistic reliability of the
+                  results. Examples are given.}
 }
 
 @inproceedings{HennigAISTATS2014,
@@ -13,17 +24,65 @@
   title =	 {{Probabilistic Solutions to Differential Equations and their
                   Application to Riemannian Statistics}},
   volume =	 {33},
-  year =	 {2014}
+  year =	 {2014},
+  abstract =	 {We study a probabilistic numerical method for the solution of
+                  both boundary and initial value problems that returns a joint
+                  Gaussian process posterior over the solution. Such methods
+                  have concrete value in the statistics on Riemannian
+                  manifolds, where non-analytic ordinary differential equations
+                  are involved in virtually all computations. The probabilistic
+                  formulation permits marginalising the uncertainty of the
+                  numerical solution such that statistics are less sensitive to
+                  inaccuracies. This leads to new Riemannian algorithms for
+                  mean value computations and principal geodesic
+                  analysis. Marginalisation also means results can be less
+                  precise than point estimates, enabling a noticeable speed-up
+                  over the state of the art. Our approach is an argument for a
+                  wider point that uncertainty caused by numerical calculations
+                  should be tracked throughout the pipeline of machine learning
+                  algorithms.},
+  file =	 {http://jmlr.org/proceedings/papers/v33/hennig14.pdf},
+  video =	 {https://www.youtube.com/watch?v=fLCS0KXmiXs}
 }
 
-
-@article{13:_bayes_uncer_quant_differ_equat,
+@article{13_bayes_uncer_quant_differ_equat,
   author =	 {O. Chkrebtii and D.A. Campbell and M.A. Girolami and
                   B. Calderhead},
   journal =	 {arXiv prePrint 1306.2365},
   title =	 {{B}ayesian Uncertainty Quantification for Differential
                   Equations},
-  year =	 2013
+  year =	 2013,
+  abstract =	 {This paper advocates expansion of the role of Bayesian
+                  statistical inference when formally quantifying uncertainty
+                  in computer models defined by systems of ordinary or partial
+                  differential equations. We adopt the perspective that
+                  implicitly defined infinite dimensional functions
+                  representing model states are objects to be inferred
+                  probabilistically. We develop a general methodology for the
+                  probabilistic integration of differential equations via model
+                  based updating of a joint prior measure on the space of
+                  functions and their temporal and spatial derivatives. This
+                  results in a posterior measure over functions reflecting how
+                  well they satisfy the system of differential equations and
+                  corresponding initial and boundary values. We show how this
+                  posterior measure can be naturally incorporated within the
+                  Kennedy and O'Hagan framework for uncertainty quantification
+                  and provides a fully Bayesian approach to model
+                  calibration. By taking this probabilistic viewpoint, the full
+                  force of Bayesian inference can be exploited when seeking to
+                  coherently quantify and propagate epistemic uncertainty in
+                  computer models of complex natural and physical systems. A
+                  broad variety of examples are provided to illustrate the
+                  potential of this framework for characterising discretization
+                  uncertainty, including initial value, delay, and boundary
+                  value differential equations, as well as partial differential
+                  equations. We also demonstrate our methodology on a large
+                  scale system, by modeling discretization uncertainty in the
+                  solution of the Navier-Stokes equations of fluid flow,
+                  reduced to over 16,000 coupled and stiff ordinary
+                  differential equations. Finally, we discuss the wide range of
+                  open research themes that follow from the work presented.},
+  link =	 {http://arxiv.org/abs/1306.2365}
 }
 
 @inproceedings{Schober,
@@ -34,13 +93,64 @@
   publisher =	 {Springer},
   title =	 {{Probabilistic shortest path tractography in {DTI} using
                   {G}aussian {P}rocess {ODE} solvers}},
-  year =	 {2014}
+  year =	 {2014},
+  abstract =	 {Tractography in diffusion tensor imaging estimates
+                  connectivity in the brain through observations of local
+                  diffusivity. These observations are noisy and of low
+                  resolution and, as a consequence, connections cannot be found
+                  with high precision. We use probabilistic numerics to
+                  estimate connectivity between regions of interest and
+                  contribute a Gaussian Process tractography algorithm which
+                  allows for both quantification and visualization of its
+                  posterior uncertainty. We use the uncertainty both in
+                  visualization of individual tracts as well as in heat maps of
+                  tract locations.  Finally, we provide a quantitative
+                  evaluation of different metrics and algorithms showing that
+                  the adjoint metric combined with our algorithm produces paths
+                  which agree most often with experts.},
+file={../assets/pdf/Schober2014MICCAI.pdf},
+video={https://www.youtube.com/watch?v=VrhulgVaRMg}
 }
 
-@article{2014arXiv1406.2582S,
+@article{2014arXiv14062582S,
   author =	 {Schober, M. and Duvenaud, D. and Hennig, P.},
   title =	 {Probabilistic ODE Solvers with {R}unge-{K}utta Means},
   journal =	 {arXiv prePrint 1406.2582},
   year =	 2014,
   month =	 jun,
+  abstract =	 {Runge-Kutta methods are the classic family of solvers for
+                  ordinary differential equations (ODEs), and the basis for the
+                  state-of-the art. Like most numerical methods, they return
+                  point estimates. We construct a family of probabilistic
+                  numerical methods that instead return a Gauss-Markov process
+                  defining a probability distribution over the ODE solution. In
+                  contrast to prior work, we construct this family such that
+                  posterior means match the outputs of the Runge-Kutta family
+                  exactly, thus inheriting their proven good
+                  properties. Remaining degrees of freedom not identified by
+                  the match to Runge-Kutta are chosen such that the posterior
+                  probability measure fits the observed structure of the
+                  ODE. Our results shed light on the structure of Runge-Kutta
+                  solvers from a new direction, provide a richer, probabilistic
+                  output, have low computational cost, and raise new research
+                  questions.},
+  link =	 {http://arxiv.org/abs/1406.2582}
+}
+
+@article{2014arXiv14083807B,
+  author =	 {{Barber}, D.},
+  title =	 "{On solving Ordinary Differential Equations using Gaussian
+                  Processes}",
+  journal =	 {ArXiv pre-print 1408.3807},
+  year =	 2014,
+  month =	 August,
+  link =	 {http://arxiv.org/abs/1408.3807},
+  abstract =	 {We describe a set of Gaussian Process based approaches that
+                  can be used to solve non-linear Ordinary Differential
+                  Equations. We suggest an explicit probabilistic solver and
+                  two implicit methods, one analogous to Picard iteration and
+                  the other to gradient matching. All methods have greater
+                  accuracy than previously suggested Gaussian Process
+                  approaches. We also suggest a general approach that can yield
+                  error estimates from any standard ODE solver.}
 }

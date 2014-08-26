@@ -2,22 +2,68 @@
   author =	 {P. Hennig and M. Kiefel},
   booktitle =	 {{International Conference on Machine Learning (ICML)}},
   title =	 {{Quasi-{N}ewton methods -- a new direction}},
-  year =	 2012
+  year =	 2012,
+  abstract =	 {Four decades after their invention, quasi- Newton methods are
+                  still state of the art in unconstrained numerical
+                  optimization. Al- though not usually interpreted thus, these
+                  are learning algorithms that fit a local quadratic
+                  approximation to the objective function. We show that many,
+                  including the most popular, quasi-Newton methods can be
+                  interpreted as approximations of Bayesian linear regression
+                  under varying prior assumptions. This new notion elucidates
+                  some shortcomings of clas- sical algorithms, and lights the
+                  way to a novel nonparametric quasi-Newton method, which is
+                  able to make more efficient use of available information at
+                  computational cost similar to its predecessors.},
+  video =
+                  {http://techtalks.tv/talks/quasi-newton-methods-a-new-direction/57289/},
+  file = {../assets/pdf/Hennig13quasiNewton.pdf}
 }
 
-@article{hennig13:_quasi_newton_method,
+@article{hennig13_quasi_newton_method,
   author =	 {P. Hennig and M. Kiefel},
   journal =	 {Journal of Machine Learning Research},
   month =	 {March},
   pages =	 {834--865},
-  title =	 {{Quasi-{N}ewton Methods -- a new direction}},
+  title =	 {Quasi-{N}ewton Methods -- a new direction},
   volume =	 14,
-  year =	 2013
+  year =	 2013,
+  abstract =	 {Four decades after their invention, quasi-Newton methods are
+                  still state of the art in unconstrained numerical
+                  optimization. Although not usually interpreted thus, these
+                  are learning algorithms that fit a local quadratic
+                  approximation to the objective function. We show that many,
+                  including the most popular, quasi-Newton methods can be
+                  interpreted as approximations of Bayesian linear regression
+                  under varying prior assumptions. This new notion elucidates
+                  some shortcomings of classical algorithms, and lights the
+                  way to a novel nonparametric quasi-Newton method, which is
+                  able to make more efficient use of available information at
+                  computational cost similar to its predecessors.},
+  file = {../assets/pdf/Hennig13qN_JMLR.pdf}
 }
 
 @inproceedings{StochasticNewton,
   author =	 {P. Hennig},
   booktitle =	 {{International Conference on Machine Learning (ICML)}},
   title =	 {{Fast Probabilistic Optimization from Noisy Gradients}},
-  year =	 {2013}
+  year =	 {2013},
+  abstract =	 {Stochastic gradient descent remains popular in large-scale
+                  machine learning, on account of its very low computational
+                  cost and robust- ness to noise. However, gradient descent is
+                  only linearly efficient and not transformation
+                  invariant. Scaling by a local measure can substantially
+                  improve its performance. One natural choice of such a scale
+                  is the Hessian of the objective function: Were it available,
+                  it would turn linearly efficient gradient descent into the
+                  quadratically efficient Newton-Raphson optimization. Existing
+                  covariant methods, though, are either super-linearly
+                  expensive or do not address noise. Generalising recent
+                  results, this paper constructs a nonparametric Bayesian
+                  quasi-Newton algorithm that learns gradient and Hessian from
+                  noisy evaluations of the gradient. Importantly, the resulting
+                  algorithm, like stochastic gradient descent, has cost linear
+                  in the number of input dimensions},
+  file = {../assets/pdf/Hennig13noisy.pdf}
 }
+
