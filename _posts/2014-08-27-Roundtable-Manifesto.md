@@ -1,14 +1,25 @@
 ---
-layout: default
-title:  "Tübingen Manifesto"
-date:   2014-08-27 20:00
+layout:     default
+title:      "Tübingen Manifesto"
+date:       2014-08-27 20:00
 categories: workshops
 ---
 
-We in Probabilistic Numerics are a new community, and we face questions about many aspects of 
-The roundtable in Tübingen was an excellent opportunity to air and discuss some of the questions facing our growing community. 
+We in Probabilistic Numerics face many unanswered questions in growing the field.
+Our roundtable in Tübingen aimed to bring together our new community to begin to address some of these questions. 
+This post is an attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
 
-# Uncertainty
+# Uncertainty?
+
+Our first major question was: *what is a well-defined notion of "uncertainty" for a probabilistic numerical method?* 
+Consider $\psi = \int_{0}^{1} \exp\bigl((\sin 3 x)^2 + x^2\bigr)\mathrm{d}x$. 
+In a sense, we know $\psi$: I was able to write it down using a small number of mathematical symbols.
+However, of course, to find $\psi$ to three significant figures, I, for one, would have to use a numerical algorithm (please let [me](mailto:mosb@robots.ox.ac.uk) know if you do actually have a closed form expression for $\psi$!). 
+Given the finite precision of any numerical algorithm, can we really still be said to know $\psi$?
+If not, how should we think about the uncertainty in $\psi$?
+
+On this, I think the roundtable arrived at a helpful consensus.
+We came to the conclusion that uncertainty for probabilistic numerical algorithms was exactly the same quantity that we are 
 
 Uncertainty? Helpful to separate calculation from philosophical problems.
 

@@ -7,6 +7,119 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Tübingen Manifesto</title>
+				<description>&lt;p&gt;We in Probabilistic Numerics are a new community, and we face questions about many aspects of 
+The roundtable in Tübingen was an excellent opportunity to air and discuss some of the questions facing our growing community. &lt;/p&gt;
+
+&lt;h1 id=&quot;uncertainty&quot;&gt;Uncertainty&lt;/h1&gt;
+
+&lt;p&gt;Uncertainty? Helpful to separate calculation from philosophical problems.&lt;/p&gt;
+
+&lt;p&gt;We are doing exactly what we do in stats: collect data and estimate. Exactly the same notion of uncertainty. 
+Except in ODEs, for computational issues: we have a sequence of caulctions, dropping uncertainty, our future evaulations are conditional on past evaluations. &lt;/p&gt;
+
+&lt;p&gt;Our uncertainty needs to be computed on the basis of a reasonable set of prior assumptions, of course.&lt;/p&gt;
+
+&lt;p&gt;Neil Lawrence says we should use coding theory to deal with computation. This is equivalent to probabilistic reasoning. Phrase all of probnum in terms of compression. &lt;/p&gt;
+
+&lt;h2 id=&quot;probnum-as-analogue-to-probprog&quot;&gt;Probnum as analogue to ProbProg&lt;/h2&gt;
+
+&lt;h1 id=&quot;discussion-incl-noah-baumbach&quot;&gt;Discussion incl Noah Baumbach&lt;/h1&gt;
+&lt;p&gt;probprog is about the design of generative models, is about producing a posterior for the model. This is orthogonal to the uncertainty introduced through the use of numerical procedures. Use BQ downstream of a probabilistic programming. &lt;/p&gt;
+
+&lt;p&gt;lazy evaluation as an analogue of a modular probablistics numeric system
+lazy evaluation of significance&lt;/p&gt;
+
+&lt;p&gt;overload to return estimate + uncertainty&lt;/p&gt;
+
+&lt;p&gt;as in auto-diff, auto-integrate could exploit the structure of the integrand in order to construct an appropriate covariance function for BQ, code-parsing&lt;/p&gt;
+
+&lt;p&gt;in probabilistic programming, uncertainty is represented largely by bags of samples&lt;/p&gt;
+
+&lt;p&gt;“smooth interpretation” paper&lt;/p&gt;
+
+&lt;p&gt;numerical analysts care about: consistency, rates of convergence as function of smoothness of covariance operators&lt;/p&gt;
+
+&lt;h2 id=&quot;meta-reasoning&quot;&gt;meta-reasoning&lt;/h2&gt;
+
+&lt;p&gt;deciding when to stop achieving accuracy you don’t need.&lt;/p&gt;
+
+&lt;p&gt;meta-reasoning: selection of which part of the numerical pipeline to refine
+“you should only do as much meta as regular reasoning”
+-Stuart Russell&lt;/p&gt;
+
+&lt;p&gt;probnum for Bayesian meta-reasoning over which existing algorithm to use
+is greedy selection of algorithm to improve enough?&lt;/p&gt;
+
+&lt;h2 id=&quot;should-we-interpret-or-invent&quot;&gt;should we interpret or invent?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;exploit past successes of good algorithms&lt;/li&gt;
+  &lt;li&gt;generalisation of existing algorithms is oobviously the best&lt;/li&gt;
+  &lt;li&gt;good for explaining new approaches&lt;/li&gt;
+  &lt;li&gt;often adding in uncertainty to traditional approaches isn’t too much overhead&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-much-prior-info-to-include&quot;&gt;how much prior info to include&lt;/h2&gt;
+
+&lt;p&gt;order convergence of ode solvers is the standard theoretical analysis; we can provide our own theory to replace all that. We can supply probabilistic convergence.&lt;/p&gt;
+
+&lt;p&gt;runge-kutta methods aren’t much used because many problems actually are solved with specialised approaches in practice. Solvers are pretty much a bespoke industry. &lt;/p&gt;
+
+&lt;p&gt;Not so in control. A control engineer is just going to call ode45. &lt;/p&gt;
+
+&lt;p&gt;quadrature: you either use integrate.m, completely black-box, or bespoke genz style algorithms. BQ could be an intermediary, allowing for tunable amounts of prior information. QB could take optimal arguments: mean and covariance function.&lt;/p&gt;
+
+&lt;p&gt;Exposing design choices, situating ourselves in the middle between bespoke and black-box, accommodates our long-term goal of assembling modular algorithms all hooked together. &lt;/p&gt;
+
+&lt;p&gt;Incorporating prior information to deal with high dimensions, this would give us a big user market beyond the state of the art.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-are-our-users&quot;&gt;Who are our users?&lt;/h2&gt;
+
+&lt;p&gt;scientists care about: uncertainty emerges from the mathemcatical model alone
+is our internal understanding of uncertainty necessary to communicate externally?&lt;/p&gt;
+
+&lt;p&gt;climate scientists understand that uncertainty is importnatn; the misfit between their models and data is large&lt;/p&gt;
+
+&lt;p&gt;active learning (digging wells) requires uncertainties from your algorithm&lt;/p&gt;
+
+&lt;p&gt;active learning is very important within numerics: refining grids
+bounds are a guide, too loose in practice; properly calibrated measure is important&lt;/p&gt;
+
+&lt;p&gt;coherence is critical for numerical algorithms, and for scientists exploring a research hypothesis&lt;/p&gt;
+
+&lt;p&gt;the added output of uncertainty adds value for users to interrogate performance: enhanced profiler that provides details on the importance of every algorithm in your pipeline.  &lt;/p&gt;
+
+&lt;p&gt;Jes: rather than expecting users to come to us, we need to find an application, and embed ourselves in that application.&lt;/p&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;in probprg, it’s taken almost a decade to achieve internal coherence, and still hasn’t identified a single user group.&lt;/p&gt;
+
+&lt;p&gt;lessons from probprog: public presence and open tent; &lt;em&gt;don’t want to over-sell, over&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;computation is not such a problem any more, prob theory is more developed: the time is right for prob num&lt;/p&gt;
+
+&lt;p&gt;gecko: evolutionary community that has gone under the radar.&lt;/p&gt;
+
+&lt;p&gt;NIPS is too novelty driven
+SIAM as a possible community to reach out to. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;website: github.io&lt;/li&gt;
+  &lt;li&gt;code repositories&lt;/li&gt;
+  &lt;li&gt;literature incl. old papers&lt;/li&gt;
+  &lt;li&gt;test problems, data&lt;/li&gt;
+  &lt;li&gt;workshops in conference: NIPS 2015, SIAM 2015 meeting workshop (Ben &amp;amp; Mark), special session with invited speakers&lt;/li&gt;
+  &lt;li&gt;mailing list&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<pubDate>Wed, 27 Aug 2014 20:00:00 +0200</pubDate>
+				<link>/2014/08/27/Roundtable-Manifesto</link>
+				<guid isPermaLink="true">/2014/08/27/Roundtable-Manifesto</guid>
+			</item>
+		
+			<item>
 				<title>Roundtable in Tübingen</title>
 				<description>&lt;p&gt;&lt;strong&gt;Researchers interested in probabilistic numerical methods gathered for a
 two-day discussion forum on August 21-22 2014 at the Max Planck Institute for
