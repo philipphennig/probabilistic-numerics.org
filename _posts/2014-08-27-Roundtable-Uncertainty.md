@@ -3,7 +3,7 @@ layout:     post
 title:      "Tübingen Manifesto: Uncertainty"
 date:       2014-08-27
 published:  true
-author:     Michael A Osborne
+author:     mosb
 categories: workshops
 ---
 We in Probabilistic Numerics face many unanswered questions in growing the field.

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,14 +29,14 @@ href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
   <body>
     <div class="container">
       <div class="header row">
-        {% include header.html %}       
+        {% include header.html %}
       </div>
       <div class="content row">
-	
+
       <div class="pull-right well container">
 	<h3>recent posts</h3>
 	(see <a href="index.html">front page</a> for list of all posts)
-	
+
 	<ul class="posts">
 	  {% for post in site.posts limit:5 %}
 	  <li>
@@ -44,11 +46,22 @@ href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
     </ul>
       </div>
       <h1>{{ page.title }}</h1>
-      <h3>by {{ page.author }}</h3>
+      <h3>
+        <!-- Look the author details up from the site config. -->
+        {% assign author = site.data.authors[page.author] %}
+
+        <!-- Output author details if some exist. -->
+        {% if author %}
+            <span>
+                <!-- Personal Info. -->
+                By <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+            </span>
+        {% endif %}
+      </h3>
         {{ content }}
       </div>
       <div class="footer row">
-        {% include footer.html %}       
+        {% include footer.html %}
       </div>
     </div>
     <script src="https://code.jquery.com/jquery.js"></script>
