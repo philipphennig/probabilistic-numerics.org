@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "Tübingen Manifesto: Priors and Prior Work"
-date:       2014-08-28 21:00
-published:  true
+date:       2014-08-30
+published:  false
 author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---

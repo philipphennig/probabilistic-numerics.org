@@ -6,9 +6,11 @@ timezone: Europe/Berlin
 description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
 
 navigation:
-- text: About/News
+- text: About
   url: /index.html
-- text: Research Areas
+- text: News/Blog
+  url: /news/index.html
+- text: Research
   url: /research/index.html
 - text: Meetings
   url: /meetings/index.html
