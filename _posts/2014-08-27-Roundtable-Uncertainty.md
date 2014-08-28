@@ -6,7 +6,7 @@ published:  true
 categories: workshops
 ---
 We in Probabilistic Numerics face many unanswered questions in growing the field.
-Our roundtable in Tübingen aimed to bring together our new community to begin to address some of these questions. 
+Our [roundtable in Tübingen]({% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %}) aimed to bring together our new community to begin to address some of these questions. 
 This is the first of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
 
 Our first major question was: *what is a well-defined notion of "uncertainty" for a probabilistic numerical method?* 
