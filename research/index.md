@@ -35,7 +35,7 @@ of specific computational challenges.
 
 ### Quadrature
 
-Quadrature is the problem of inferring the integral $$F=\int f(x)\,dx$$ over a
+Quadrature is the problem of inferring the integral $$F=\int f(x)\,\mathrm{d}x$$ over a
 function $$f$$. Typically, $$f$$ is only accessible in form of a function
 handle. Probabilistic quadrature rules usually model $$f$$ using a Gaussian
 process measure. An important early work on Bayesian Quadrature is
@@ -44,7 +44,7 @@ process measure. An important early work on Bayesian Quadrature is
 Important research questions in Bayesian Quadrature currently include
 
 * how to achieve sufficiently low computational cost to be wall-clock time
-  competetive with MCMC methods.
+  competitive with MCMC methods.
 
 * how to efficiently adapt model parameters to achieve well-calibrated
   uncertainty. Ideally, this should involve optimization _across_ covariance

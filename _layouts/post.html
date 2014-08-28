@@ -24,6 +24,9 @@ href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
       <script src="{{site.baseurl}}/assets/js/html5shiv.js"></script>
       <script src="{{site.baseurl}}/assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript" src="//use.typekit.net/bju0dcx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
@@ -54,7 +57,10 @@ href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
         {% if author %}
             <span>
                 <!-- Personal Info. -->
-                By <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+                By <a href="{{ author.web }}" target="_blank">
+                  {{ author.name }},
+                </a>
+                {{ page.date }}
             </span>
         {% endif %}
       </h3>

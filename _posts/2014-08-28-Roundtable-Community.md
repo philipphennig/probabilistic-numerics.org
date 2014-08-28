@@ -1,16 +1,19 @@
 ---
 layout:     post
-title:      "Tübingen Manifesto: Uncertainty"
-date:       2014-08-27
+title:      "Tübingen Manifesto: Community"
+date:       2014-08-28
 published:  false
 author:     Michael A Osborne
-categories: workshops
+categories: [workshops, roundtable_manifesto]
 ---
 We in Probabilistic Numerics face many unanswered questions in growing the field.
-Our roundtable in Tübingen aimed to bring together our new community to begin to address some of these questions. 
-This is another of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
+Our [roundtable in Tübingen]({% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %}) aimed to bring together our new community to begin to address some of these questions. 
+This is the final of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
 
 ## Who are our users?
+
+
+numerical analysts care about: consistency, rates of convergence as function of smoothness of covariance operators
 
 scientists care about: uncertainty emerges from the mathemcatical model alone
 is our internal understanding of uncertainty necessary to communicate externally?
