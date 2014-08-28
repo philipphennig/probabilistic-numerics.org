@@ -1,7 +1,7 @@
 ---
 layout:     default
 title:      "Roundtable in Tübingen"
-date:       2014-08-02 09:00:00
+date:       2014-08-22 09:00:00
 published:  true
 categories: workshops
 ---

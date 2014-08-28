@@ -10,6 +10,8 @@ navigation:
   url: /index.html
 - text: Research Areas
   url: /research/index.html
+- text: Meetings
+  url: /meetings/index.html
 - text: Literature
   url: /literature/index.html
 
