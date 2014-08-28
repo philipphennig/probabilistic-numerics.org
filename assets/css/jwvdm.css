@@ -16,7 +16,7 @@ h1, h2, h3 {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "jaf-facitweb";
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
   /*font-size: 2em;*/
 }
 
