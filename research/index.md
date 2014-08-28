@@ -3,11 +3,14 @@ title: Research Areas
 layout: default
 ---
 
+# Areas of Research
+
 This page collects important ongoing areas of research. Most of these issues
-have previously been discussed at a community meeting or workshop. If you feel
-that a problem is missing on this list and is addressed by your published
-research, please contact us. **All literature references on this page refer to
-[the literature page](../literature/index.html)**
+have previously been discussed at a community meeting or workshop. Of course,
+this list is necessarily simplified and incomplete. If you feel that a central
+problem is missing on this list and is addressed by your published research,
+please contact us. *All literature references on this page refer to
+[the literature page](../literature/index.html)*
 
 ## Fundamental Aspects
 
@@ -24,13 +27,13 @@ computational pipelines. Development of a good code-base for this kind of
 functionality will proceed as the following fundamental methodological
 questions are slowly solved in the individual problem areas.
 
-# Special Challenges in Individual Areas
+## Special Challenges in Individual Areas
 
 Each type of numerical problem poses special challenges that have to be
 addressed by tailored solutions. Often, intended application areas are sources
 of specific computational challenges.
 
-## Quadrature
+### Quadrature
 
 Quadrature is the problem of inferring the integral $$F=\int f(x)\,dx$$ over a
 function $$f$$. Typically, $$f$$ is only accessible in form of a function
@@ -51,7 +54,7 @@ Important research questions in Bayesian Quadrature currently include
   importantly marginalization in probabilistic models. See
   {% cite osborne2012active --file Quadrature %} for recent work.
 
-## Linear Algebra
+### Linear Algebra
 
 Linear algebra methods solve matrix computations. Of particular interest in
 this area is the solution of linear problems of the type $$Ax=b$$, where $$A$$
@@ -68,7 +71,7 @@ include
 
 * expanding the probabilistic interpretation to a larger class of linear algorithms.
 
-## Optimization
+### Optimization
 
 Optimization aims to find extremal values of a function $$f$$. At the moment,
 research on probabilistic numerical optimization methods focusses on the
@@ -85,7 +88,7 @@ kind of Gaussian regression. Ongoing work includes
 
 * expanding the probabilistic interpretation to a larger class of optimization algorithms.
 
-## Ordinary Differential Equations
+### Ordinary Differential Equations
 
 Ordinary differential equations are equations of the form
 $$\partial x(t) / \partial t=f(x,t)$$. Classic ODE setups require the
@@ -113,3 +116,17 @@ methods. Many open questions remain. Among them are
 * better understanding for the algebraic structure and constraints of GP ODE
   solvers. A very deep literature exists for classic solvers such as the
   Runge-Kutta family. Currently, the probabilistic view is a lot less solid.
+
+### Partial Differential Equations
+
+Partial differential equations are perhaps a particularly interesting area for the
+foundations of probabilistic numerics, because they are home to some of the
+oldest mathematical results on connections between probability distributions
+and the result of deterministic mathematical problems. In a famous paper,
+{% cite kac1949distributions --file general %} showed that the solution to
+certain types of PDEs is exactly equal to the expected path of certain
+stochastic (Wiener) processes. This *Feynman-Kac* theorem is perhaps the first
+explicit note of a precise connection between a stochastic object and a
+deterministic computation. Recently, {% cite 2014arXiv14071517B --file PDEs %}
+used the Feynman-Kac formulation to construct a fast solver for PDEs based on a
+Markov-Chain Monte Carlo scheme.

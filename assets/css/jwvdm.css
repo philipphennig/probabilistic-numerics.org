@@ -219,63 +219,6 @@ ol.bibliography .nav-pills > li > a:hover {
 }
 
 @font-face {
-    font-family: 'PT Sans'; 
-    src: url('../fonts/PTS55F.ttf'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans'; 
-    src: url('../fonts/PTS56F.ttf'); 
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PT Sans'; 
-    src: url('../fonts/PTS75F.ttf'); 
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans'; 
-    src: url('../fonts/PTS76F.ttf'); 
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PT Sans Caption'; 
-    src: url('../fonts/PTC55F.ttf'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans Caption'; 
-    src: url('../fonts/PTC56F.ttf'); 
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'PT Sans Narrow'; 
-    src: url('../fonts/PTN55F.ttf'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans Narrow'; 
-    src: url('../fonts/PTN77F.ttf'); 
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-@font-face {
     font-family: 'Open Sans'; 
     src: url('../fonts/OpenSans-Regular.ttf'); 
     font-weight: normal;
@@ -344,3 +287,4 @@ ol.bibliography .nav-pills > li > a:hover {
     font-weight: 800;
     font-style: italic;
 }
+
