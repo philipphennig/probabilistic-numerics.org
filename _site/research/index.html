@@ -57,6 +57,14 @@ href="/assets/ico/favicon.ico"> -->
       
       
       <li >
+        <a href="/meetings/index.html" title="">Meetings</a>
+      </li>
+      <!-- class="active"><a href="/">About</a></li> -->
+      <!-- <li><a href="/projects">Projects</a></li> -->
+      <!-- <li><a href="/publications">Publications</a></li> -->
+      
+      
+      <li >
         <a href="/literature/index.html" title="">Literature</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->
@@ -75,14 +83,23 @@ href="/assets/ico/favicon.ico"> -->
         <p>This page collects important ongoing areas of research. Most of these issues
 have previously been discussed at a community meeting or workshop. If you feel
 that a problem is missing on this list and is addressed by your published
-research, please contact us.</p>
+research, please contact us. <strong>All literature references on this page refer to
+<a href="../literature/index.html">the literature page</a></strong></p>
 
 <h2 id="fundamental-aspects">Fundamental Aspects</h2>
 
 <p>There are some principal questions that apply more or less directly to all
 numerical problems. Chief among them is a philosophical question of what,
 precisely, it means to assign a probability distribution over the result of a
-computation.</p>
+computation. See <a href="/2014/08/27/Roundtable-Uncertainty">Mike Osborne’s recent post on this issue</a>, which summarizes the discussion at the
+recent roundtable.  </p>
+
+<p>Another ongoing issue is to identify and champion good areas of
+application. Probabilistic numerical methods, in principle, allow the
+quantification, propagation, and control of computational precision in large
+computational pipelines. Development of a good code-base for this kind of
+functionality will proceed as the following fundamental methodological
+questions are slowly solved in the individual problem areas.</p>
 
 <h1 id="special-challenges-in-individual-areas">Special Challenges in Individual Areas</h1>
 
@@ -95,34 +112,71 @@ of specific computational challenges.</p>
 <p>Quadrature is the problem of inferring the integral <script type="math/tex">F=\int f(x)\,dx</script> over a
 function <script type="math/tex">f</script>. Typically, <script type="math/tex">f</script> is only accessible in form of a function
 handle. Probabilistic quadrature rules usually model <script type="math/tex">f</script> using a Gaussian
-process measure.</p>
+process measure. An important early work on Bayesian Quadrature is
+<a href="#o1991bayes">(O’Hagan, 1991)</a></p>
 
-<h4 id="computational-cost-in-competition-with-mcmc">Computational cost in competition with MCMC</h4>
+<p>Important research questions in Bayesian Quadrature currently include</p>
 
-<p>In statistics and machine learning, quadrature methods compete with
-Markov-Chain Monte-Carlo methods. Can they be similarly fast, even if the
-function <script type="math/tex">f</script> itself has negligible evaluation cost?</p>
-
-<h4 id="model-adaptation">Model adaptation</h4>
-
-<p>If the prior probability distribution of the quadrature method is not well
-calibrated, the posterior probability distribution can be a misleading measure
-of uncertainty. Can this be addressed with automatic model adaptation methods,
-and what is the computational cost of doing so?</p>
+<ul>
+  <li>
+    <p>how to achieve sufficiently low computational cost to be wall-clock time
+competetive with MCMC methods.</p>
+  </li>
+  <li>
+    <p>how to efficiently adapt model parameters to achieve well-calibrated
+uncertainty. Ideally, this should involve optimization <em>across</em> covariance
+function families.</p>
+  </li>
+  <li>
+    <p>how to build efficient quadrature methods for specific applications, most
+importantly marginalization in probabilistic models. See
+<a href="#osborne2012active">(Osborne et al., 2012)</a> for recent work.</p>
+  </li>
+</ul>
 
 <h2 id="linear-algebra">Linear Algebra</h2>
 
 <p>Linear algebra methods solve matrix computations. Of particular interest in
 this area is the solution of linear problems of the type <script type="math/tex">Ax=b</script>, where <script type="math/tex">A</script>
 is a matrix that can not be directly represented in memory, <script type="math/tex">b</script> is a known
-vector, and the solution <script type="math/tex">x</script> needs to be found.</p>
+vector, and the solution <script type="math/tex">x</script> needs to be found.
+<a href="#2014arXiv14022058H">(Hennig, 2014)</a> recently showed that
+the linear method of conjugate gradients can be interpreted as Gaussian
+regression under specific priors and likelihoods (the same holds for the BFGS
+method, which is equivalent to CG in the linear case). Important next steps
+include</p>
+
+<ul>
+  <li>
+    <p>good estimators for hyperparameters that give well-calibrated posteriors
+(meaningful error bars on matrix inverses).</p>
+  </li>
+  <li>
+    <p>expanding the probabilistic interpretation to a larger class of linear algorithms.</p>
+  </li>
+</ul>
 
 <h2 id="optimization">Optimization</h2>
 
 <p>Optimization aims to find extremal values of a function <script type="math/tex">f</script>. At the moment,
 research on probabilistic numerical optimization methods focusses on the
 optimization of twice-continuously differentiable functions
-<script type="math/tex">f:\mathbb{R}^N\to\mathbb{R}</script>, where <script type="math/tex">N</script> is typically a large number.</p>
+<script type="math/tex">f:\mathbb{R}^N\to\mathbb{R}</script>, where <script type="math/tex">N</script> is typically a large number.
+<a href="#HennigKiefel">(Hennig &amp; Kiefel, 2012)</a> showed that the Dennis family of
+Quasi-Newton methods (which includes BFGS and DFP) can be interpreted as a specific
+kind of Gaussian regression. Ongoing work includes</p>
+
+<ul>
+  <li>
+    <p>finding good probabilistic optimization methods for optimization of noisy
+objectives (this requires solving a number of challenging sub-problems), as
+they arise, for example, in the training of big-data machine learning
+algorithms.</p>
+  </li>
+  <li>
+    <p>expanding the probabilistic interpretation to a larger class of optimization algorithms.</p>
+  </li>
+</ul>
 
 <h2 id="ordinary-differential-equations">Ordinary Differential Equations</h2>
 
@@ -131,7 +185,32 @@ optimization of twice-continuously differentiable functions
 specification of explicit initial or boundary value conditions, i.e. knowledge
 of the form <script type="math/tex">\partial x(t_0) / \partial t = x_0</script> or similar. One interesting
 long-term question for probabilistic solvers for ODEs is whether they can deal
-with problems in which boundary values are only known up to uncertainty.</p>
+with problems in which boundary values are only known up to uncertainty. An
+early work on probabilistic methods for the solution of ODEs was offered by
+Skilling in 1991 <a href="#skilling1991bayesian">(Skilling, 1991)</a>, using a Gaussian
+process extrapolation formulation. Recently,
+<a href="#13_bayes_uncer_quant_differ_equat">(Chkrebtii, Campbell, Girolami, &amp; Calderhead, 2013)</a> provided a more
+rigorous theoretical analysis, while <a href="#HennigAISTATS2014">(Hennig &amp; Hauberg, 2014)</a>
+showed the utility of such methods for the propagation and control of
+uncertainty. Even more recently, <a href="#2014arXiv14062582S">(Schober, Duvenaud, &amp; Hennig, 2014)</a>
+showed a connection between Gaussian extrapolators and classic Runge-Kutta
+methods. Many open questions remain. Among them are</p>
+
+<ul>
+  <li>
+    <p>theoretical analysis, and better models, for the calibration of
+uncertainty in ODE solvers. Calibration is particularly hard in the ODE
+domain, because ODE solvers recursively construct new observations from their
+current belief. This “boot-strapping” leads to a systematic error in error
+estimation. A corresponding problem exists in classic methods (known their as
+the mis-match between local and global error estimation).</p>
+  </li>
+  <li>
+    <p>better understanding for the algebraic structure and constraints of GP ODE
+solvers. A very deep literature exists for classic solvers such as the
+Runge-Kutta family. Currently, the probabilistic view is a lot less solid.</p>
+  </li>
+</ul>
 
       </div>
       <div class="footer row">
