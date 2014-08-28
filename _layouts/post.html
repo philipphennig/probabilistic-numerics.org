@@ -54,7 +54,10 @@ href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
         {% if author %}
             <span>
                 <!-- Personal Info. -->
-                By <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+                By <a href="{{ author.web }}" target="_blank">
+                  {{ author.name }},
+                </a>
+                {{ page.date }}
             </span>
         {% endif %}
       </h3>

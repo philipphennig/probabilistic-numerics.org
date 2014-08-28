@@ -4,7 +4,7 @@ title:      "Tübingen Manifesto: Uncertainty"
 date:       2014-08-27
 published:  true
 author:     mosb
-categories: workshops
+categories: [workshops, roundtable_manifesto]
 ---
 We in Probabilistic Numerics face many unanswered questions in growing the field.
 Our [roundtable in Tübingen]({% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %}) aimed to bring together our new community to begin to address some of these questions. 
