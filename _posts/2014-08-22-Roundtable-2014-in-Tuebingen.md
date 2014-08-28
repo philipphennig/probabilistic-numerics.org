@@ -56,4 +56,12 @@ community, in fact many of us do not know each other well, and we do not always
 know of each other's work. The Probabilistic Numerics Roundtable hopes to
 alleviate this problem.
 
+## Participants
 
+* [Ben Calderhead](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=b.calderhead&_adf.ctrl-state=14q2kzdbf_3&_afrRedirect=1867638372907362)
+* [Mark Girolami](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/girolami/)
+* [Søren Hauberg](http://www2.compute.dtu.dk/~sohau/)
+* [Simo Särkkä](http://becs.aalto.fi/~ssarkka/)
+* [Jes Frellsen](http://mlg.eng.cam.ac.uk/frellsen/)
+* [Ted Meeds](http://www.linkedin.com/pub/ted-meeds/4/357/982)
+* Tom Gunter
