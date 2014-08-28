@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="shortcut icon"
+href="{{site.baseurl}}/assets/ico/favicon.ico"> -->
+
+    <title>Probabilistic Numerics.org</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{site.baseurl}}/assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="{{site.baseurl}}/assets/css/jwvdm.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{site.baseurl}}/assets/js/html5shiv.js"></script>
+      <script src="{{site.baseurl}}/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header row">
+        {% include header.html %}       
+      </div>
+      <div class="content row">
+	
+      <div class="pull-right well container">
+	<h3>recent posts</h3>
+	(see <a href="index.html">front page</a> for list of all posts)
+	
+	<ul class="posts">
+	  {% for post in site.posts limit:5 %}
+	  <li>
+	  <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>      </li>
+      {% endfor %}
+    </ul>
+      </div>
+      <h1>{{ page.title }}</h1>
+      <h3>by {{ page.author }}</h3>
+        {{ content }}
+      </div>
+      <div class="footer row">
+        {% include footer.html %}       
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </body>
+</html>

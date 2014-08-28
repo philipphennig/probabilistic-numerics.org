@@ -1,14 +1,15 @@
 ---
-layout:     default
+layout:     post
 title:      "Roundtable in Tübingen"
 date:       2014-08-22 09:00:00
 published:  true
+author:     Philipp Hennig
 categories: workshops
 ---
 
 **Researchers interested in probabilistic numerical methods gathered for a
 two-day discussion forum on August 21-22 2014 at the Max Planck Institute for
-Intelligent Systems in beautiful Tübingen.**
+Intelligent Systems in Tübingen.**
 
 <img src="/assets/images/roof.jpeg" width="100%"/>
 
