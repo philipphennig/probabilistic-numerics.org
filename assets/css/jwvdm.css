@@ -2,7 +2,8 @@ body {
   background-color: #007d7a;
   /*background-color: #fff;*/
   color: #ddd;
-  font-family: "Open Sans";
+  font-family: "jaf-facitweb";
+  font-weight: 300;
   font-weight: normal;
 }
 
@@ -12,8 +13,9 @@ a {
 }
 
 h1, h2, h3 {
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
+  font-family: "jaf-facitweb";
   letter-spacing: 2px;
   /*font-size: 2em;*/
 }
@@ -50,7 +52,7 @@ img[alt=aneic-objects]{
     margin-right: 30px;
 }
 
-img[alt=photo] { 
+img[alt=photo] {
     max-width: 15em;
     /*margin-left: 10%;*/
     /*height: 300px;*/
@@ -66,8 +68,8 @@ img[alt=photo] {
     padding: 0px;
 }
 */
-img[alt=contact] { 
-    height: 14px; 
+img[alt=contact] {
+    height: 14px;
 }
 
 .float-left {
@@ -102,7 +104,7 @@ img[alt=contact] {
 }
 
 .nav, .title {
-   font-weight: 300;
+   font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 3px;
    font-size: 120%;
@@ -148,7 +150,7 @@ img[alt=contact] {
 
 .nav > li.active > a,
 .nav > li.active > a:hover,
-.nav > li.active > a:focus 
+.nav > li.active > a:focus
 {
   color: #fff;
   background-color: #ff9933;
@@ -185,7 +187,7 @@ img[alt=contact] {
 }
 
 .footer a {
-  color: #7fbbba;  
+  color: #7fbbba;
 }
 
 .nav-pills > li + li {
@@ -218,73 +220,4 @@ ol.bibliography .nav-pills > li > a:hover {
   color: #235;
 }
 
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-Regular.ttf'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-Italic.ttf'); 
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-Bold.ttf'); 
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-BoldItalic.ttf'); 
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-Light.ttf'); 
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-LightItalic.ttf'); 
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-SemiBold.ttf'); 
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-SemiBoldItalic.ttf'); 
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-ExtraBold.ttf'); 
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Open Sans'; 
-    src: url('../fonts/OpenSans-ExtraBoldItalic.ttf'); 
-    font-weight: 800;
-    font-style: italic;
-}
 
