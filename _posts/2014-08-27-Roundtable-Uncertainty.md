@@ -6,9 +6,9 @@ published:  true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---
-We in Probabilistic Numerics face many unanswered questions in growing the field.
+*We in Probabilistic Numerics face many unanswered questions in growing the field.
 Our [roundtable in Tübingen]({% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %}) aimed to bring together our new community to begin to address some of these questions. 
-This is the first of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
+This is the first of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.*
 
 Our first major question was: *what is a well-defined notion of "uncertainty" for a probabilistic numerical method?* 
 Consider $$\psi = \int_{0}^{1} \exp\bigl((\sin 3 x)^2 + x^2\bigr)\mathrm{d}x$$. 

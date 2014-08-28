@@ -7,9 +7,9 @@ author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---
 
-We in Probabilistic Numerics (ProbNum) face many unanswered questions in growing the field.
+*We in Probabilistic Numerics (ProbNum) face many unanswered questions in growing the field.
 Our [roundtable in Tübingen]({% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %}) aimed to bring together our new community to begin to address some of these questions. 
-This is another of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.
+This is another of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.*
 
 ## Generalisation is Great
 
