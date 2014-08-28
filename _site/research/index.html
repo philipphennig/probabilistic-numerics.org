@@ -80,11 +80,14 @@ href="/assets/ico/favicon.ico"> -->
        
       </div>
       <div class="content row">
-        <p>This page collects important ongoing areas of research. Most of these issues
-have previously been discussed at a community meeting or workshop. If you feel
-that a problem is missing on this list and is addressed by your published
-research, please contact us. <strong>All literature references on this page refer to
-<a href="../literature/index.html">the literature page</a></strong></p>
+        <h1 id="areas-of-research">Areas of Research</h1>
+
+<p>This page collects important ongoing areas of research. Most of these issues
+have previously been discussed at a community meeting or workshop. Of course,
+this list is necessarily simplified and incomplete. If you feel that a central
+problem is missing on this list and is addressed by your published research,
+please contact us. <em>All literature references on this page refer to
+<a href="../literature/index.html">the literature page</a></em></p>
 
 <h2 id="fundamental-aspects">Fundamental Aspects</h2>
 
@@ -101,13 +104,13 @@ computational pipelines. Development of a good code-base for this kind of
 functionality will proceed as the following fundamental methodological
 questions are slowly solved in the individual problem areas.</p>
 
-<h1 id="special-challenges-in-individual-areas">Special Challenges in Individual Areas</h1>
+<h2 id="special-challenges-in-individual-areas">Special Challenges in Individual Areas</h2>
 
 <p>Each type of numerical problem poses special challenges that have to be
 addressed by tailored solutions. Often, intended application areas are sources
 of specific computational challenges.</p>
 
-<h2 id="quadrature">Quadrature</h2>
+<h3 id="quadrature">Quadrature</h3>
 
 <p>Quadrature is the problem of inferring the integral <script type="math/tex">F=\int f(x)\,dx</script> over a
 function <script type="math/tex">f</script>. Typically, <script type="math/tex">f</script> is only accessible in form of a function
@@ -134,7 +137,7 @@ importantly marginalization in probabilistic models. See
   </li>
 </ul>
 
-<h2 id="linear-algebra">Linear Algebra</h2>
+<h3 id="linear-algebra">Linear Algebra</h3>
 
 <p>Linear algebra methods solve matrix computations. Of particular interest in
 this area is the solution of linear problems of the type <script type="math/tex">Ax=b</script>, where <script type="math/tex">A</script>
@@ -156,7 +159,7 @@ include</p>
   </li>
 </ul>
 
-<h2 id="optimization">Optimization</h2>
+<h3 id="optimization">Optimization</h3>
 
 <p>Optimization aims to find extremal values of a function <script type="math/tex">f</script>. At the moment,
 research on probabilistic numerical optimization methods focusses on the
@@ -178,7 +181,7 @@ algorithms.</p>
   </li>
 </ul>
 
-<h2 id="ordinary-differential-equations">Ordinary Differential Equations</h2>
+<h3 id="ordinary-differential-equations">Ordinary Differential Equations</h3>
 
 <p>Ordinary differential equations are equations of the form
 <script type="math/tex">\partial x(t) / \partial t=f(x,t)</script>. Classic ODE setups require the
@@ -211,6 +214,20 @@ solvers. A very deep literature exists for classic solvers such as the
 Runge-Kutta family. Currently, the probabilistic view is a lot less solid.</p>
   </li>
 </ul>
+
+<h3 id="partial-differential-equations">Partial Differential Equations</h3>
+
+<p>Partial differential equations are perhaps a particularly interesting area for the
+foundations of probabilistic numerics, because they are home to some of the
+oldest mathematical results on connections between probability distributions
+and the result of deterministic mathematical problems. In a famous paper,
+<a href="#kac1949distributions">(Kac, 1949)</a> showed that the solution to
+certain types of PDEs is exactly equal to the expected path of certain
+stochastic (Wiener) processes. This <em>Feynman-Kac</em> theorem is perhaps the first
+explicit note of a precise connection between a stochastic object and a
+deterministic computation. Recently, <a href="#2014arXiv14071517B">(Bui-Thanh &amp; Girolami, 2014)</a>
+used the Feynman-Kac formulation to construct a fast solver for PDEs based on a
+Markov-Chain Monte Carlo scheme.</p>
 
       </div>
       <div class="footer row">
