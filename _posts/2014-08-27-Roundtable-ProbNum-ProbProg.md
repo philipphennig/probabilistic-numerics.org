@@ -1,8 +1,9 @@
 ---
-layout:     default
+layout:     post
 title:      "Tübingen Manifesto: Probabilistic Numerics and Probailistic Programming"
 date:       2014-08-27 20:00
 published:  false
+author:     Michael A Osborne
 categories: workshops
 ---
 We in Probabilistic Numerics face many unanswered questions in growing the field.
