@@ -12,7 +12,5 @@ by Jan-Willem van de Meent, using jekyll, bootstrap and jekyll-scholar.
 - [ ] make it more apparent how to get involved,
 - [ ] put github link on site
 - [ ] application papers?
-- [ ] Simo quadrature papers
-- [ ] Add Philipp's students to roundtable attendees
 - [ ] Delayed blog publication
 
