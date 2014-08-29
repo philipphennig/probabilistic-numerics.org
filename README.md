@@ -8,9 +8,9 @@ by Jan-Willem van de Meent, using jekyll, bootstrap and jekyll-scholar.
 
 # To-Dos
 
-- [ ] fix fonts: is this a typekit issue?
+- [ ] default fonts
+- [ ] posts
 - [ ] make it more apparent how to get involved,
-- [ ] put github link on site
 - [ ] application papers?
-- [ ] Delayed blog publication
+- [ ] remove _site
 
