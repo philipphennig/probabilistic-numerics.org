@@ -1,19 +1,25 @@
 name: "Probabilistic-Numerics.org"
-# url: http://www.probabilistic-numerics.org
-# baseurl: http://www.probabilistic-numerics.org
+url: http://www.probabilistic-numerics.org/test
+baseurl: http://www.probabilistic-numerics.org/test
 permalink: /:year/:month/:day/:title
 timezone: Europe/Berlin
 description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
 
 navigation:
-- text: About/News
+- text: News
   url: /index.html
-- text: Research Areas
-  url: /research/index.html
+- text: Blog
+  url: /blog/index.html
 - text: Meetings
   url: /meetings/index.html
+- text: Research Areas
+  url: /research/index.html
 - text: Literature
   url: /literature/index.html
+
+ftp_host: 'ud02.udmedia.de'
+ftp_dir: '/html/numerics/test/'
+ftp_passive: false
 
 markdown: kramdown
 

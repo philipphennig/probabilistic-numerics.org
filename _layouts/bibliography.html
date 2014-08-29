@@ -18,8 +18,16 @@
     <li><a class="bib-materials" href="{{entry.link}}">web</a></li>
     {% endif %}
 
+    {% if entry.code %}
+    <li><a class="bib-materials" href="{{entry.code}}">code</a></li>
+    {% endif %}
+	
     {% if entry.video %}
     <li><a class="bib-materials" href="{{entry.video}}">video</a></li>
+    {% endif %}
+
+    {% if entry.supplements %}
+    <li><a class="bib-materials" href="{{entry.code}}">supplements</a></li>
     {% endif %}
   </ul>
 

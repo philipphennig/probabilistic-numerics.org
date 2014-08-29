@@ -11,7 +11,7 @@ categories: workshops
 two-day discussion forum on August 21-22 2014 at the Max Planck Institute for
 Intelligent Systems in Tübingen.**
 
-<img src="/assets/images/roof.jpeg" width="100%"/>
+<img src="{{ site.baseurl }}/assets/images/roof.jpeg" width="100%"/>
 
 The roundtable was organised by Philipp Hennig (MPI Tübingen) and Michael
 Osborne (Oxford). Mark Girolami (UCL / Warwick) presented an invited talk.

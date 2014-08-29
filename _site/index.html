@@ -22,6 +22,8 @@ href="/assets/ico/favicon.ico"> -->
       <script src="/assets/js/html5shiv.js"></script>
       <script src="/assets/js/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="//use.typekit.net/bju0dcx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
@@ -41,7 +43,7 @@ href="/assets/ico/favicon.ico"> -->
       
       
       <li class="active">
-        <a href="/index.html" title="">About/News</a>
+        <a href="/index.html" title="">News</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->
       <!-- <li><a href="/projects">Projects</a></li> -->
@@ -49,7 +51,7 @@ href="/assets/ico/favicon.ico"> -->
       
       
       <li >
-        <a href="/research/index.html" title="">Research Areas</a>
+        <a href="/blog/index.html" title="">Blog</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->
       <!-- <li><a href="/projects">Projects</a></li> -->
@@ -58,6 +60,14 @@ href="/assets/ico/favicon.ico"> -->
       
       <li >
         <a href="/meetings/index.html" title="">Meetings</a>
+      </li>
+      <!-- class="active"><a href="/">About</a></li> -->
+      <!-- <li><a href="/projects">Projects</a></li> -->
+      <!-- <li><a href="/publications">Publications</a></li> -->
+      
+      
+      <li >
+        <a href="/research/index.html" title="">Research Areas</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->
       <!-- <li><a href="/projects">Projects</a></li> -->
@@ -77,7 +87,7 @@ href="/assets/ico/favicon.ico"> -->
 <script>
   $()
 </script>
-       
+
       </div>
       <div class="content row">
           <div id="photo-well" class="pull-right well container">
@@ -97,37 +107,39 @@ Hennig</a>, Tübingen &amp; <a href="http://www.robots.ox.ac.uk/~mosb/">Michael 
     </div>
   </div>
   <div>
-    
-    <p>Numerical algorithms, such as methods for the numerical solution of integrals
+      
+      <p>Numerical algorithms, such as methods for the numerical solution of integrals
 and ordinary differential equations, as well as optimization algorithms can be
-interpreted as estimation algorithms. They estimate the value of a
-quantity that can not directly be derived – the value of an integral, the
-solution of a differential equation, the location of an extremum – given the
-values of quantities that can be directly observed (function values of the
+interpreted as estimation rules. They estimate the value of a latent,
+intractable quantity – the value of an integral, the solution of a
+differential equation, the location of an extremum – given the result of
+tractable computations (“observations”, such as function values of the
 integrand, evaluations of the differential equation, function values of the
-gradient of an objective). So these methods inform inference, and are
+gradient of an objective). So these methods perform inference, and are
 accessible to the formal frameworks of probability theory. They are learning
 machines.</p>
 
 <p>Taking this observation seriously, a probabilistic numerical method is a
 numerical algorithm that takes in a probability distribution over its inputs,
-and returns a probability distribution over its output. Recent research shows
-that it is in fact possible to directly identify existing numerical methods,
-including some real classics, with specific probabilistic models.</p>
+and returns a probability distribution over its
+output. <a href="literature/index.html">Recent research</a> shows that it is in fact
+possible to directly identify existing numerical methods, including some real
+classics, with specific probabilistic models.</p>
 
 <p>Interpreting numerical methods as learning algorithms offers various
-interesting benefits. It can offer insight into the algebraic assumptions
-inherent in existing methods. As a joint framework for methods developed in
-separate communities, it allows transfer of knowledge among these areas. But
-the probabilistic formulation also explicitly provides a richer output than
-simple convergence bounds. If the probability measure returned by a
-probabilistic method is well-calibrated, it can be used to monitor, propagate
-and control the quality of computations. </p>
+benefits. It can offer insight into the algebraic assumptions inherent in
+existing methods. As a joint framework for methods developed in separate
+communities, it allows transfer of knowledge among these areas. But the
+probabilistic formulation also explicitly provides a richer output than simple
+convergence bounds. If the probability measure returned by a probabilistic
+method is well-calibrated, it can be used to monitor, propagate and control the
+quality of computations.</p>
 
-<p>This website collects information pertaining to the development, analysis and
-use of numerical algorithms with probabilistic interpretations. We retain a
-growing list of academic publications on the subject, collect open and central
-research questions, and publish a blog discussing recent developments. </p>
+<p>This site collects information pertaining to the development, analysis and
+use of numerical algorithms with probabilistic interpretations. We retain
+<a href="literature/index.html">a growing list of academic publications</a> on the
+subject, <a href="research/index.html">collect open and central research questions</a>,
+and publish a <a href="blog/index.html">blog</a> discussing recent developments. </p>
 
 <p>Although the mathematical idea of uncertainty about a computation was discussed
 by several authors in the past, the first formal meeting of our community was a
@@ -135,10 +147,15 @@ workshop at Neural Information Processing Systems 2012. (the original website
 of this workshop can be found
 <a href="http://www.probabilistic-numerics.org/index_workshop.html">here</a>).</p>
 
-    
-    <h1>news and blog posts</h1>
+
+    <h1>most recent blog posts</h1>
 
   <ul class="posts">
+    
+      <li>
+        <span class="post-date">Aug 28, 2014</span>
+        <a class="post-link" href="/2014/08/28/Roundtable-ProbNum-ProbProg">Tübingen Manifesto: Probabilistic Numerics and Probabilistic Programming</a>
+      </li>
     
       <li>
         <span class="post-date">Aug 27, 2014</span>
@@ -152,14 +169,15 @@ of this workshop can be found
     
   </ul>
   
-  <p class="rss-subscribe">subscribe to our blog posts <a href="/feed.xml">via RSS</a></p>
+  <p class="rss-subscribe">subscribe to blog posts <a href="/feed.xml">via RSS</a></p>
+
   </div>
 
       </div>
       <div class="footer row">
         <p>
     based on code &copy; by <a href="http://github.com/jwvdm/robots-homepage">jwvdm</a> 2013. 
-</p>        
+</p> 
       </div>
     </div>
     <script src="https://code.jquery.com/jquery.js"></script>
