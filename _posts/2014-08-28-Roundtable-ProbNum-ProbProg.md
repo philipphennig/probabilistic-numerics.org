@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "Tübingen Manifesto: Probabilistic Numerics and Probabilistic Programming"
-date:       2014-08-30
-published:  false
+date:       2014-09-01
+published:  true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---
