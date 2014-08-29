@@ -9,8 +9,10 @@ This page collects important ongoing areas of research. Most of these issues
 have previously been discussed at a community meeting or workshop. Of course,
 this list is necessarily simplified and incomplete. If you feel that a central
 problem is missing on this list and is addressed by your published research,
-please contact us. *All literature references on this page refer to
-[the literature page](../literature/index.html)*
+please contact us. 
+
+*All literature references on this page refer to
+[the literature page](../literature/index.html).*
 
 ## Fundamental Aspects
 

@@ -102,11 +102,12 @@ to the unknown result of deterministic computations. </p>
 
 <p>It is maintained by<br />
 <a href="http://www.is.tuebingen.mpg.de/nc/employee/details/phennig.html#=0">Philipp
-Hennig</a>, Tübingen &amp; <a href="http://www.robots.ox.ac.uk/~mosb/">Michael A Osborne</a>, Oxford  </p>
+Hennig,</a> Tübingen &amp; <a href="http://www.robots.ox.ac.uk/~mosb/">Michael A Osborne,</a> Oxford  </p>
 
     </div>
   </div>
   <div>
+<<<<<<< HEAD
       
       <p>Numerical algorithms, such as methods for the numerical solution of integrals
 and ordinary differential equations, as well as optimization algorithms can be
@@ -153,11 +154,6 @@ of this workshop can be found
   <ul class="posts">
     
       <li>
-        <span class="post-date">Aug 28, 2014</span>
-        <a class="post-link" href="/2014/08/28/Roundtable-ProbNum-ProbProg">Tübingen Manifesto: Probabilistic Numerics and Probabilistic Programming</a>
-      </li>
-    
-      <li>
         <span class="post-date">Aug 27, 2014</span>
         <a class="post-link" href="/2014/08/27/Roundtable-Uncertainty">Tübingen Manifesto: Uncertainty</a>
       </li>
@@ -171,6 +167,50 @@ of this workshop can be found
   
   <p class="rss-subscribe">subscribe to blog posts <a href="/feed.xml">via RSS</a></p>
 
+=======
+
+    
+    <p>Numerical algorithms, such as methods for the numerical solution of integrals
+and ordinary differential equations, as well as optimization algorithms can be
+interpreted as estimation rules. They estimate the value of a latent,
+intractable quantity – the value of an integral, the solution of a
+differential equation, the location of an extremum – given the result of
+tractable computations (“observations”, such as function values of the
+integrand, evaluations of the differential equation, function values of the
+gradient of an objective). So these methods perform inference, and are
+accessible to the formal frameworks of probability theory. They are learning
+machines.</p>
+
+<p>Taking this observation seriously, a probabilistic numerical method is a
+numerical algorithm that takes in a probability distribution over its inputs,
+and returns a probability distribution over its
+output. <a href="literature/index.html">Recent research</a> shows that it is in fact
+possible to directly identify existing numerical methods, including some real
+classics, with specific probabilistic models.</p>
+
+<p>Interpreting numerical methods as learning algorithms offers various
+benefits. It can offer insight into the algebraic assumptions inherent in
+existing methods. As a joint framework for methods developed in separate
+communities, it allows transfer of knowledge among these areas. But the
+probabilistic formulation also explicitly provides a richer output than simple
+convergence bounds. If the probability measure returned by a probabilistic
+method is well-calibrated, it can be used to monitor, propagate and control the
+quality of computations.</p>
+
+<p>This site collects information pertaining to the development, analysis and
+use of numerical algorithms with probabilistic interpretations. We retain
+<a href="literature/index.html">a growing list of academic publications</a> on the
+subject, <a href="research/index.html">collect open and central research questions</a>,
+and publish a <a href="blog/index.html">blog</a> discussing recent developments. </p>
+
+<p>Although the mathematical idea of uncertainty about a computation was discussed
+by several authors in the past, the first formal meeting of our community was a
+workshop at Neural Information Processing Systems 2012. (the original website
+of this workshop can be found
+<a href="http://www.probabilistic-numerics.org/index_workshop.html">here</a>).</p>
+
+
+>>>>>>> 972df94d7146ea2cf75e273249ba0b64dc2eb56f
   </div>
 
       </div>

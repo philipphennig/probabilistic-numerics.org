@@ -7,54 +7,10 @@
 		<atom:link href="http://www.probabilistic-numerics.org/test/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Tübingen Manifesto: Probabilistic Numerics and Probabilistic Programming</title>
-				<description>&lt;p&gt;We in Probabilistic Numerics face many unanswered questions in growing the field.
-Our &lt;a href=&quot;/2014/08/22/Roundtable-2014-in-Tuebingen&quot;&gt;roundtable in Tübingen&lt;/a&gt; aimed to bring together our new community to begin to address some of these questions. 
-This is another of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.&lt;/p&gt;
-
-&lt;p&gt;We were very fortunate to benefit from the coincidental presence of &lt;a href=&quot;http://stanford.edu/~ngoodman/&quot;&gt;Noah Goodman&lt;/a&gt; in Tübingen, who generously spent an afternoon at the roundtable talking with us. 
-Noah, of course, is a founding and deeply committed member of the &lt;a href=&quot;http://probabilistic-programming.org/wiki/Home&quot;&gt;Probabilistic Programming&lt;/a&gt; community.
-Noah had many fascinating reflections on developments within Probabilistic Programming (ProbProg), and how they might connect with Probabilistic Numerics (ProbNum). &lt;/p&gt;
-
-&lt;p&gt;ProbProg seems to be largely about allowing the design of complex generative models, and then ensuring that uncertainty is properly propagated in producing posteriors using the model.
-This is certainly not the same as the propagation required to manage uncertainty introduced through the use of finite-precision or approximate numerical procedures, but there are some commonalities. 
-Below are a number of items drawing out some of the links between the fields.&lt;/p&gt;
-
-&lt;p&gt;ProbNum offers the attractive potential of performing decision-theoretic management of systems of probabilistic numerical algorithms. 
-That is, ProbNum could be used to select which part of a numerical pipeline to refine, that is, to decide when to stop a numerical algorithm achieving accuracy you don’t need.
-Noah was interested in this process, which he likened to &lt;a href=&quot;http://mlg.eng.cam.ac.uk/duvenaud/talks/tea_talk_metareasoning/index.html&quot;&gt;&lt;em&gt;meta-reasoning,&lt;/em&gt;&lt;/a&gt; and recommended making the connection explicit. &lt;/p&gt;
-
-&lt;p&gt;Noah also posed the excellent question of how much computation it was worth spending to perform this meta-reasoning. 
-Of course, this is a question we couldn’t readily answer.
-Would a greedy selection of the numerical algorithm to spend the next unit of computation on be sufficient, or would more sophisticated strategies be required?
-At this point, Noah quoted &lt;a href=&quot;http://www.cs.berkeley.edu/~russell/&quot;&gt;Stuart Russell&lt;/a&gt; in recommending that, as a rule, “you should only do as much meta-reasoning as regular reasoning”. This seems sensible enough to me!&lt;/p&gt;
-
-&lt;p&gt;Noah also mentioned links between ProbNum’s approach of returning numerical results of flexible degrees of accuracy to the notion of &lt;a href=&quot;http://en.wikipedia.org/wiki/Lazy_evaluation&quot;&gt;&lt;em&gt;lazy evaluation&lt;/em&gt;&lt;/a&gt; common in functional languages like Haskell.
-In either case, only as much computation is performed as is absolutely required.
-For lazy evaluation, what is required can be determined exactly, whereas the ProbNum approach would treat this as a question to be answered with decision theory. &lt;/p&gt;
-
-&lt;p&gt;Another fundamental concept in languages that we discussed was that of &lt;a href=&quot;http://en.wikipedia.org/wiki/Function_overloading&quot;&gt;&lt;em&gt;overloading&lt;/em&gt;&lt;/a&gt;. 
-Treating, for example, a probability distribution over integers as a type that generalises the type &lt;code&gt;int&lt;/code&gt;, ProbNum might well benefit from being implemented using overloading.
-That is, functions could be overloaded to permit the optional input and output of variances in addition to the usual input and output estimates.&lt;/p&gt;
-
-&lt;p&gt;In probabilistic programming, uncertainty is represented largely by bags of samples. 
-It would certainly be interesting to use Bayesian Quadrature downstream of a probabilistic program to try to make better use of those samples.
-In such a setting, Bayesian quadrature might even benefit from access to the structure of the probabilistic model, available in the probabilistic program source code.
-This structure might inform the mean and covariance functions chosen for the Gaussian process model used within Bayesian quadrature, for example.
-A similar approach is at the heart of &lt;a href=&quot;http://www.autodiff.org/&quot;&gt;autodiff&lt;/a&gt;, which analyses the code for a function so as to allow for the computation of its derivatives.
-Why shouldn’t we do the same thing in computing integrals?&lt;/p&gt;
-
-</description>
-				<pubDate>Thu, 28 Aug 2014 20:00:00 +0200</pubDate>
-				<link>http://www.probabilistic-numerics.org/test/2014/08/28/Roundtable-ProbNum-ProbProg</link>
-				<guid isPermaLink="true">http://www.probabilistic-numerics.org/test/2014/08/28/Roundtable-ProbNum-ProbProg</guid>
-			</item>
-		
-			<item>
 				<title>Tübingen Manifesto: Uncertainty</title>
-				<description>&lt;p&gt;We in Probabilistic Numerics face many unanswered questions in growing the field.
+				<description>&lt;p&gt;&lt;em&gt;We in Probabilistic Numerics face many unanswered questions in growing the field.
 Our &lt;a href=&quot;/2014/08/22/Roundtable-2014-in-Tuebingen&quot;&gt;roundtable in Tübingen&lt;/a&gt; aimed to bring together our new community to begin to address some of these questions. 
-This is the first of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.&lt;/p&gt;
+This is the first of a sequence of posts that attempt to collate some of what we spoke about, and to, hopefully, provoke further discussion.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Our first major question was: &lt;em&gt;what is a well-defined notion of “uncertainty” for a probabilistic numerical method?&lt;/em&gt; 
 Consider &lt;script type=&quot;math/tex&quot;&gt;\psi = \int_{0}^{1} \exp\bigl((\sin 3 x)^2 + x^2\bigr)\mathrm{d}x&lt;/script&gt;. 
@@ -143,6 +99,17 @@ community, in fact many of us do not know each other well, and we do not always
 know of each other’s work. The Probabilistic Numerics Roundtable hopes to
 alleviate this problem.&lt;/p&gt;
 
+&lt;h2 id=&quot;participants&quot;&gt;Participants&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=b.calderhead&amp;amp;_adf.ctrl-state=14q2kzdbf_3&amp;amp;_afrRedirect=1867638372907362&quot;&gt;Ben Calderhead&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/girolami/&quot;&gt;Mark Girolami&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www2.compute.dtu.dk/~sohau/&quot;&gt;Søren Hauberg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://becs.aalto.fi/~ssarkka/&quot;&gt;Simo Särkkä&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mlg.eng.cam.ac.uk/frellsen/&quot;&gt;Jes Frellsen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/pub/ted-meeds/4/357/982&quot;&gt;Ted Meeds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tom Gunter&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 				<pubDate>Fri, 22 Aug 2014 11:00:00 +0200</pubDate>
 				<link>http://www.probabilistic-numerics.org/test/2014/08/22/Roundtable-2014-in-Tuebingen</link>
