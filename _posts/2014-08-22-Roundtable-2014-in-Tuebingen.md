@@ -59,9 +59,15 @@ alleviate this problem.
 ## Participants
 
 * [Ben Calderhead](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=b.calderhead&_adf.ctrl-state=14q2kzdbf_3&_afrRedirect=1867638372907362)
-* [Mark Girolami](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/girolami/)
-* [Søren Hauberg](http://www2.compute.dtu.dk/~sohau/)
-* [Simo Särkkä](http://becs.aalto.fi/~ssarkka/)
 * [Jes Frellsen](http://mlg.eng.cam.ac.uk/frellsen/)
-* [Ted Meeds](http://www.linkedin.com/pub/ted-meeds/4/357/982)
+* [Mark Girolami](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/girolami/)
 * Tom Gunter
+* [Søren Hauberg](http://www2.compute.dtu.dk/~sohau/)
+* [Philipp Hennig](http://www.is.tuebingen.mpg.de/nc/employee/details/phennig.html#=0)
+* [Martin Kiefel](http://www.is.tuebingen.mpg.de/nc/employee/details/mkiefel.html)
+* [Edgar Klenske](http://www.is.tuebingen.mpg.de/nc/employee/details/eklenske.html)
+* [Maren Mahsereci](http://www.is.tuebingen.mpg.de/nc/employee/details/mmahsereci.html)
+* [Ted Meeds](http://www.linkedin.com/pub/ted-meeds/4/357/982)
+* [Michael A Osborne](http://www.robots.ox.ac.uk/~mosb)
+* [Simo Särkkä](http://becs.aalto.fi/~ssarkka/)
+* [Michael Schober](http://www.is.tuebingen.mpg.de/nc/employee/details/mschober.html)
