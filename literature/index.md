@@ -5,7 +5,12 @@ layout: default
 
 <h1>Literature</h1> This page collects literature on all areas of probabilistic
 numerics, sorted by problem type. If you would like your publication to be
-featured in this list, please contact us by email.
+featured in this list, please do not hesitate to contact us. The fastest way to
+get your documents onto the site is to clone our
+[github repository](https://github.com/philipphennig/probabilistic-numerics.org),
+add your documents to the relevant BibTeX-file in /_bibliography, then either
+send us a pull-request, or an email with the updated file (see box on top right
+for our contacts).
 
 ### Quick-jump links:
 
@@ -47,12 +52,18 @@ idea of uncertainty over the result of deterministic computations.
 
 <h2 id="Sampling">Sampling (Monte Carlo)</h2>
 
+coming soon
+
 {% bibliography --file MonteCarlo %}
 
 <h2 id="ABC">Approximate Bayesian Computation (ABC)</h2>
 
+coming soon
+
 {% bibliography --file ABC %}
 
 <h2 id="Applications">Applications</h2>
+
+coming soon
 
 {% bibliography --file Applications %}
