@@ -1,0 +1,21 @@
+---
+title: Blog
+layout: default
+---
+  <div>
+    <h1>blog posts in chronological order</h1>
+
+    <p class="rss-subscribe">subscribe to blog posts <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        by {{author.name}}
+      </li>
+    {% endfor %}
+  </ul>
+  
+  </div>
