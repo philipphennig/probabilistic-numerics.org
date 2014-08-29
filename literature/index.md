@@ -15,6 +15,9 @@ featured in this list, please contact us by email.
 * <a href="#Optimization">Optimization</a>
 * <a href="#ODEs">Ordinary Differential Equations</a>
 * <a href="#PDEs">Partial Differential Equations</a>
+* <a href="#Sampling">Sampling (Monte Carlo)</a>
+* <a href="#ABC">Approximate Bayesian Computation</a>
+* <a href="#Applications">Applications</a>
 
 <h2 id="General">General and Foundational</h2>
 The following papers are often cited as early works on the
@@ -41,3 +44,15 @@ idea of uncertainty over the result of deterministic computations.
 <h2 id="PDEs">Partial Differential Equations</h2>
 
 {% bibliography --file PDEs %}
+
+<h2 id="Sampling">Sampling (Monte Carlo)</h2>
+
+{% bibliography --file MonteCarlo %}
+
+<h2 id="ABC">Approximate Bayesian Computation (ABC)</h2>
+
+{% bibliography --file ABC %}
+
+<h2 id="Applications">Applications</h2>
+
+{% bibliography --file Applications %}
