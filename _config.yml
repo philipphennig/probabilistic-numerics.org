@@ -21,6 +21,14 @@ ftp_host: 'ud02.udmedia.de'
 ftp_dir: '/html/numerics/test/'
 ftp_passive: false
 
+# This makes the generator look at the date of each post (see "Every Jekyll
+# Post has a Date"). Posts whose date is in the future will not be published.
+# NB: This does not mean that, when you finally hit the date of a future post,
+# the post will automatically appear. It only means that it will appear the
+# next time you publish!
+# https://github.com/bobgilmore/jekyll-blog/blob/master/_posts/2014-01-13-deferring-publication-in-jekyll.md
+future: false
+
 markdown: kramdown
 
 scholar:
