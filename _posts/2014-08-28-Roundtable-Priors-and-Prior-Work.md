@@ -59,7 +59,7 @@ The roundtable reached the conclusion that ProbNum should fully exploit this fle
 Exposing design choices allows users to more easily adapt ProbNum to solve previously untackled problems.
 For example, incorporating knowledge of specific low-dimensional structure seems like the only way to solve high-dimensional problems.
 Further, this flexibility accommodates our long-term goal of assembling modular algorithms into an integrated ProbNum system.
-That is, structure can be either incorporated or ignored into an individual algorithm, using a [meta-reasoning]( {% post_url 2014-08-28-Roundtable-ProbNum-ProbProg %} ) approach to meet the computational desiderata imposed by other algorithms in the ProbNum hierarchy.
+That is, structure can be either incorporated or ignored into an individual algorithm, using a [meta-reasoning]( {% post_url 2014-09-01-Roundtable-ProbNum-ProbProg %} ) approach to meet the computational desiderata imposed by other algorithms in the ProbNum hierarchy.
 
 [^1]: At least, we have some flexibility in incorporating such structure, although often the problem imposes constraints. For example, in Bayesian quadrature, we are limited by the requirement that the covariance function be integrable in closed-form.
 
