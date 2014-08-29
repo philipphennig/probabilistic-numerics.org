@@ -3,6 +3,7 @@ layout:     post
 title:      "Roundtable in Tübingen"
 date:       2014-08-22 09:00:00
 published:  true
+comments:   false
 author:     phennig
 categories: workshops
 ---

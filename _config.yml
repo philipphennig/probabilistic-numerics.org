@@ -1,6 +1,6 @@
 name: "Probabilistic-Numerics.org"
-url: http://www.probabilistic-numerics.org/test
-baseurl: http://www.probabilistic-numerics.org/test
+url: http://www.probabilistic-numerics.org
+baseurl: http://www.probabilistic-numerics.org
 permalink: /:year/:month/:day/:title
 timezone: Europe/Berlin
 description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
@@ -18,7 +18,7 @@ navigation:
   url: /literature/index.html
 
 ftp_host: 'ud02.udmedia.de'
-ftp_dir: '/html/numerics/test/'
+ftp_dir: '/html/numerics/'
 ftp_passive: false
 
 # This makes the generator look at the date of each post (see "Every Jekyll

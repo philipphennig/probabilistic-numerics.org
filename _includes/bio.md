@@ -43,8 +43,13 @@ of this workshop can be found
 Would you like to get involved with PN research community? If you feel that
 your own published work fits the above description, and should be mentioned on
 the [literature site](literature/index.html), then please don't hesitate to
-write us an email (see contact details on our pages linked above). Most
-importantly, if you would like to contribute and meet other people interested
-in related questions, join us for one of our
+contact us. The fastest way to get your documents onto the site is to clone our
+[github repository](https://github.com/philipphennig/probabilistic-numerics.org),
+add your documents to the relevant BibTeX-file in /_bibliography, then either send
+us a pull-request, or an email with the updated file (see box on top right for
+our contacts).
+
+Most importantly, if you would like to contribute and meet other people
+interested in related questions, join us for one of our
 [meetings and workshops]({{site.baseurl}}/meetings/index.html).
     

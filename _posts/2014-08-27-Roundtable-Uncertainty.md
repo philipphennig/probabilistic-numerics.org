@@ -3,6 +3,7 @@ layout:     post
 title:      "Tübingen Manifesto: Uncertainty"
 date:       2014-08-27
 published:  true
+comments:   true
 author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---
