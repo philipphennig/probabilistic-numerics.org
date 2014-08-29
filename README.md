@@ -8,9 +8,5 @@ by Jan-Willem van de Meent, using jekyll, bootstrap and jekyll-scholar.
 
 # To-Dos
 
-- [ ] default fonts
 - [ ] posts
-- [ ] make it more apparent how to get involved,
-- [ ] application papers?
-- [ ] remove _site
 

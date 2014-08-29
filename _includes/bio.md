@@ -36,3 +36,15 @@ by several authors in the past, the first formal meeting of our community was a
 workshop at Neural Information Processing Systems 2012. (the original website
 of this workshop can be found
 [here](http://www.probabilistic-numerics.org/index_workshop.html)).
+
+
+## How to contribute
+
+Would you like to get involved with PN research community? If you feel that
+your own published work fits the above description, and should be mentioned on
+the [literature site](literature/index.html), then please don't hesitate to
+write us an email (see contact details on our pages linked above). Most
+importantly, if you would like to contribute and meet other people interested
+in related questions, join us for one of our
+[meetings and workshops]({{site.baseurl}}/meetings/index.html).
+    
