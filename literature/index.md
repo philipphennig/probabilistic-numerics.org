@@ -9,8 +9,8 @@ featured in this list, please do not hesitate to contact us. The fastest way to
 get your documents onto the site is to clone our
 [github repository](https://github.com/philipphennig/probabilistic-numerics.org),
 add your documents to the relevant BibTeX-file in /_bibliography, then either
-send us a pull-request, or an email with the updated file (see box on top right
-for our contacts).
+send us a pull-request, or an email with the updated file (see box on
+[the frontpage]({{site.baseurl}}/index.html) for our contacts).
 
 ### Quick-jump links:
 
