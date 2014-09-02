@@ -63,3 +63,6 @@ That is, structure can be either incorporated or ignored into an individual algo
 
 [^1]: At least, we have some flexibility in incorporating such structure, although often the problem imposes constraints. For example, in Bayesian quadrature, we are limited by the requirement that the covariance function be integrable in closed-form.
 
+## References
+
+{% bibliography --cited --file Optimization %}
