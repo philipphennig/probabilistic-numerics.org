@@ -4,6 +4,7 @@ title:      "Tübingen Manifesto: Priors and Prior Work"
 date:       2014-09-03
 published:  true
 author:     mosb
+comments:   true
 categories: [workshops, roundtable_manifesto]
 ---
 

@@ -4,6 +4,7 @@ title:      "Tübingen Manifesto: Probabilistic Numerics and Probabilistic Progr
 date:       2014-09-01
 published:  true
 author:     mosb
+comments:   true
 categories: [workshops, roundtable_manifesto]
 ---
 *We in Probabilistic Numerics face many unanswered questions in growing the field.
