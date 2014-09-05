@@ -3,7 +3,8 @@ layout:     post
 title:      "Tübingen Manifesto: Community"
 date:       2014-09-05
 published:  true
-author:     Michael A Osborne
+comments:   true
+author:     mosb
 categories: [workshops, roundtable_manifesto]
 ---
 *We in Probabilistic Numerics face many unanswered questions in growing the field.
