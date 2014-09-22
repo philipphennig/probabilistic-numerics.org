@@ -58,7 +58,7 @@ know of each other's work. The Probabilistic Numerics Roundtable hopes to
 alleviate this problem.
 
 
-<img src="{{ site.baseurl }}/assets/images/roundtable2014.jpg" width="70%" align="right"/>
+<img src="{{ site.baseurl }}/assets/images/roundtable2014.JPG" width="70%" align="right"/>
 
 ## Participants
 
