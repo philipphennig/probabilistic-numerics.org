@@ -11,8 +11,7 @@ this list is necessarily simplified and incomplete. If you feel that a central
 problem is missing on this list and is addressed by your published research,
 please contact us. 
 
-*All literature references on this page refer to
-[the literature page](../literature/index.html).*
+*More references can be found on [the literature page](../literature/index.html).*
 
 ## Fundamental Aspects
 
@@ -132,3 +131,8 @@ explicit note of a precise connection between a stochastic object and a
 deterministic computation. Recently, {% cite 2014arXiv14071517B --file PDEs %}
 used the Feynman-Kac formulation to construct a fast solver for PDEs based on a
 Markov-Chain Monte Carlo scheme.
+
+
+## References
+
+{% bibliography --cited --file Quadrature --file LinearAlgebra --file Optimization --file ODEs --file general --file PDEs %}
