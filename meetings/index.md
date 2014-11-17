@@ -8,6 +8,18 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+### 2015
+
+* 21 April --
+  [Probabilistic Numerics for Differential Equations](http://www2.warwick.ac.uk/fac/sci/statistics/crism/workshops/probnumerics)
+  at the University of Warwick, UK
+  organized by Mark Girolami, Philipp Hennig, Christopher Oates and Michael Osborne
+
+* 10-12 April --
+  [Probabilistic Numerics @ Data, Learning and Inference (DALI)]({{site.baseurl}}/meetings/LaPalma2015.html)
+  on La Palma, Canary Islands
+  organized by Philipp Hennig, Michael Osborne and Mark Girolami
+
 ### 2014
 
 * 21/22 August -- [Roundtable on Probabilistic Numerics]({{site.baseurl}}{% post_url 2014-08-22-Roundtable-2014-in-Tuebingen %})   

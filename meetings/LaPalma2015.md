@@ -17,11 +17,18 @@ ongoing research developments at length. We are thrilled to announce that the
 inaugural instance of this promising new event will feature a session on
 Probabilistic Numerics.
 
-At this point we are in the process of contacting potential speakers, while
-several details of the conference's schedule are finalized by the DALI
-organizers. If you are interested in participating, please send a quick email
-to [Philipp Hennig](mailto:phennig@tue.mpg.de). The conference is a nimble
-outfit, unfortunately there is no funding for speakers' expenses.
+### Confirmed Speakers
+
+* [John P. Cunningham (Columbia U)](http://stat.columbia.edu/~cunningham/)
+* [Jes Frellsen (Cambridge)](http://mlg.eng.cam.ac.uk/frellsen/)
+* [Christopher Oates (Warwick)](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/oates)
+* [Zoubin Ghahramani (Cambrige, tentative)](http://mlg.eng.cam.ac.uk/zoubin/)
+* [Maren Mahsereci (Tübingen)](http://www.is.tuebingen.mpg.de/nc/employee/details/mmahsereci.html)
+* Tom Gunter (Oxford)
+
+If you are interested in participating, please send a quick email to
+[Philipp Hennig](mailto:phennig@tue.mpg.de). The conference is a nimble outfit,
+unfortunately there is no funding for participants expenses.
 
 The workshop is organized by Philipp Hennig, Michael Osborne, and Mark Girolami.  
 (The chairs of DALI proper are Zoubin Ghahramani, Thomas Hofmann, Neil Lawrence
