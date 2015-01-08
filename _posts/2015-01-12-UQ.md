@@ -19,7 +19,7 @@ categories: general
  purpose of certain concepts and academic fields. And I am not an expert in the
  areas discussed here. This post relates a part of my own personal
  justification, why I think certain ideas are novel and interesting. It is not
- intended as a wholistic overview of a field. If anyone disagrees with
+ intended as a holistic overview of a field. If anyone disagrees with
  characterizations I make here, I would be glad if you could relate your
  opinion in the comments section below.*
 
