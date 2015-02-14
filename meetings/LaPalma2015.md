@@ -25,6 +25,7 @@ Probabilistic Numerics.
 * [Zoubin Ghahramani (Cambrige, tentative)](http://mlg.eng.cam.ac.uk/zoubin/)
 * [Maren Mahsereci (Tübingen)](http://www.is.tuebingen.mpg.de/nc/employee/details/mmahsereci.html)
 * Tom Gunter (Oxford)
+* [Vikash Mansinghka (MIT)](http://web.mit.edu/vkm/www/)
 
 If you are interested in participating, please send a quick email to
 [Philipp Hennig](mailto:phennig@tue.mpg.de). The conference is a nimble outfit,

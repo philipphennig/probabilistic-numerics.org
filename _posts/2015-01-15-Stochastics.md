@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Connections, Part II: Stochastic numerical methods"
-date:       2015-01-02 06:00:00
+date:       2015-01-15 06:00:00
 published:  true
 comments:   true
 author:     phennig
@@ -11,9 +11,10 @@ categories: general
 *As I go around presenting the idea of probabilistic numerics to various
  audiences, certain questions about related areas come up repeatedly. This post
  explains how probabilistic numerics compares to existing ideas of using
- stochasticity in numerical problems. [A previous post]({% post_url 2015-01-01-UQ %}) discussed connections to
+ stochasticity in numerical problems.
+ [A previous post]({% post_url 2015-01-14-UQ %}) discussed connections to
  uncertainty quantification. A subsequent one will look at
- [Bayesian Optimization]({% post_url 2015-01-03-BO %}).*
+ [Bayesian Optimization]({% post_url 2015-01-16-BO %}).*
 
 *A disclaimer: Obviously, everyone has different opinions about the scope and
  purpose of certain concepts and academic fields. And I am not an expert in the
@@ -35,18 +36,18 @@ computational cost while introducing a new kind of imprecision. Such methods
 are called *randomized* or, unfortunately, also *probabilistic* algorithms
 {% cite liberty2007randomized --file related %}
 {% cite halko2011finding --file related %}.
-The key idea is that given a particular numerical problem spanning
-variables from a certain high-dimensional space, one chooses a random
-projection into a space of much lower dimensionality, and solves the problem in
-that space. The surprising aspect, the strength of this approach is that it tends to cause a
+The key idea is that given a particular numerical problem spanning variables
+from a certain high-dimensional space, one chooses a random projection into a
+space of much lower dimensionality, and solves the problem in that space. The
+surprising aspect, the strength of this approach, is that it tends to cause a
 lot less deficiencies than one would intuitively assume; and this has been
 studied quite rigorously.
 
 ### Perturbations ###
 
-Repeatedly solving randomly *perturbed* variants of a problem randomly can help
-quantify the robustness of a task. This is in some sense the counterpart to the
-randomized approach: Instead of removing degrees of freedom to get drastically
+Repeatedly solving randomly *perturbed* variants of a problem can help quantify
+the robustness of a task. This is in some sense the counterpart to the above
+projection approach: Instead of removing degrees of freedom to get drastically
 lower cost at surprisingly low loss of precision, perturbation methods enrich
 the description of a problem to probe new interesting aspects -- at drastically
 higher cost. (For clarity: I'm not talking about
@@ -56,7 +57,7 @@ play a conceptual role there).
 
 ### Monte Carlo methods ###
 
-A third, much-studied are that is of particular relevance for probabilistic
+A third, much-studied area that is of particular relevance for probabilistic
 numerics are [Monte Carlo](http://en.wikipedia.org/wiki/Monte_Carlo_method)
 methods. In statistics and machine learning, MC methods are used primarily to
 compute expectations and marginals -- i.e., for quadrature. In contrast to the
@@ -77,28 +78,33 @@ The area currently of biggest interest for probabilistic numerics are
 complementary to the two former settings described above. With a probabilistic
 numerical method, we do not necessarily want to reduce a given problem to a
 less costly variant, but are interested in as good a solution to the actual
-problem at hand. And while we may well wonder about the sensitivity of the
-found solution to perturbations of the task, our chief interest is in the error
-created by the approximate computation itself, and the sensitivity of our
-computation's result to further steps.
+problem at hand (however, it is interesting that recent results suggest that
+choosing projections in a non-random, "most informative" way can be done at
+reasonable cost and may improve performance
+{% cite GarnettOH2013 --file related %}). And
+while we may well wonder about the sensitivity of the found solution to
+perturbations of the task, our chief interest is in the error created by the
+approximate computation itself, and the sensitivity of our computation's result
+to further steps.
 
 The story is much more intricate---and exciting---with regards to MC
 methods. Recently, I have found myself repeatedly in discussions with
 colleagues about the helpfulness of random numbers for computations, in
 connection with our recent NIPS paper on fast Bayesian quadrature
-{% cite gunter14-fast-bayesian-quadrature --file quadrature %}. There is a famous paper
-by Tony O'Hagan {% cite o1987monte --file Sampling%} pointing out that
+{% cite gunter14-fast-bayesian-quadrature --file quadrature %}. There is a famous
+polemic by Tony O'Hagan {% cite o1987monte --file Sampling%} pointing out that
 randomness leads to serious inefficiencies when performing a deterministic
 computation. It is well-known that, on low-dimensional problems, classic
-quadrature rules can converge *much* faster than MC estimators (depending on
-the rule used, and the  smoothness of the integrand, $$\mathcal{O}(N^{-p})$$
-for $$p\in\mathbb{N}$$). Classic quadrature rules are identified with maximum a
+quadrature rules can converge *much* faster than MC estimators: Depending on
+the rule used, and the smoothness of the integrand, $$\mathcal{O}(N^{-p})$$ for
+$$p\in\mathbb{N}$$ is not unusual. Classic quadrature rules are identified with maximum a
 posteriori estimators under various Gaussian process priors over the integrand
 {% cite minka2000deriving --file quadrature %}. Extending on this insight, our
 recent NIPS paper presents a general purpose quadrature method for strictly
 positive integrands (such as the probability distribution $$p$$) which
-empirically outperforms (in wall-clock time) established MCMC methods. This is
-an exciting area of new research that is only just beginning to take shape.
+empirically outperforms (in wall-clock time) established MCMC methods. Given
+the ubiquity of MC methods, this kind of result is very exciting, and once again
+suggests an area of research that is only just beginning to take shape.
 
 ### References ###
 
