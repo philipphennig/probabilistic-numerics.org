@@ -10,6 +10,10 @@ community.
 
 ### 2015
 
+* 14 - 18 September --
+[Probabilistic numerical analysis of differential equations](http://scicade2015.math.uni-potsdam.de/scicade2015/minisymposiadetails.html#MS22) hosted by [SciCADE](http://scicade2015.math.uni-potsdam.de/scicade2015/index.html) in Potsdam, Germany  
+organised by Ben Calderhead
+
 * 21 April --
   [Probabilistic Numerics for Differential Equations](http://www2.warwick.ac.uk/fac/sci/statistics/crism/workshops/probnumerics)
   at the University of Warwick, UK
