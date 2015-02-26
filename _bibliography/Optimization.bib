@@ -67,3 +67,14 @@
   file = {../assets/pdf/hennig13noisy.pdf}
 }
 
+@ARTICLE{Quartz,
+   author = {Z. Qu and P. Richt{\'a}rik and T. Zhang},
+    title = {Randomized Dual Coordinate Ascent with Arbitrary Sampling},
+  journal = {arXiv:1411.5873},
+     year = 2014,
+   abstract={ We study the problem of minimizing the average of a large number of smooth convex functions penalized  
+              with a strongly convex regularizer. We propose and analyze a novel primal-dual method (Quartz) which at every iteration
+               samples and updates a random subset of the dual variables, chosen according to an {\em arbitrary distribution}. 
+                In contrast to typical analysis, we directly bound the decrease of the primal-dual error (in expectation), without the need to first analyze the dual error.  Depending on the choice of the sampling, we obtain efficient serial, parallel and distributed variants of the method. In the serial case, our bounds match the best known bounds for SDCA (both with  uniform and importance sampling). With standard mini-batching, our bounds predict initial data-independent speedup as well {as \em additional data-driven speedup} which depends on spectral and sparsity properties of the data. We calculate theoretical speedup factors  and find that they are excellent predictors of actual speedup in practice. Moreover, we illustrate that it is possible to design an efficient {\em mini-batch importance} sampling. The distributed variant of Quartz is the first distributed SDCA-like method with an analysis for non-separable data.},
+   file = {http://arxiv.org/abs/1411.5873}
+}
