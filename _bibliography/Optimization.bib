@@ -67,57 +67,7 @@
   file = {../assets/pdf/hennig13noisy.pdf}
 }
 
-@ARTICLE{Quartz,
-   author = {Z. Qu and P. Richt{\'a}rik and T. Zhang},
-    title = {Randomized Dual Coordinate Ascent with Arbitrary Sampling},
-  journal = {arXiv:1411.5873},
-     year = 2014,
-   abstract={ We study the problem of minimizing the average of a large number of smooth convex functions penalized  
-              with a strongly convex regularizer. We propose and analyze a novel primal-dual method (Quartz) which at every iteration
-              samples and updates a random subset of the dual variables, chosen according to an arbitrary distribution. 
-              In contrast to typical analysis, we directly bound the decrease of the primal-dual error (in expectation), 
-              without the need to first analyze the dual error.  Depending on the choice of the sampling, we obtain efficient serial, 
-              parallel and distributed variants of the method. In the serial case, our bounds match the best known bounds for 
-              SDCA (both with  uniform and importance sampling).
-              With standard mini-batching, our bounds predict initial data-independent speedup
-              as well as additional data-driven speedup which depends on spectral and sparsity properties of the data. 
-              We calculate theoretical speedup factors  and find that they are excellent predictors of actual speedup in practice. 
-              Moreover, we illustrate that it is possible to design an efficient mini-batch importance sampling. 
-              The distributed variant of Quartz is the first distributed SDCA-like method with an analysis for non-separable data.},
-   file = {http://arxiv.org/abs/1411.5873}
-}
 
-
-
-@ARTICLE{Alpha,
-   author = {Z. Qu and P. Richt{\'a}rik},
-    title = {Coordinate Descent with Arbitrary Sampling I: Algorithms and Complexity},
-  journal = {arXiv:1412.8060},
-     year = 2014,
-   abstract={ We study the problem of minimizing the sum of a smooth convex function and a convex block-separable regularizer and propose a new randomized coordinate descent method, which we call ALPHA. Our method at every iteration updates a random subset of coordinates, following an arbitrary distribution. No coordinate descent methods capable to handle an arbitrary sampling have been studied in the literature before for this problem. ALPHA is a remarkably flexible algorithm: in special cases, it reduces to deterministic and randomized methods such as gradient descent, coordinate descent, parallel coordinate descent and distributed coordinate descent -- both in nonaccelerated and accelerated variants. The variants with arbitrary (or importance) sampling are new. We provide a complexity analysis of ALPHA, from which we deduce as a direct corollary complexity bounds for its many variants, all matching or improving best known bounds.},
-   file = {http://arxiv.org/abs/1412.8060}
-}
-
-
-
-@ARTICLE{ESO,
-   author = {Z. Qu and P. Richt{\'a}rik},
-    title = {Coordinate Descent with Arbitrary Sampling II: Expected Separable Overapproximation},
-  journal = {arXiv:1412.8063},
-     year = 2014,
-   abstract={The design and complexity analysis of randomized coordinate descent methods, and in particular of variants which update a random subset (sampling) of coordinates in each iteration, depends on the notion of expected separable overapproximation (ESO). This refers to an inequality involving the objective function and the sampling, capturing in a compact way certain smoothness properties of the function in a random subspace spanned by the sampled coordinates. ESO inequalities were previously established for special classes of samplings only, almost invariably for uniform samplings. In this paper we develop a systematic technique for deriving these inequalities for a large class of functions and for arbitrary samplings. We demonstrate that one can recover existing ESO results using our general approach, which is based on the study of eigenvalues associated with samplings and the data describing the function. },
-  file = {http://arxiv.org/abs/1412.8063}
-}
-
-
-@ARTICLE{PCDM,
-   author = {P. Richt{\'a}rik and M. Tak{\'a}\v{c}},
-    title = {Parallel Coordinate Descent Methods for Big Data Optimization},
-  journal = {under revision: Mathematical Programming},
-     year = 2012,
-   abstract={In this work we show that randomized (block) coordinate descent methods can be accelerated by parallelization when applied to the problem of minimizing the sum of a partially separable smooth convex function and a simple separable convex function. The theoretical speedup, as compared to the serial method, and referring to the number of iterations needed to approximately solve the problem with high probability, is a simple expression depending on the number of parallel processors and a natural and easily computable measure of separability of the smooth component of the objective function. In the worst case, when no degree of separability is present, there may be no speedup; in the best case, when the problem is separable, the speedup is equal to the number of processors. Our analysis also works in the mode when the number of blocks being updated at each iteration is random, which allows for modeling situations with busy or unreliable processors. We show that our algorithm is able to solve a LASSO problem involving a matrix with 20 billion nonzeros in 2 hours on a large memory node with 24 cores.},
-   file = {http://arxiv.org/abs/1212.0873}
-}
 
 
 @ARTICLE{ICDM,
@@ -134,15 +84,27 @@
   file={http://arxiv.org/abs/1107.2848}
 }
 
-@ARTICLE{S2GD,
-   author = {J. Kone\v{c}n\'{y} and P. Richt{\'a}rik},
-    title = {Semi-Stochastic Gradient Descent Methods},
-  journal = {arXiv:1312.1666},
-     year = 2013,
-   abstract={In this paper we study the problem of minimizing the average of a large number (n) of smooth convex loss functions. We propose a new method, S2GD (Semi-Stochastic Gradient Descent), which runs for one or several epochs in each of which a single full gradient and a random number of stochastic gradients is computed, following a geometric law. The total work needed for the method to output an ε-accurate solution in expectation, measured in the number of passes over data, or equivalently, in units equivalent to the computation of a single gradient of the loss, is O((κ/n)log(1/ε)), where κ is the condition number. This is achieved by running the method for O(log(1/ε)) epochs, with a single gradient evaluation and O(κ) stochastic gradient evaluations in each. The SVRG method of Johnson and Zhang arises as a special case. If our method is limited to a single epoch only, it needs to evaluate at most O((κ/ε)log(1/ε)) stochastic gradients. In contrast, SVRG requires O(κ/ε2) stochastic gradients. To illustrate our theoretical results, S2GD only needs the workload equivalent to about 2.1 full gradient evaluations to find an 10−6-accurate solution for a problem with n=109 and κ=103.},
-   file = {http://arxiv.org/abs/1312.1666}
+
+@ARTICLE{PCDM,
+   author = {P. Richt{\'a}rik and M. Tak{\'a}\v{c}},
+    title = {Parallel Coordinate Descent Methods for Big Data Optimization},
+  journal = {under revision: Mathematical Programming},
+     year = 2012,
+   abstract={In this work we show that randomized (block) coordinate descent methods can be accelerated by parallelization when applied to the problem of minimizing the sum of a partially separable smooth convex function and a simple separable convex function. The theoretical speedup, as compared to the serial method, and referring to the number of iterations needed to approximately solve the problem with high probability, is a simple expression depending on the number of parallel processors and a natural and easily computable measure of separability of the smooth component of the objective function. In the worst case, when no degree of separability is present, there may be no speedup; in the best case, when the problem is separable, the speedup is equal to the number of processors. Our analysis also works in the mode when the number of blocks being updated at each iteration is random, which allows for modeling situations with busy or unreliable processors. We show that our algorithm is able to solve a LASSO problem involving a matrix with 20 billion nonzeros in 2 hours on a large memory node with 24 cores.},
+   file = {http://arxiv.org/abs/1212.0873}
 }
 
+
+
+
+@ARTICLE{Hydra,
+   author = { P. Richt{\'a}rik and M. Tak{\'a}\v{c}},
+    title = {Distributed Coordinate Descent Method for Learning with Big Data},
+  journal = { arXiv:1310.2059},
+     year = 2013,
+   abstract={In this paper we develop and analyze Hydra: HYbriD cooRdinAte descent method for solving loss minimization problems with big data. We initially partition the coordinates (features) and assign each partition to a different node of a cluster. At every iteration, each node picks a random subset of the coordinates from those it owns, independently from the other computers, and in parallel computes and applies updates to the selected coordinates based on a simple closed-form formula. We give bounds on the number of iterations sufficient to approximately solve the problem with high probability, and show how it depends on the data and on the partitioning. We perform numerical experiments with a LASSO instance described by a 3TB matrix.},
+   file = {http://arxiv.org/abs/1310.2059}
+}
 
 @ARTICLE{APPROX,
    author = {O. Fercoq and P. Richt{\'a}rik},
@@ -162,6 +124,54 @@
   file = {http://arxiv.org/abs/1405.5300v2}
 }
 
+@ARTICLE{Alpha,
+   author = {Z. Qu and P. Richt{\'a}rik},
+    title = {Coordinate Descent with Arbitrary Sampling I: Algorithms and Complexity},
+  journal = {arXiv:1412.8060},
+     year = 2014,
+   abstract={ We study the problem of minimizing the sum of a smooth convex function and a convex block-separable regularizer and propose a new randomized coordinate descent method, which we call ALPHA. Our method at every iteration updates a random subset of coordinates, following an arbitrary distribution. No coordinate descent methods capable to handle an arbitrary sampling have been studied in the literature before for this problem. ALPHA is a remarkably flexible algorithm: in special cases, it reduces to deterministic and randomized methods such as gradient descent, coordinate descent, parallel coordinate descent and distributed coordinate descent -- both in nonaccelerated and accelerated variants. The variants with arbitrary (or importance) sampling are new. We provide a complexity analysis of ALPHA, from which we deduce as a direct corollary complexity bounds for its many variants, all matching or improving best known bounds.},
+   file = {http://arxiv.org/abs/1412.8060}
+}
+
+
+@ARTICLE{ESO,
+   author = {Z. Qu and P. Richt{\'a}rik},
+    title = {Coordinate Descent with Arbitrary Sampling II: Expected Separable Overapproximation},
+  journal = {arXiv:1412.8063},
+     year = 2014,
+   abstract={The design and complexity analysis of randomized coordinate descent methods, and in particular of variants which update a random subset (sampling) of coordinates in each iteration, depends on the notion of expected separable overapproximation (ESO). This refers to an inequality involving the objective function and the sampling, capturing in a compact way certain smoothness properties of the function in a random subspace spanned by the sampled coordinates. ESO inequalities were previously established for special classes of samplings only, almost invariably for uniform samplings. In this paper we develop a systematic technique for deriving these inequalities for a large class of functions and for arbitrary samplings. We demonstrate that one can recover existing ESO results using our general approach, which is based on the study of eigenvalues associated with samplings and the data describing the function. },
+  file = {http://arxiv.org/abs/1412.8063}
+}
+
+@ARTICLE{S2GD,
+   author = {J. Kone\v{c}n\'{y} and P. Richt{\'a}rik},
+    title = {Semi-Stochastic Gradient Descent Methods},
+  journal = {arXiv:1312.1666},
+     year = 2013,
+   abstract={In this paper we study the problem of minimizing the average of a large number (n) of smooth convex loss functions. We propose a new method, S2GD (Semi-Stochastic Gradient Descent), which runs for one or several epochs in each of which a single full gradient and a random number of stochastic gradients is computed, following a geometric law. The total work needed for the method to output an ε-accurate solution in expectation, measured in the number of passes over data, or equivalently, in units equivalent to the computation of a single gradient of the loss, is O((κ/n)log(1/ε)), where κ is the condition number. This is achieved by running the method for O(log(1/ε)) epochs, with a single gradient evaluation and O(κ) stochastic gradient evaluations in each. The SVRG method of Johnson and Zhang arises as a special case. If our method is limited to a single epoch only, it needs to evaluate at most O((κ/ε)log(1/ε)) stochastic gradients. In contrast, SVRG requires O(κ/ε2) stochastic gradients. To illustrate our theoretical results, S2GD only needs the workload equivalent to about 2.1 full gradient evaluations to find an 10−6-accurate solution for a problem with n=109 and κ=103.},
+   file = {http://arxiv.org/abs/1312.1666}
+}
+
+
+@ARTICLE{Quartz,
+   author = {Z. Qu and P. Richt{\'a}rik and T. Zhang},
+    title = {Randomized Dual Coordinate Ascent with Arbitrary Sampling},
+  journal = {arXiv:1411.5873},
+     year = 2014,
+   abstract={ We study the problem of minimizing the average of a large number of smooth convex functions penalized  
+              with a strongly convex regularizer. We propose and analyze a novel primal-dual method (Quartz) which at every iteration
+              samples and updates a random subset of the dual variables, chosen according to an arbitrary distribution. 
+              In contrast to typical analysis, we directly bound the decrease of the primal-dual error (in expectation), 
+              without the need to first analyze the dual error.  Depending on the choice of the sampling, we obtain efficient serial, 
+              parallel and distributed variants of the method. In the serial case, our bounds match the best known bounds for 
+              SDCA (both with  uniform and importance sampling).
+              With standard mini-batching, our bounds predict initial data-independent speedup
+              as well as additional data-driven speedup which depends on spectral and sparsity properties of the data. 
+              We calculate theoretical speedup factors  and find that they are excellent predictors of actual speedup in practice. 
+              Moreover, we illustrate that it is possible to design an efficient mini-batch importance sampling. 
+              The distributed variant of Quartz is the first distributed SDCA-like method with an analysis for non-separable data.},
+   file = {http://arxiv.org/abs/1411.5873}
+}
 
 
 
