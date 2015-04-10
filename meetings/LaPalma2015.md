@@ -17,6 +17,8 @@ ongoing research developments at length. We are thrilled to announce that the
 inaugural instance of this promising new event will feature a session on
 Probabilistic Numerics.
 
+*The workshop's schedule can now be found [here](https://docs.google.com/document/d/176OybEsMosSxGWDNqKjKCerlE3FlDef-NLQxYKFCLZw/edit?usp=sharing).*
+
 ### Confirmed Speakers
 
 * [John P. Cunningham (Columbia U)](http://stat.columbia.edu/~cunningham/)
