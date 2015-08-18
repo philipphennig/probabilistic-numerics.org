@@ -10,6 +10,11 @@ community.
 
 ### 2015
 
+* December --
+  [Probabilistic Integration @ NIPS 2015]({{site.baseurl}}/meetings/NIPS2015.html)
+  in Montréal, Canada
+  organized by Michael Osborne and Philipp Hennig
+
 * 14 - 18 September --
 [Probabilistic numerical analysis of differential equations](http://scicade2015.math.uni-potsdam.de/scicade2015/minisymposiadetails.html#MS22) hosted by [SciCADE](http://scicade2015.math.uni-potsdam.de/scicade2015/index.html) in Potsdam, Germany  
 organised by Ben Calderhead
