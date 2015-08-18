@@ -1,6 +1,5 @@
 name: "Probabilistic-Numerics.org"
-url: http://www.probabilistic-numerics.org
-baseurl: http://www.probabilistic-numerics.org
+baseurl:
 permalink: /:year/:month/:day/:title
 timezone: Europe/Berlin
 description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
