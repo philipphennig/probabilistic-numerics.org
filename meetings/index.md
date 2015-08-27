@@ -9,6 +9,9 @@ This page lists past and future meetings of the Probabilistic Numerics
 community.
 
 ### 2015
+* 11 December --
+[Probabilistic Integration](http://www.probabilistic-numerics.org/meetings/NIPS2015.html) hosted by [Neural Information Processing Systems (NIPS)](nips.cc) in Montréal, Canada
+organised by Mike Osborne and Philipp Hennig
 
 * 14 - 18 September --
 [Probabilistic numerical analysis of differential equations](http://scicade2015.math.uni-potsdam.de/scicade2015/minisymposiadetails.html#MS22) hosted by [SciCADE](http://scicade2015.math.uni-potsdam.de/scicade2015/index.html) in Potsdam, Germany  
