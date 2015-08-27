@@ -10,10 +10,6 @@ community.
 
 ### 2015
 * 11 December --
-[Probabilistic Integration](http://www.probabilistic-numerics.org/meetings/NIPS2015.html) hosted by [Neural Information Processing Systems (NIPS)](nips.cc) in Montréal, Canada
-organised by Mike Osborne and Philipp Hennig
-
-* 11 December --
   [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015.html) @  [NIPS 2015](https://nips.cc/Conferences/2015)
   in Montréal, Canada
   organized by Michael Osborne and Philipp Hennig
