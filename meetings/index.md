@@ -10,8 +10,8 @@ community.
 
 ### 2015
 
-* December --
-  [Probabilistic Integration @ NIPS 2015]({{site.baseurl}}/meetings/NIPS2015.html)
+* 11 December --
+  [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015.html) @  [NIPS 2015](https://nips.cc/Conferences/2015)
   in Montréal, Canada
   organized by Michael Osborne and Philipp Hennig
 
