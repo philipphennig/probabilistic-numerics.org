@@ -9,7 +9,6 @@ This page lists past and future meetings of the Probabilistic Numerics
 community.
 
 ### 2015
-
 * 11 December --
   [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015.html) @  [NIPS 2015](https://nips.cc/Conferences/2015)
   in Montréal, Canada

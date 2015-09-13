@@ -258,6 +258,30 @@
     file = {http://arxiv.org/pdf/1504.05994v1.pdf}
 }
 
+@inproceedings{NIPS2014_5595,
+title = {Just-In-Time Learning for Fast and Flexible Inference},
+author = {Eslami, S. M. Ali and Tarlow, Daniel and Kohli, Pushmeet and Winn, John},
+booktitle = {Advances in Neural Information Processing Systems (NIPS) 27},
+editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},
+pages = {154--162},
+year = {2014},
+file = {http://papers.nips.cc/paper/5595-just-in-time-learning-for-fast-and-flexible-inference.pdf},
+abstract = {Much of research in machine learning has centered around the search for inference algorithms that are both general-purpose and efficient. The problem is extremely challenging and general inference remains computationally expensive. We seek to address this problem by observing that in most specific applications of a model, we typically only need to perform a small subset of all possible inference computations. Motivated by this, we introduce just-in-time learning, a framework for fast and flexible inference that learns to speed up inference at run-time. Through a series of experiments, we show how this framework can allow us to combine the flexibility of sampling with the efficiency of deterministic message-passing.}
+}
+
+
+@InProceedings{Jitkrittum1503,
+   author = {{Jitkrittum}, W. and {Gretton}, A. and {Heess}, N. and {Eslami}, S.~M.~A. and 
+  {Lakshminarayanan}, B. and {Sejdinovic}, D. and {Szab{\'o}}, Z.
+  },
+    title = "{Kernel-Based Just-In-Time Learning for Passing Expectation Propagation Messages}",
+  booktitle = {Uncertainty in Artificial Intelligence (UAI) 31},
+     year = 2015,
+     file = {http://auai.org/uai2015/proceedings/papers/235.pdf},
+     abstract  = {We propose an efficient nonparametric strategy for learning a message operator in expectation propagation (EP), which takes as input the set of incoming messages to a factor node, and produces an outgoing message as output. This learned operator replaces the multivariate integral required in classical EP, which may not have an analytic expression. We use kernel-based regression, which is trained on a set of probability distributions representing the incoming messages, and the associated outgoing messages. The kernel approach has two main advantages: first, it is fast, as it is implemented using a novel two-layer random feature representation of the input message distributions; second, it has principled uncertainty estimates, and can be cheaply updated online, meaning it can request and incorporate new training data when it encounters inputs on which it is uncertain. In experiments, our approach is able to solve learning problems where a single message operator is required for multiple, substantially different data sets (logistic regression for a variety of classification problems), where it is essential to accurately assess uncertainty and to efficiently and robustly update the message operator.}
+}
+
+
 
 @InProceedings{briol_frank-wolfe_2015,
   title = {Frank-{Wolfe} {Bayesian} {Quadrature}: {Probabilistic} {Integration} with {Theoretical} {Guarantees}},
