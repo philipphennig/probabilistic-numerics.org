@@ -26,7 +26,7 @@ This session will be hosted by [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmsk
 
 ### Schedule
 
-The workshop will be held on Friday, 11 December; the room will be the Activityraum. 
+The workshop will be held on Thursday, 7th January 2016; the room will be the Activityraum. 
 
 * 09:40-10:10: [Simo Särkkä](http://users.aalto.fi/~ssarkka)
 * 10:10-10:40: [François-Xavier Briol](http://www2.warwick.ac.uk/fac/sci/statistics/staff/research_students/briol/)
