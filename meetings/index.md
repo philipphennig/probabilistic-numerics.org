@@ -8,6 +8,8 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+<!-- TODO: automate this page! -->
+
 ### 2016
 
 * 7 January --
