@@ -8,6 +8,14 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+### 2016
+
+* 7 January --
+  [Probabilistic Numerics: Integrating Inference With Integration]({{site.baseurl}}/meetings/MCMSki2016.html) @  [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html)
+  in Lenzerheide, Switzerland 
+  organized by Michael Osborne, Chris Oates and François-Xavier Briol
+
+
 ### 2015
 * 11 December --
   [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015.html) @  [NIPS 2015](https://nips.cc/Conferences/2015)

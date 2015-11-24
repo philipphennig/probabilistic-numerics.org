@@ -22,7 +22,7 @@ layout: default
 <h1>Probabilistic Numerics: Integrating Inference With Integration @ MCMSki 2016</h1>
 <h2>Lenzerheide, Thursday, 7th January 2016</h2>
 
-This session will be hosted by [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html), the joint  meeting of the [Institute of Mathematical Statistics](http://www.imstat.org/) and the [International Society for Bayesian Analysis](http://www.bayesian.org/).
+This session will be hosted by [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html), the joint  meeting of the [Institute of Mathematical Statistics](http://www.imstat.org/) and the [International Society for Bayesian Analysis](http://www.bayesian.org/). The workshop is organised by Michael Osborne, [Chris Oates](http://oates.work/) and [François-Xavier Briol](http://www2.warwick.ac.uk/fac/sci/statistics/staff/research_students/briol/).
 
 ### Schedule
 
