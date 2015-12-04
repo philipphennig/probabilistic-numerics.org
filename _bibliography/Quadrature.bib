@@ -270,8 +270,9 @@ abstract = {Much of research in machine learning has centered around the search 
 }
 
 
+
 @InProceedings{Jitkrittum1503,
-   author = {{Jitkrittum}, W. and {Gretton}, A. and {Heess}, N. and {Eslami}, S.~M.~A. and 
+   author = {{Jitkrittum}, W. and {Gretton}, A. and {Heess}, N. and {Eslami}, S.~M.~A. and
   {Lakshminarayanan}, B. and {Sejdinovic}, D. and {Szab{\'o}}, Z.
   },
     title = "{Kernel-Based Just-In-Time Learning for Passing Expectation Propagation Messages}",
@@ -293,4 +294,28 @@ abstract = {Much of research in machine learning has centered around the search 
   year = {2015},
   keywords = {Statistics - Machine Learning},
   file = {http://arxiv.org/pdf/1506.02681v1.pdf}
+}
+
+@article{bach2015equivalence,
+  title={On the Equivalence between Quadrature Rules and Random Features},
+  author={Bach, Francis},
+  abstract={
+    We show that kernel-based quadrature rules for computing in tegrals can be seen as a special case of random feature expansions for positive definite kernels, for a particular decomposition that always exists for such kernels. We provide a theoretical analysis of the number of required samples for a given approximation error, leading to both upper and lower bounds that are based solely on the eigenvalues of the associated integral operator and match up to logarithmic terms. In particular, we show that the upper bound may be obtained from independent an d identically distributed samples from a specific non-uniform distribution, while the lower bo und if valid for any set of points. Applying our results to kernel-based quadrature, while our results are fairly general, we recover known upper and lower bounds for the special cases of Sobolev spaces. Moreover, our results extend to the more general problem of full function approxim ations (beyond simply computing an integral), with results in L2- and L∞-norm that match known results for special cases.  Applying our results to random features, we show an improvement of the number of random features needed to preserve the generalization guarantees for learning with Lipshitz-continuous losses.
+  },
+  journal={arXiv preprint arXiv:1502.06800},
+  file={http://arxiv.org/pdf/1502.06800v2.pdf},
+  year={2015}
+}
+
+
+@article{briol_probabilistic_2015,
+  title = {Probabilistic {Integration}},
+  url = {http://arxiv.org/abs/1512.00933},
+  abstract = {Probabilistic numerical methods aim to model numerical error as a source of epistemic uncertainty that is subject to probabilistic analysis and reasoning, enabling the principled propagation of numerical uncertainty through a computational pipeline. In this paper we focus on numerical methods for integration. We present probabilistic (Bayesian) versions of both Markov chain and Quasi Monte Carlo methods for integration and provide rigorous theoretical guarantees for convergence rates, in both posterior mean and posterior contraction. The performance of probabilistic integrators is guaranteed to be no worse than non-probabilistic integrators and is, in many cases, asymptotically superior. These probabilistic integrators therefore enjoy the "best of both worlds", leveraging the sampling efficiency of advanced Monte Carlo methods whilst being equipped with valid probabilistic models for uncertainty quantification. Several applications and illustrations are provided, including examples from computer vision and system modelling using non-linear differential equations. A survey of open challenges in probabilistic integration is provided.},
+  urldate = {2015-12-04},
+  journal = {arXiv:1512.00933 [cs, math, stat]},
+  author = {Briol, François-Xavier and Oates, Chris J. and Girolami, Mark and Osborne, Michael A. and Sejdinovic, Dino},
+  year = {2015},
+  note = {arXiv: 1512.00933},
+  file = {http://arxiv.org/pdf/1512.00933v1.pdf}
 }
