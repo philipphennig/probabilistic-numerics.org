@@ -1,6 +1,10 @@
 name: "Probabilistic-Numerics.org"
 baseurl:
-permalink: /:year/:month/:day/:title
+
+
+# changing this to custom will put links to pages at *.html rather than */
+permalink: pretty
+
 timezone: Europe/Berlin
 description: A community website collecting research on algorithms that assign probability distributions to the unknown result of deterministic computations.
 

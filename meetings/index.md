@@ -13,14 +13,14 @@ community.
 ### 2016
 
 * 7 January --
-  [Probabilistic Numerics: Integrating Inference With Integration]({{site.baseurl}}/meetings/MCMSki2016.html) @  [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html)
+  [Probabilistic Numerics: Integrating Inference With Integration]({{site.baseurl}}/meetings/MCMSki2016) @  [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html)
   in Lenzerheide, Switzerland 
   organized by Michael Osborne, Chris Oates and François-Xavier Briol
 
 
 ### 2015
 * 11 December --
-  [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015.html) @  [NIPS 2015](https://nips.cc/Conferences/2015)
+  [Probabilistic Integration]({{site.baseurl}}/meetings/NIPS2015) @  [NIPS 2015](https://nips.cc/Conferences/2015)
   in Montréal, Canada
   organized by Michael Osborne and Philipp Hennig
 
@@ -34,7 +34,7 @@ organised by Ben Calderhead
   organized by Mark Girolami, Philipp Hennig, Christopher Oates and Michael Osborne
 
 * 10-12 April --
-  [Probabilistic Numerics @ Data, Learning and Inference (DALI)]({{site.baseurl}}/meetings/LaPalma2015.html)
+  [Probabilistic Numerics @ Data, Learning and Inference (DALI)]({{site.baseurl}}/meetings/LaPalma2015)
   on La Palma, Canary Islands
   organized by Philipp Hennig, Michael Osborne and Mark Girolami
 
