@@ -23,6 +23,7 @@ navigation:
 ftp_host: 'ud02.udmedia.de'
 ftp_dir: '/html/numerics/'
 ftp_passive: false
+ftp_secure: true
 
 # This makes the generator look at the date of each post (see "Every Jekyll
 # Post has a Date"). Posts whose date is in the future will not be published.
