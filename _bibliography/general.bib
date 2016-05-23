@@ -31,6 +31,17 @@
  link={http://www.jstor.org/stable/pdf/2239347.pdf}
 }
 
+@article{larkin1972gaussian,
+  title={Gaussian measure in {H}ilbert space and applications in numerical analysis},
+  author={Larkin, F. M.},
+  journal={Rocky Mountain Journal of Mathematics},
+  volume={2},
+  number={3},
+  year={1972},
+  pages={379--422},
+  abstract = {The numerical analyst is often called upon to estimate a function from a very limited knowledge of its properties (e.g. a finite number of ordinate values). This problem may be made well posed in a variety of ways, but an attractive approach is to regard the required function as a member of a linear space on which a probability measure is constructed, and then use established techniques of probability theory and statistics in order to infer properties of the function from the given information. This formulation agrees with established theory, for the problem of optimal linear approximation (using a Gaussian probability distribution), and also permits the estimation of nonlinear functionals, as well as extension to the case of "noisy" data.}
+}
+
 @inproceedings{Kadane1985a,
 author = {J. B. Kadane and G. W. Wasilkowski},
 abstract = {Relations between average case epsilon-complexity and Bayesian statistics are discussed. An algorithm corresponds to a decision function, and the choice of information to the choice of an experiment. Adaptive information in epsilon-complexity theory corresponds to the concept of sequential experiment. Some results are reported, giving epsilon-complexity and minimax-Bayesian interpretations for factor analysis. Results from epsilon-complexity are used to establish the optimal sequential design is no better than optimal nonsequential design for that problem.},
@@ -76,6 +87,15 @@ link = {http://www.sciencedirect.com/science/article/pii/0885064X85900147}
   year={1992}
 }
 
+@book{ritter2000average,
+  title={Average-case analysis of numerical problems},
+  author={Ritter, Klaus},
+  number={1733},
+  year={2000},
+  publisher={Springer},
+  series={Lecture Notes in Mathematics}
+}
+
 @article{HenOsbGirRSPA2015,
   author = {Hennig, Philipp and Osborne, Michael A. and Girolami, Mark},
   title = {Probabilistic numerics and uncertainty in computations},
@@ -108,3 +128,14 @@ computations.},
   file = {http://rspa.royalsocietypublishing.org/content/royprsa/471/2179/20150142.full.pdf}
 }
 
+@incollection{Owhadi-Scovel-TowardsMachineWald,
+  author = {Houman Owhadi and Clint Scovel},
+  title = {Toward Machine {W}ald},
+  booktitle = {Springer Handbook of Uncertainty Quantification},
+  year = 2016,
+  pages = {1--35},
+  abstract = {The past century has seen a steady increase in the need of estimating and predicting complex systems and making (possibly critical) decisions with limited information. Although computers have made possible the numerical evaluation of sophisticated statistical models, these models are still designed by humans because there is currently no known recipe or algorithm for dividing the design of a statistical model into a sequence of arithmetic operations. Indeed enabling computers to think as humans, especially when faced with uncertainty, is challenging in several major ways: (1) Finding optimal statistical models remains to be formulated as a well-posed problem when information on the system of interest is incomplete and comes in the form of a complex combination of sample data, partial knowledge of constitutive relations and a limited description of the distribution of input random variables. (2) The space of admissible scenarios along with the space of relevant information, assumptions, and/or beliefs, tends to be infinite dimensional, whereas calculus on a computer is necessarily discrete and finite. With this purpose, this paper explores the foundations of a rigorous framework for the scientific computation of optimal statistical estimators/models and reviews their connections with decision theory, machine learning, Bayesian inference, stochastic optimization, robust optimization, optimal uncertainty quantification, and information-based complexity.},
+  publisher = {Springer},
+  link = {http://arxiv.org/abs/1508.02449},
+  file = {http://arxiv.org/pdf/1508.02449v2.pdf}
+}
