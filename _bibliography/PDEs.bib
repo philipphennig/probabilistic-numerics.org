@@ -65,3 +65,16 @@
     file = {http://arxiv.org/pdf/1503.03467v4.pdf},
     abstract = {We introduce a near-linear complexity (geometric and meshless/algebraic) multigrid/multiresolution method for PDEs with rough ($L^\infty$) coefficients with rigorous a-priori accuracy and performance estimates. The method is discovered through a decision/game theory formulation of the problems of (1) identifying restriction and interpolation operators (2) recovering a signal from incomplete measurements based on norm constraints on its image under a linear operator (3) gambling on the value of the solution of the PDE based on a hierarchy of nested measurements of its solution or source term. The resulting elementary gambles form a hierarchy of (deterministic) basis functions of $H^1_0(\Omega)$ (gamblets) that (1) are orthogonal across subscales/subbands with respect to the scalar product induced by the energy norm of the PDE (2) enable sparse compression of the solution space in $H^1_0(\Omega)$ (3) induce an orthogonal multiresolution operator decomposition. The operating diagram of the multigrid method is that of an inverted pyramid in which gamblets are computed locally (by virtue of their exponential decay), hierarchically (from fine to coarse scales) and the PDE is decomposed into a hierarchy of independent linear systems with uniformly bounded condition numbers. The resulting algorithm is parallelizable both in space (via localization) and in bandwith/subscale (subscales can be computed independently from each other). Although the method is deterministic it has a natural Bayesian interpretation under the measure of probability emerging (as a mixed strategy) from the information game formulation and multiresolution approximations form a martingale with respect to the filtration induced by the hierarchy of nested measurements.}
 }
+
+@article{2016arXiv160507811C,
+   author = {{Cockayne}, J. and {Oates}, C. and {Sullivan}, T. and {Girolami}, M.},
+    title = {Probabilistic Meshless Methods for Partial Differential Equations and {B}ayesian Inverse Problems},
+  journal = {ArXiv},
+   issue = {1605.07811},
+     year = 2016,
+    month = {may},
+    link  = {http://arxiv.org/abs/1605.07811},
+    file  = {http://arxiv.org/pdf/1605.07811v1.pdf},
+    abstract = {This paper develops a class of meshless methods that are well-suited to statistical inverse problems involving partial differential equations (PDEs). The methods discussed in this paper view the forcing term in the PDE as a random field that induces a probability distribution over the residual error of a symmetric collocation method. This construction enables the solution of challenging inverse problems while accounting, in a rigorous way, for the impact of the discretisation of the forward problem. In particular, this confers robustness to failure of meshless methods, with statistical inferences driven to be more conservative in the presence of significant solver error. In addition, (i) a principled learning-theoretic approach to minimise the impact of solver error is developed, and (ii) the challenging setting of inverse problems with a non-linear forward model is considered. The method is applied to parameter inference problems in which non-negligible solver error must be accounted for in order to draw valid statistical conclusions.}
+}
+
