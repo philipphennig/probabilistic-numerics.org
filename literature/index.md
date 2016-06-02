@@ -26,7 +26,7 @@ send us a pull-request, or an email with the updated file (see box on
 
 <h2 id="General">General and Foundational</h2>
 The following papers are often cited as early works on the
-idea of uncertainty over the result of deterministic computations.
+idea of uncertainty over the result of deterministic computations. Some entries have a "notes" field providing further information about the relevance of the cited work, or pointers to specific results therein.
 
 {% bibliography --file general %}
 

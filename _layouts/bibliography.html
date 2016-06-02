@@ -4,6 +4,10 @@
 
 <span id="{{key}}_materials">
   <ul class="nav nav-pills">
+    {% if entry.notes %}
+    <li><a class="bib-materials" data-target="#{{key}}_notes" data-toggle="collapse" href="#{{key}}" onclick="return false">Notes</a></li>
+    {% endif %}
+
     {% if entry.abstract %}
     <li><a class="bib-materials" data-target="#{{key}}_abstract" data-toggle="collapse" href="#{{key}}" onclick="return false">Abstract</a></li>
     {% endif %}
@@ -30,6 +34,10 @@
     <li><a class="bib-materials" href="{{entry.code}}">supplements</a></li>
     {% endif %}
   </ul>
+
+  {% if entry.notes %}
+  <p id="{{key}}_notes" class="collapse">{{entry.notes}}</p>
+  {% endif %}
 
   {% if entry.abstract %}
   <p id="{{key}}_abstract" class="collapse">{{entry.abstract}}</p>

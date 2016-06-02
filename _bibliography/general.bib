@@ -1,3 +1,18 @@
+@book{poincare1896,
+  address = {Paris},
+  author = {H. Poincar{\'e}},
+  publisher = {Gauthier-Villars},
+  title  = {{Calcul des probabilit{\'e}s}},
+  year   = {1896},
+  notes  = {Likely the first text explicitly discussing the notion of computation as inference. The introduction (§1.7) contains the following insightful, albeit informal, sentence:
+
+  Une question de probabilités ne se pose que par suite de notre ignorance: il n’y aurait place que pour la certitude si nous connaissions toutes les données du problème. D’autre part, notre ignorance ne doit pas être complète, sans quoi nous ne pourrions rien évaluer. Une classification s’opérerait donc suivant le plus ou moins de profondeur de notre ignorance.
+
+  Ainsi la probabilité pour que la sixième décimale d’un nombre dans une table de logarithmes soit égale à 6 est a priori de 1/10; en réalité, toutes les données du problème sont bien déterminées, et, si nous voulions nous en donner la peine, nous connaîtrions exactement cette probabilité. De même, dans les interpolations, dans le calcul des intégrales définies par la méthode de Cotes ou celle de Gauss, etc.
+
+  Further along, in chapter XV, page 292, he constructs a (basic) version of the Wiener integral from scratch and applies it to interpolation problems (in the beginning of that chapter he reviews the problem of interpolating an unknown function over a known basis of polynomials using classical deterministic methods, in the second part he assumes that the coefficients in the basis are Gaussian and treats interpolation points as data in an inference problem). [Many thanks to Houman Owhadi for pointing out this second reference.]
+  }
+}
 
 @article{kac1940gaussian,
   title =	 {The Gaussian law of errors in the theory of additive number
@@ -20,6 +35,34 @@
   link =	 {http://www.jstor.org/stable/1990512}
 }
 
+@article{sul1959wiener,
+  title={Wiener measure and its applications to approximation methods. I},
+  author={Sul'din, Al'bert Valentinovich},
+  journal={Izvestiya Vysshikh Uchebnykh Zavedenii. Matematika},
+  number={6},
+  pages={145--158},
+  year={1959},
+  publisher={Kazan (Volga region) Federal University}
+}
+@article{sul1960wiener,
+  title={Wiener measure and its applications to approximation methods. II},
+  author={Sul'din, Al'bert Valentinovich},
+  journal={Izvestiya Vysshikh Uchebnykh Zavedenii. Matematika},
+  number={5},
+  pages={165--179},
+  year={1960},
+  publisher={Kazan (Volga region) Federal University}
+}
+
+@book{sard1963linear,
+  title={Linear approximation},
+  author={Sard, Arthur},
+  year={1963},
+  publisher={American Mathematical Society},
+  address = {Providence, R.I.},
+  notes = {Towards the end of this book, Sard introduces the probability concepts of his time (Wiener and Kolmogorov) into the classical theory of linear approximation. [Many thanks to Houman Owhadi for this reference.]}
+}
+
 @article{kimeldorf1970correspondence,
  title={A correspondence between Bayesian estimation on stochastic processes and smoothing by splines},
  author={Kimeldorf, George S and Wahba, Grace},
@@ -28,7 +71,8 @@
  number={2},
  pages={495--502},
  year={1970},
- link={http://www.jstor.org/stable/pdf/2239347.pdf}
+ link={http://www.jstor.org/stable/pdf/2239347.pdf},
+ notes={This seminal paper points out that splines can be interpreted as the posterior mean functions of certain Gaussian processes. The paper does not explicitly make the connection to the use of splines in numerics -- which means that many classic numerical methods in various areas can be interpreted as average-case Gaussian inference rules -- but later authors, most notably Diaconis, make it clear that they got the idea.}
 }
 
 @article{larkin1972gaussian,
@@ -74,6 +118,7 @@ link = {http://www.sciencedirect.com/science/article/pii/0885064X85900147}
   year =	 {1988},
   publisher =	 {Springer-Verlag, New York},
   file =   {../assets/pdf/Diaconis_1988.pdf},
+  notes = {This text is arguably the first to very explicitly discuss the notion of "Bayesian Numerics".}
 }
 
 @article{o1992some,
