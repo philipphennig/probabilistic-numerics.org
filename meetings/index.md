@@ -11,7 +11,11 @@ community.
 <!-- TODO: automate this page! -->
 
 ### 2016
-
+* 18 August --
+  [Probabilistic Numerics ]({{site.baseurl}}/meetings/MCQMC2016) @
+  [MCQMC 2016](http://mcqmc2016.stanford.edu)
+  at Stanford University, California
+  organized by Mark Girolami and François-Xavier Briol
 * 7 January --
   [Probabilistic Numerics: Integrating Inference With Integration]({{site.baseurl}}/meetings/MCMSki2016) @  [MCMSki](http://www.pages.drexel.edu/~mwl25/mcmskiV/index.html)
   in Lenzerheide, Switzerland 
