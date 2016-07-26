@@ -55,7 +55,7 @@ The workshop will be held on Thursday, 18 August 15:50-17:50, at Stanford Univer
 > $$
 \Big|\sum_{i=1}^{n} w_i f(x_i) - \int f(x)p(\mathrm{d}x) \Big| = \mathcal{O}\big(n^{-\frac{1}{2}-\frac{a \wedge b}{2}+\epsilon}\big)
 $$<br />
->at a cost that is cubic in $n$, where $p$ (the posterior density) has $2a+1$ derivatives, the integrand $f$ has $a \edge b$ derivatives and $\epsilon >0$ can be arbitrarily small.<br />
+>at a cost that is cubic in $$n$$, where $$p$$ (the posterior density) has $$2a+1$$ derivatives, the integrand $$f$$ has $$a \wedge b$$ derivatives and $$\epsilon >0$$ can be arbitrarily small.<br />
 > [1] C. J. Oates, J. Cockayne, F-X. Briol, and M. Girolami. Convergence Rates for a Class of Estimators Based on Stein's Identity. [arXiv:1603.03220](http://arxiv.org/abs/1603.03220), 2016.<br />
 > [2] C. J. Oates, M. Girolami, and N. Chopin. Control Functionals for Monte Carlo integration. Journal of the Royal Statistical Society, Series B, 2017.
 
