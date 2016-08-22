@@ -7,5 +7,5 @@ to the unknown result of deterministic computations.
 
 It is maintained by  
 <a
-href="https://is.tuebingen.mpg.de/person/phennig">Philipp
+href="https://pn.is.tuebingen.mpg.de/person/phennig">Philipp
 Hennig,</a> Tübingen & <a href="http://www.robots.ox.ac.uk/~mosb/">Michael A Osborne,</a> Oxford  
