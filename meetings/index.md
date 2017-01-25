@@ -13,7 +13,7 @@ community.
 ### 2017
 * *June 18 - 23*  
   [Dobbiaco Summer School on Probabilistic Numerics](http://www.dmi.units.it/dobbiaco/)
-  at the [Grand Hotel](https://www.dobbiacogh.com/it/homepage/) in Dobbiaco, Italy.  
+  at the [Hotel Union](http://hotelunion.it) in Dobbiaco, Italy.  
   Organized by Alfredo Bellen, Stefano Maset and Marino Zennaro (University of Trieste) and Alexander Ostermann (University of Innsbruck).  
   Taught by Philipp Hennig & Mark Girolami
 * *June 5 - 9*  
