@@ -210,3 +210,33 @@ computations.},
 }
 
 
+
+@article{owhadi_universal_2017,
+  title = {Universal {Scalable} {Robust} {Solvers} from {Computational} {Information} {Games} and fast eigenspace adapted {Multiresolution} {Analysis}},
+  url = {http://arxiv.org/abs/1703.10761},
+  abstract = {We show how the discovery of robust scalable numerical solvers for arbitrary bounded linear operators can be automated as a Game Theory problem by reformulating the process of computing with partial information and limited resources as that of playing underlying hierarchies of adversarial information games. When the solution space is a Banach space \$B\$ endowed with a quadratic norm \${\textbackslash}{\textbar}{\textbackslash}cdot{\textbackslash}{\textbar}\$, the optimal measure (mixed strategy) for such games (e.g. the adversarial recovery of \$u{\textbackslash}in B\$, given partial measurements \$[{\textbackslash}phi\_i, u]\$ with \${\textbackslash}phi\_i{\textbackslash}in B{\textasciicircum}*\$, using relative error in \${\textbackslash}{\textbar}{\textbackslash}cdot{\textbackslash}{\textbar}\$-norm as a loss) is a centered Gaussian field \${\textbackslash}xi\$ solely determined by the norm \${\textbackslash}{\textbar}{\textbackslash}cdot{\textbackslash}{\textbar}\$, whose conditioning (on measurements) produces optimal bets. When measurements are hierarchical, the process of conditioning this Gaussian field produces a hierarchy of elementary bets (gamblets). These gamblets generalize the notion of Wavelets and Wannier functions in the sense that they are adapted to the norm \${\textbackslash}{\textbar}{\textbackslash}cdot{\textbackslash}{\textbar}\$ and induce a multi-resolution decomposition of \$B\$ that is adapted to the eigensubspaces of the operator defining the norm \${\textbackslash}{\textbar}{\textbackslash}cdot{\textbackslash}{\textbar}\$. When the operator is localized, we show that the resulting gamblets are localized both in space and frequency and introduce the Fast Gamblet Transform (FGT) with rigorous accuracy and (near-linear) complexity estimates. As the FFT can be used to solve and diagonalize arbitrary PDEs with constant coefficients, the FGT can be used to decompose a wide range of continuous linear operators (including arbitrary continuous linear bijections from \$H{\textasciicircum}s\_0\$ to \$H{\textasciicircum}\{-s\}\$ or to \$L{\textasciicircum}2\$) into a sequence of independent linear systems with uniformly bounded condition numbers and leads to \${\textbackslash}mathcal\{O\}(N {\textbackslash}operatorname\{polylog\} N)\$ solvers and eigenspace adapted Multiresolution Analysis (resulting in near linear complexity approximation of all eigensubspaces).},
+  urldate = {2017-09-10},
+  journal = {arXiv:1703.10761 [math, stat]},
+  author = {Owhadi, Houman and Scovel, Clint},
+  month = mar,
+  year = {2017},
+  note = {One result is that a quadratic norm defined on a Banach space defines a unique Gaussian measure that is an optimal mixed strategy  for the recovery problem associated with numerical approximation/probabilistic numerics using relative error in that norm as a loss. In some sense, this shows that probabilistic numerics estimates are also optimal in the worst case setting of classical numerical analysis if the prior is the canonical Gaussian field defined by the norm used to quantify approximation errors. Using a Sobolev space endowed with an operator norm leads to applications in PDEs (fast solvers for operators on Sobolev spaces), using $\R^N$ leads to applications to linear algebra (e.g. multi-resolution decompositions of matrix equations},
+  keywords = {68T99, 65T60, 65M55, 65N55, 65F99, 65N75, 62C99, 62C20, 62C10, 42C40, 60G42, 68Q25, 15A18, 35Q91, Mathematics - Analysis of PDEs, Mathematics - Numerical Analysis, Statistics - Machine Learning},
+  annote = {Comment: 142 pages. 14 Figures. Presented at AFOSR (Aug 2016), DARPA (Sep 2016), IPAM (Apr 3, 2017), Hausdorff (April 13, 2017) and ICERM (June 5, 2017)},
+  file = {https://arxiv.org/pdf/1703.10761.pdf}
+}
+
+
+@article{owhadi_conditioning_2015,
+  title = {Conditioning {Gaussian} measure on {Hilbert} space},
+  url = {http://arxiv.org/abs/1506.04208},
+  abstract = {For a Gaussian measure on a separable Hilbert space with covariance operator \$C\$, we show that the family of conditional measures associated with conditioning on a closed subspace \$S{\textasciicircum}\{{\textbackslash}perp\}\$ are Gaussian with covariance operator the short \${\textbackslash}mathcal\{S\}(C)\$ of the operator \$C\$ to \$S\$. We provide two proofs. The first uses the theory of Gaussian Hilbert spaces and a characterization of the shorted operator by Andersen and Trapp. The second uses recent developments by Corach, Maestripieri and Stojanoff on the relationship between the shorted operator and \$C\$-symmetric oblique projections onto \$S{\textasciicircum}\{{\textbackslash}perp\}\$. To obtain the assertion when such projections do not exist, we develop an approximation result for the shorted operator by showing, for any positive operator \$A\$, how to construct a sequence of approximating operators \$A{\textasciicircum}\{n\}\$ which possess \$A{\textasciicircum}\{n\}\$-symmetric oblique projections onto \$S{\textasciicircum}\{{\textbackslash}perp\}\$ such that the sequence of shorted operators \${\textbackslash}mathcal\{S\}(A{\textasciicircum}\{n\})\$ converges to \${\textbackslash}mathcal\{S\}(A)\$ in the weak operator topology. This result combined with the martingale convergence of random variables associated with the corresponding approximations \$C{\textasciicircum}\{n\}\$ establishes the main assertion in general. Moreover, it in turn strengthens the approximation theorem for shorted operator when the operator is trace class; then the sequence of shorted operators \${\textbackslash}mathcal\{S\}(A{\textasciicircum}\{n\})\$ converges to \${\textbackslash}mathcal\{S\}(A)\$ in trace norm.},
+  urldate = {2017-09-10},
+  journal = {arXiv:1506.04208 [math]},
+  author = {Owhadi, Houman and Scovel, Clint},
+  month = jun,
+  year = {2015},
+  note = {arXiv: 1506.04208},
+  keywords = {28C20, Mathematics - Probability},
+  file = {https://arxiv.org/pdf/1506.04208.pdf}
+}

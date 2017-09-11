@@ -39,4 +39,8 @@ scholar:
   style: apa
   repository: assets/pdf
   bibliography_template: bibliography
+  replace_strings: true
+  join_strings: true
+  sort_by: year
+  order: descending
 
