@@ -25,6 +25,20 @@
   link =	 {http://arxiv.org/abs/1407.1517}
 }
 
+@article{owhadi2015bayesian,
+  title={Bayesian Numerical Homogenization},
+  author={Owhadi, Houman},
+  journal={Multiscale Modeling \& Simulation},
+  volume={13},
+  number={3},
+  pages={812--828},
+  year={2015},
+  publisher={SIAM},
+  link = {http://arxiv.org/abs/1406.6668},
+  file = {http://arxiv.org/pdf/1406.6668v2.pdf},
+  abstract = {Numerical homogenization, i.e. the finite-dimensional approximation of solution spaces of PDEs with arbitrary rough coefficients, requires the identification of accurate basis elements. These basis elements are oftentimes found after a laborious process of scientific investigation and plain guesswork. Can this identification problem be facilitated? Is there a general recipe/decision framework for guiding the design of basis elements? We suggest that the answer to the above questions could be positive based on the reformulation of numerical homogenization as a Bayesian Inference problem in which a given PDE with rough coefficients (or multi-scale operator) is excited with noise (random right hand side/source term) and one tries to estimate the value of the solution at a given point based on a finite number of observations. We apply this reformulation to the identification of bases for the numerical homogenization of arbitrary integro-differential equations and show that these bases have optimal recovery properties. In particular we show how Rough Polyharmonic Splines can be re-discovered as the optimal solution of a Gaussian filtering problem.}
+}
+
 @article{conrad_probability_2015,
   title = {Probability {Measures} for {Numerical} {Solutions} of {Differential} {Equations}},
   file = {http://arxiv.org/pdf/1506.04592v1.pdf},
@@ -38,7 +52,6 @@
   note = {arXiv: 1506.04592},
   keywords = {Statistics - Methodology}
 }
-
 
 @article{raissi_machine_2017,
   title = {Machine {Learning} of {Linear} {Differential} {Equations} using {Gaussian} {Processes}},
@@ -65,4 +78,54 @@
   note = {arXiv: 1707.06107},
   keywords = {Statistics - Applications},
   file = {https://arxiv.org/pdf/1707.06107.pdf}
+}
+
+@article{2015arXiv150303467O,
+   author = {{Owhadi}, H.},
+    title = {Multigrid with rough coefficients and Multiresolution operator decomposition from Hierarchical Information Games},
+  journal = {ArXiv},
+  volume = {math.NA},
+   issue = {1503.03467},
+     year = 2015,
+    month = mar,
+    link = {http://arxiv.org/abs/1503.03467},
+    file = {http://arxiv.org/pdf/1503.03467v4.pdf},
+    abstract = {We introduce a near-linear complexity (geometric and meshless/algebraic) multigrid/multiresolution method for PDEs with rough ($L^\infty$) coefficients with rigorous a-priori accuracy and performance estimates. The method is discovered through a decision/game theory formulation of the problems of (1) identifying restriction and interpolation operators (2) recovering a signal from incomplete measurements based on norm constraints on its image under a linear operator (3) gambling on the value of the solution of the PDE based on a hierarchy of nested measurements of its solution or source term. The resulting elementary gambles form a hierarchy of (deterministic) basis functions of $H^1_0(\Omega)$ (gamblets) that (1) are orthogonal across subscales/subbands with respect to the scalar product induced by the energy norm of the PDE (2) enable sparse compression of the solution space in $H^1_0(\Omega)$ (3) induce an orthogonal multiresolution operator decomposition. The operating diagram of the multigrid method is that of an inverted pyramid in which gamblets are computed locally (by virtue of their exponential decay), hierarchically (from fine to coarse scales) and the PDE is decomposed into a hierarchy of independent linear systems with uniformly bounded condition numbers. The resulting algorithm is parallelizable both in space (via localization) and in bandwith/subscale (subscales can be computed independently from each other). Although the method is deterministic it has a natural Bayesian interpretation under the measure of probability emerging (as a mixed strategy) from the information game formulation and multiresolution approximations form a martingale with respect to the filtration induced by the hierarchy of nested measurements.}
+}
+
+@article{2016arXiv160507811C,
+   author = {{Cockayne}, J. and {Oates}, C. and {Sullivan}, T. and {Girolami}, M.},
+    title = {Probabilistic Meshless Methods for Partial Differential Equations and {B}ayesian Inverse Problems},
+  journal = {ArXiv},
+   issue = {1605.07811},
+     year = 2016,
+    month = {may},
+    link  = {http://arxiv.org/abs/1605.07811},
+    file  = {http://arxiv.org/pdf/1605.07811v1.pdf},
+    abstract = {This paper develops a class of meshless methods that are well-suited to statistical inverse problems involving partial differential equations (PDEs). The methods discussed in this paper view the forcing term in the PDE as a random field that induces a probability distribution over the residual error of a symmetric collocation method. This construction enables the solution of challenging inverse problems while accounting, in a rigorous way, for the impact of the discretisation of the forward problem. In particular, this confers robustness to failure of meshless methods, with statistical inferences driven to be more conservative in the presence of significant solver error. In addition, (i) a principled learning-theoretic approach to minimise the impact of solver error is developed, and (ii) the challenging setting of inverse problems with a non-linear forward model is considered. The method is applied to parameter inference problems in which non-negligible solver error must be accounted for in order to draw valid statistical conclusions.}
+}
+
+@article{2016arXiv160607686O,
+    author = {{Owhadi}, H. and {Zhang}, L.},
+    title = "{Gamblets for opening the complexity-bottleneck of implicit schemes for hyperbolic and parabolic ODEs/PDEs with rough coefficients}",
+    journal = {ArXiv e-prints},
+    issue = {math.NA 1606.07686},
+    year = 2016,
+    month = jun,
+    abstract = {Implicit schemes are popular methods for the integration of time dependent PDEs such as hyperbolic and parabolic PDEs. However the necessity to solve corresponding linear systems at each time step constitutes a complexity bottleneck in their application to PDEs with rough coefficients. We present a generalization of gamblets introduced in arXiv:1503.03467 enabling the resolution of these implicit systems in near-linear complexity and provide rigorous a-priori error bounds on the resulting numerical approximations of hyperbolic and parabolic PDEs. These generalized gamblets induce a multiresolution decomposition of the solution space that is adapted to both the underlying (hyperbolic and parabolic) PDE (and the system of ODEs resulting from space discretization) and to the time-steps of the numerical scheme.},
+    link = {http://arxiv.org/abs/1606.07686},
+    file = {http://arxiv.org/pdf/1606.07686v1.pdf}
+}
+
+
+@article{2017arXiv170310230,
+  author = {Maziar Raissi and Paris Perdikaris and George Em Karniadakis},
+  title = {Numerical {G}aussian Processes for Time-dependent and Non-linear Partial Differential Equations},
+  journal = {ArXiv e-prints},
+  issue = {stat.ML 1703.10230},
+  year = {2017},
+  month = mar,
+  abstract = {We introduce the concept of numerical Gaussian processes, which we define as Gaussian processes with covariance functions resulting from temporal discretization of time-dependent partial differential equations. Numerical Gaussian processes, by construction, are designed to deal with cases where: (1) all we observe are noisy data on black-box initial conditions, and (2) we are interested in quantifying the uncertainty associated with such noisy data in our solutions to time-dependent partial differential equations. Our method circumvents the need for spatial discretization of the differential operators by proper placement of Gaussian process priors. This is an attempt to construct structured and data-efficient learning machines, which are explicitly informed by the underlying physics that possibly generated the observed data. The effectiveness of the proposed approach is demonstrated through several benchmark problems involving linear and nonlinear time-dependent operators. In all examples, we are able to recover accurate approximations of the latent solutions, and consistently propagate uncertainty, even in cases involving very long time integration.},
+  link = {https://arxiv.org/abs/1703.10230},
+  file = {https://arxiv.org/pdf/1703.10230.pdf}
 }

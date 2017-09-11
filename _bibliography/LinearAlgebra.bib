@@ -30,4 +30,17 @@ nonlinear optimization methods.},
   author = {Fitzsimons, Jack and Cutajar, Kurt and Osborne, Michael and Roberts, Stephen and Filippone, Maurizio},
   year = {2017},
   file = {http://probabilistic-numerics.org/assets/pdf/Fitzsimons et al. - 2017 - Bayesian Inference of Log Determinants.pdf}
+
+@conference{BarHen16,
+  title = {Probabilistic Approximate Least-Squares},
+  author = {Bartels, S. and Hennig, P.},
+  booktitle = {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics (AISTATS 2016)},
+  volume = {51},
+  pages = {676--684},
+  series = {JMLR Workshop and Conference Proceedings},
+  editors = {Gretton, A. and Robert, C. C. },
+  year = {2016},
+  link = {http://jmlr.org/proceedings/papers/v51/bartels16.html},
+  file = {http://jmlr.org/proceedings/papers/v51/bartels16.pdf},
+  abstract = {Least-squares and kernel-ridge / Gaussian process regression are among the foundational algorithms of statistics and machine learning. Famously, the worst-case cost of exact nonparametric regression grows cubically with the data-set size; but a growing number of approximations have been developed that estimate good solutions at lower cost. These algorithms typically return point estimators, without measures of uncertainty. Leveraging recent results casting elementary linear algebra operations as probabilistic inference, we propose a new approximate method for nonparametric least-squares that affords a probabilistic uncertainty estimate over the error between the approximate and exact least-squares solution (this is not the same as the posterior variance of the associated Gaussian process regressor). This allows estimating the error of the least-squares solution on a subset of the data relative to the full-data solution. The uncertainty can be used to control the computational effort invested in the approximation. Our algorithm has linear cost in the data-set size, and a simple formal form, so that it can be implemented with a few lines of code in programming languages with linear algebra functionality.}
 }

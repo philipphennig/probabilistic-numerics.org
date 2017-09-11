@@ -346,15 +346,55 @@ abstract = {Much of research in machine learning has centered around the search 
 
 
 @article{briol_probabilistic_2015,
-  title = {Probabilistic {Integration}},
+  title = {Probabilistic {Integration}: A Role for Statisticians in Numerical Analysis?},
   url = {http://arxiv.org/abs/1512.00933},
-  abstract = {Probabilistic numerical methods aim to model numerical error as a source of epistemic uncertainty that is subject to probabilistic analysis and reasoning, enabling the principled propagation of numerical uncertainty through a computational pipeline. In this paper we focus on numerical methods for integration. We present probabilistic (Bayesian) versions of both Markov chain and Quasi Monte Carlo methods for integration and provide rigorous theoretical guarantees for convergence rates, in both posterior mean and posterior contraction. The performance of probabilistic integrators is guaranteed to be no worse than non-probabilistic integrators and is, in many cases, asymptotically superior. These probabilistic integrators therefore enjoy the "best of both worlds", leveraging the sampling efficiency of advanced Monte Carlo methods whilst being equipped with valid probabilistic models for uncertainty quantification. Several applications and illustrations are provided, including examples from computer vision and system modelling using non-linear differential equations. A survey of open challenges in probabilistic integration is provided.},
-  urldate = {2015-12-04},
+  abstract = {A research frontier has emerged in scientific computation, founded on the principle that numerical error entails epistemic uncertainty that ought to be subjected to statistical analysis. This viewpoint raises several interesting challenges, including the design of statistical methods that enable the coherent propagation of probabilities through a (possibly deterministic) computational pipeline. This paper examines thoroughly the case for probabilistic numerical methods in statistical computation and a specific case study is presented for Markov chain and Quasi Monte Carlo methods. A probabilistic integrator is equipped with a full distribution over its output, providing a measure of epistemic uncertainty that is shown to be statistically valid at finite computational levels, as well as in asymptotic regimes. The approach is motivated by expensive integration problems, where, as in krigging, one is willing to expend, at worst, cubic computational effort in order to gain uncertainty quantification. There, probabilistic integrators enjoy the "best of both worlds", leveraging the sampling efficiency of Monte Carlo methods whilst providing a principled route to assessment of the impact of numerical error on scientific conclusions. Several substantial applications are provided for illustration and critical evaluation, including examples from statistical modelling, computer graphics and uncertainty quantification in oil reservoir modelling.},
+  urldate = {2015-07-22},
   journal = {arXiv:1512.00933 [cs, math, stat]},
   author = {Briol, François-Xavier and Oates, Chris J. and Girolami, Mark and Osborne, Michael A. and Sejdinovic, Dino},
   year = {2015},
   note = {arXiv: 1512.00933},
-  file = {http://arxiv.org/pdf/1512.00933v1.pdf}
+  file = {http://arxiv.org/pdf/1512.00933.pdf}
+}
+
+@incollection{Pruher2016,
+  author = {Pr{\"u}her, Jakub and {\v{S}}imandl, Miroslav},
+  title = {{Bayesian Quadrature Variance in Sigma-Point Filtering}}, 
+  editor = {Filipe, Joaquim and Madani, Kurosh and Gusikhin, Oleg and Sasiadek, Jurek},
+  booktitle = {International Conference on Informatics in Control, Automation and Robotics (ICINCO) Revised Selected Papers}, 
+  address = {Colmar, France},
+  volume = {12},
+  pages = {355--370},
+  publisher = {Springer International Publishing},
+  year = {2016},
+  abstract = {Sigma-point filters are algorithms for recursive state estimation of the stochastic dynamic systems from noisy measurements, which rely on moment integral approximations by means of various numerical quadrature rules. In practice, however, it is hardly guaranteed that the system dynamics or measurement functions will meet the restrictive requirements of the classical quadratures, which inevitably results in approximation errors that are not accounted for in the current state-of-the-art sigma-point filters. We propose a method for incorporating information about the integral approximation error into the filtering algorithm by exploiting features of a Bayesian quadrature—an alternative to classical numerical integration. This is enabled by the fact that the Bayesian quadrature treats numerical integration as a statistical estimation problem, where the posterior distribution over the values of the integral serves as a model of numerical error. We demonstrate superior performance of the proposed filters on a simple univariate benchmarking example.},
+  link = {http://dx.doi.org/10.1007/978-3-319-31898-1_20},
+  code = {https://github.com/jacobnzw/icinco-code}
+}
+
+@article{2016arXiv160606841O,
+   author = {{Oates}, C.~J. and {Briol}, F.-X. and {Girolami}, M.},
+    title = "{Probabilistic Integration and Intractable Distributions}",
+  journal = {ArXiv e-prints},
+   volume = {stat.ME 1606.06841},
+     year = 2016,
+    month = {June},
+    abstract = {This paper considers numerical approximation for integrals of the form $$\int f(x) p(\mathrm{d}x)$$ in the case where $f(x)$ is an expensive black-box function and $p(\mathrm{d}x)$ is an intractable distribution (meaning that it is accessible only through a finite collection of samples). Our proposal extends previous work that treats numerical integration as a problem of statistical inference, in that we model both $f$ as an a priori unknown random function and $p$ as an a priori unknown random distribution. The result is a posterior distribution over the value of the integral that accounts for these dual sources of approximation error. This construction is designed to enable the principled quantification and propagation of epistemic uncertainty due to numerical error through a computational pipeline. The work is motivated by such problems that occur in the Bayesian calibration of computer models.},
+  file = {http://arxiv.org/pdf/1606.06841v2},
+  link = {http://arxiv.org/abs/1606.06841}
+ }
+ 
+@incollection{NIPS2016-6174,
+  title = {Convergence guarantees for kernel-based quadrature rules in misspecified settings},
+  author = {Kanagawa, Motonobu and Sriperumbudur, Bharath K. and Fukumizu, Kenji},
+  booktitle = {Advances in Neural Information Processing Systems 29},
+  editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+  pages = {3288--3296},
+  year = {2016},
+  publisher = {Curran Associates, Inc.},
+  file = {http://papers.nips.cc/paper/6174-convergence-guarantees-for-kernel-based-quadrature-rules-in-misspecified-settings.pdf},
+  abstract = {Kernel-based quadrature rules are becoming important in machine learning and statistics, as they achieve super-$\sqrt{n}$ convergence rates in numerical integration, and thus provide alternatives to Monte Carlo integration in challenging settings where integrands are expensive to evaluate or where integrands are high dimensional. These rules are based on the assumption that the integrand has a certain degree of smoothness, which is expressed as that the integrand belongs to a certain reproducing kernel Hilbert space (RKHS). However, this assumption can be violated in practice (e.g., when the integrand is a black box function), and no general theory has been established for the convergence of kernel quadratures in such misspecified settings. Our contribution is in proving that kernel quadratures can be consistent even when the integrand does not belong to the assumed RKHS, i.e., when the integrand is less smooth than assumed. Specifically, we derive convergence rates that depend on the (unknown) lesser smoothness of the integrand, where the degree of smoothness is expressed via powers of RKHSs or via Sobolev spaces.},
+  link = {http://papers.nips.cc/paper/6174-convergence-guarantees-for-kernel-based-quadrature-rules-in-misspecified-settings}
 }
 
 

@@ -91,10 +91,11 @@ supplements = {http://www.probabilistic-numerics.org/22-supp.zip}
 @article{13_bayes_uncer_quant_differ_equat,
   author =	 {O. Chkrebtii and D.A. Campbell and M.A. Girolami and
                   B. Calderhead},
-  journal =	 {arXiv prePrint 1306.2365},
+  journal =	 {Bayesin Analysis (discussion paper)},
   title =	 {{B}ayesian Uncertainty Quantification for Differential
                   Equations},
   year =	 2013,
+  pages = {in press},
   abstract =	 {This paper advocates expansion of the role of Bayesian
                   statistical inference when formally quantifying uncertainty
                   in computer models defined by systems of ordinary or partial
@@ -251,3 +252,28 @@ supplements = {http://www.probabilistic-numerics.org/22-supp.zip}
   note = {arXiv: 1701.02440},
   keywords = {Computer Science - Learning, Mathematics - Numerical Analysis, Statistics - Machine Learning}
 }
+
+@inproceedings{KerstingHennigUAI2016,
+  author = {Hans P. Kersting and Philipp Hennig},
+  title  = {Active Uncertainty Calibration in {B}ayesian {ODE} Solvers},
+  editor = {Janzing and Ihlers},
+  booktitle = {Uncertainty in Artificial Intelligence (UAI)},
+  volume = {32},
+  year = {2016},
+  abstract = {There is resurging interest, in statistics and machine learning, in solvers for ordinary differential equations (ODEs) that return probability measures instead of point estimates. Recently, Conrad et al. introduced a sampling-based class of methods that are 'well-calibrated' in a specific sense. But the computational cost of these methods is significantly above that of classic methods. On the other hand, Schober et al. pointed out a precise connection between classic Runge-Kutta ODE solvers and Gaussian filters, which gives only a rough probabilistic calibration, but at negligible cost overhead. By formulating the solution of ODEs as approximate inference in linear Gaussian SDEs, we investigate a range of probabilistic ODE solvers, that bridge the trade-off between computational cost and probabilistic calibration, and identify the inaccurate gradient measurement as the crucial source of uncertainty. We propose the novel filtering-based method Bayesian Quadrature filtering (BQF) which uses Bayesian quadrature to actively learn the imprecision in the gradient measurement by collecting multiple gradient evaluations.},
+  link = {http://arxiv.org/abs/1605.03364},
+  file = {http://arxiv.org/pdf/1605.03364v2.pdf}
+}
+
+@article{2016arXiv161005261S,
+   author = {{Schober}, M. and {S{\"a}rkk{\"a}}, S. and {Hennig}, P.},
+    title = {A probabilistic model for the numerical solution of initial value problems},
+  journal = {ArXiv e-prints},
+   eprint = {1610.05261},
+     year = 2016,
+    month = oct,
+    abstract = {Like many numerical methods, solvers for initial value problems (IVPs) on ordinary differential equations estimate an analytically intractable quantity, using the results of tractable computations as inputs. This structure is closely connected to the notion of inference on latent variables in statistics. We describe a class of algorithms that formulate the solution to an IVP as inference on a latent path that is a draw from a Gaussian process probability measure (or equivalently, the solution of a linear stochastic differential equation). We then show that certain members of this class are connected precisely to generalized linear methods for ODEs, a number of Runge--Kutta methods, and Nordsieck methods. This probabilistic formulation of classic methods is valuable in two ways: analytically, it highlights implicit prior assumptions favoring certain approximate solutions to the IVP over others, and gives a precise meaning to the old observation that these methods act like filters. Practically, it endows the classic solvers with `docking points' for notions of uncertainty and prior information about the initial value, the value of the ODE itself, and the solution of the problem.},
+    link = {https://arxiv.org/abs/1610.05261},
+    file = {https://arxiv.org/pdf/1610.05261.pdf}
+}
+
