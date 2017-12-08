@@ -1,4 +1,4 @@
-@article{1987,
+@article{OHagan1987,
  jstor_articletype = {research-article},
  title = {Monte Carlo is Fundamentally Unsound},
  author = {O'Hagan, A.},
@@ -40,7 +40,7 @@
 }
 
 
-@article{o1991bayes,
+@article{ohagan1991bayes,
   title =	 {{B}ayes--{H}ermite quadrature},
   author =	 {O'Hagan, A.},
   journal =	 {Journal of statistical planning and inference},
@@ -359,9 +359,9 @@ abstract = {Much of research in machine learning has centered around the search 
 
 @incollection{Pruher2016,
   author = {Pr{\"u}her, Jakub and {\v{S}}imandl, Miroslav},
-  title = {{Bayesian Quadrature Variance in Sigma-Point Filtering}}, 
+  title = {{Bayesian Quadrature Variance in Sigma-Point Filtering}},
   editor = {Filipe, Joaquim and Madani, Kurosh and Gusikhin, Oleg and Sasiadek, Jurek},
-  booktitle = {International Conference on Informatics in Control, Automation and Robotics (ICINCO) Revised Selected Papers}, 
+  booktitle = {International Conference on Informatics in Control, Automation and Robotics (ICINCO) Revised Selected Papers},
   address = {Colmar, France},
   volume = {12},
   pages = {355--370},
@@ -383,7 +383,7 @@ abstract = {Much of research in machine learning has centered around the search 
   file = {http://arxiv.org/pdf/1606.06841v2},
   link = {http://arxiv.org/abs/1606.06841}
  }
- 
+
 @incollection{NIPS2016-6174,
   title = {Convergence guarantees for kernel-based quadrature rules in misspecified settings},
   author = {Kanagawa, Motonobu and Sriperumbudur, Bharath K. and Fukumizu, Kenji},
@@ -395,4 +395,101 @@ abstract = {Much of research in machine learning has centered around the search 
   file = {http://papers.nips.cc/paper/6174-convergence-guarantees-for-kernel-based-quadrature-rules-in-misspecified-settings.pdf},
   abstract = {Kernel-based quadrature rules are becoming important in machine learning and statistics, as they achieve super-$\sqrt{n}$ convergence rates in numerical integration, and thus provide alternatives to Monte Carlo integration in challenging settings where integrands are expensive to evaluate or where integrands are high dimensional. These rules are based on the assumption that the integrand has a certain degree of smoothness, which is expressed as that the integrand belongs to a certain reproducing kernel Hilbert space (RKHS). However, this assumption can be violated in practice (e.g., when the integrand is a black box function), and no general theory has been established for the convergence of kernel quadratures in such misspecified settings. Our contribution is in proving that kernel quadratures can be consistent even when the integrand does not belong to the assumed RKHS, i.e., when the integrand is less smooth than assumed. Specifically, we derive convergence rates that depend on the (unknown) lesser smoothness of the integrand, where the degree of smoothness is expressed via powers of RKHSs or via Sobolev spaces.},
   link = {http://papers.nips.cc/paper/6174-convergence-guarantees-for-kernel-based-quadrature-rules-in-misspecified-settings}
+}
+
+
+@article{karvonen_classical_2017,
+  title = {Classical quadrature rules via {Gaussian} processes},
+  file = {https://users.aalto.fi/~karvont2/pdf/KarvonenSarkka2017-MLSP.pdf},
+  author = {Karvonen, Toni and S{\"a}rkk{\"a}, Simo},
+  year = {2017}
+}
+
+
+@article{sarkka_relation_2015,
+  title = {On the relation between {Gaussian} process quadratures and sigma-point methods},
+  url = {http://arxiv.org/abs/1504.05994},
+  abstract = {This article is concerned with Gaussian process quadratures, which are numerical integration methods based on Gaussian process regression methods, and sigma-point methods, which are used in advanced non-linear Kalman filtering and smoothing algorithms. We show that many sigma-point methods can be interpreted as Gaussian quadrature based methods with suitably selected covariance functions. We show that this interpretation also extends to more general multivariate Gauss--Hermite integration methods and related spherical cubature rules. Additionally, we discuss different criteria for selecting the sigma-point locations: exactness for multivariate polynomials up to a given order, minimum average error, and quasi-random point sets. The performance of the different methods is tested in numerical experiments.},
+  urldate = {2017-09-11},
+  journal = {arXiv:1504.05994 [math, stat]},
+  author = {S{\"a}rkk{\"a}, Simo and Hartikainen, Jouni and Svensson, Lennart and Sandblom, Fredrik},
+  month = apr,
+  year = {2015},
+  note = {arXiv: 1504.05994},
+  keywords = {Mathematics - Dynamical Systems, Statistics - Machine Learning, Statistics - Methodology},
+  file = {https://arxiv.org/pdf/1504.05994.pdf}
+}
+
+
+@article{karvonen_fully_2017,
+  title = {Fully symmetric kernel quadrature},
+  url = {http://arxiv.org/abs/1703.06359},
+  abstract = {Kernel quadratures and other kernel-based approximation methods typically suffer from prohibitive cubic time and quadratic space complexity in the number of function evaluations. The problem arises because a system of linear equations needs to be solved. In this article we show that the weights of a kernel quadrature rule can be computed efficiently and exactly for up to tens of millions of nodes if the kernel, integration domain, and measure are fully symmetric and the node set is a union of fully symmetric sets. This is based on the observations that in such a setting there are only as many distinct weights as there are fully symmetric sets and that these weights can be solved from a linear system of equations constructed out of row sums of certain submatrices of the full kernel matrix. We present several numerical examples that show feasibility, both for a large number of nodes and in high dimensions, of the developed fully symmetric kernel quadrature rules. Most prominent of the fully symmetric kernel quadrature rules we propose are those that use sparse grids.},
+  urldate = {2017-09-11},
+  journal = {arXiv:1703.06359 [cs, math, stat]},
+  author = {Karvonen, Toni and S{\"a}rkk{\"a}, Simo},
+  month = mar,
+  year = {2017},
+  note = {arXiv: 1703.06359},
+  keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Statistics - Computation},
+  file = {https://arxiv.org/pdf/1703.06359.pdf}
+}
+
+
+
+
+@inproceedings{briol_sampling_2017,
+  title = {On the {Sampling} {Problem} for {Kernel} {Quadrature}},
+  url = {http://arxiv.org/abs/1706.03369},
+  abstract = {The standard Kernel Quadrature method for numerical integration with random point sets (also called Bayesian Monte Carlo) is known to converge in root mean square error at a rate determined by the ratio \$s/d\$, where \$s\$ and \$d\$ encode the smoothness and dimension of the integrand. However, an empirical investigation reveals that the rate constant \$C\$ is highly sensitive to the distribution of the random points. In contrast to standard Monte Carlo integration, for which optimal importance sampling is well-understood, the sampling distribution that minimises \$C\$ for Kernel Quadrature does not admit a closed form. This paper argues that the practical choice of sampling distribution is an important open problem. One solution is considered; a novel automatic approach based on adaptive tempering and sequential Monte Carlo. Empirical results demonstrate a dramatic reduction in integration error of up to 4 orders of magnitude can be achieved with the proposed method.},
+  urldate = {2017-09-11},
+  booktitle = {Thirty-fourth {International} {Conference} on {Machine} {Learning} ({ICML} 2017)},
+  author = {Briol, François-Xavier and Oates, Chris J. and Cockayne, Jon and Chen, Wilson Ye and Girolami, Mark},
+  month = jun,
+  year = {2017},
+  note = {arXiv: 1706.03369},
+  keywords = {Computer Science - Learning, Mathematics - Numerical Analysis, Statistics - Computation, Statistics - Machine Learning},
+  file = {https://arxiv.org/pdf/1706.03369.pdf}
+}
+
+@article{oates_probabilistic_2016,
+  title = {Probabilistic {Models} for {Integration} {Error} in the {Assessment} of {Functional} {Cardiac} {Models}},
+  url = {https://arxiv.org/pdf/1606.06841.pdf},
+  abstract = {This paper studies the numerical computation of integrals, representing estimates or predictions, over the output \$f(x)\$ of a computational model with respect to a distribution \$p({\textbackslash}mathrm\{d\}x)\$ over uncertain inputs \$x\$ to the model. For the functional cardiac models that motivate this work, neither \$f\$ nor \$p\$ possess a closed-form expression and evaluation of either requires \${\textbackslash}approx\$ 100 CPU hours, precluding standard numerical integration methods. Our proposal is to treat integration as an estimation problem, with a joint model for both the a priori unknown function \$f\$ and the a priori unknown distribution \$p\$. The result is a posterior distribution over the integral that explicitly accounts for dual sources of numerical approximation error due to a severely limited computational budget. This construction is applied to account, in a statistically principled manner, for the impact of numerical errors that (at present) are confounding factors in functional cardiac model assessment.},
+  urldate = {2017-09-11},
+  journal = {arXiv:1606.06841 [stat]},
+  author = {Oates, Chris J. and Niederer, Steven and Lee, Angela and Briol, François-Xavier and Girolami, Mark},
+  month = jun,
+  year = {2016},
+  note = {arXiv: 1606.06841},
+  keywords = {Statistics - Methodology}
+}
+
+
+@article{cockayne_bayesian_2017,
+  title = {Bayesian {Probabilistic} {Numerical} {Methods}},
+  url = {http://arxiv.org/abs/1702.03673},
+  abstract = {The emergent field of probabilistic numerics has thus far lacked rigorous statistical principals. This paper establishes Bayesian probabilistic numerical methods as those which can be cast as solutions to certain Bayesian inverse problems, albeit problems that are non-standard. This allows us to establish general conditions under which Bayesian probabilistic numerical methods are well-defined, encompassing both non-linear and non-Gaussian models. For general computation, a numerical approximation scheme is developed and its asymptotic convergence is established. The theoretical development is then extended to pipelines of computation, wherein probabilistic numerical methods are composed to solve more challenging numerical tasks. The contribution highlights an important research frontier at the interface of numerical analysis and uncertainty quantification, with some illustrative applications presented.},
+  urldate = {2017-03-06},
+  journal = {arXiv:1702.03673 [cs, math, stat]},
+  author = {Cockayne, Jon and Oates, Chris and Sullivan, Tim and Girolami, Mark},
+  month = feb,
+  year = {2017},
+  keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Mathematics - Statistics Theory, Statistics - Computation, Statistics - Methodology},
+  file = {https://arxiv.org/pdf/1702.03673.pdf}
+}
+
+@article{kanagawa_convergence_2017,
+  title = {Convergence {Analysis} of {Deterministic} {Kernel}-{Based} {Quadrature} {Rules} in {Misspecified} {Settings}},
+  url = {http://arxiv.org/abs/1709.00147},
+  file = {https://arxiv.org/pdf/1709.00147.pdf},
+  abstract = {This paper presents convergence analysis of kernel-based quadrature rules in misspecified settings, focusing on deterministic quadrature in Sobolev spaces. In particular, we deal with misspecified settings where a test integrand is less smooth than a Sobolev RKHS based on which a quadrature rule is constructed. We provide convergence guarantees based on two different assumptions on a quadrature rule: one on quadrature weights, and the other on design points. More precisely, we show that convergence rates can be derived (i) if the sum of absolute weights remains constant (or does not increase quickly), or (ii) if the minimum distance between distance design points does not decrease very quickly. As a consequence of the latter result, we derive a rate of convergence for Bayesian quadrature in misspecified settings. We reveal a condition on design points to make Bayesian quadrature robust to misspecification, and show that, under this condition, it may adaptively achieve the optimal rate of convergence in the Sobolev space of a lesser order (i.e., of the unknown smoothness of a test integrand), under a slightly stronger regularity condition on the integrand.},
+  urldate = {2017-09-12},
+  journal = {arXiv:1709.00147 [cs, math, stat]},
+  author = {Kanagawa, Motonobu and Sriperumbudur, Bharath K. and Fukumizu, Kenji},
+  month = sep,
+  year = {2017},
+  note = {arXiv: 1709.00147},
+  keywords = {Computer Science - Numerical Analysis, Mathematics - Numerical Analysis, Statistics - Machine Learning, 65D30 (Primary), 65D32, 65D05, 46E35, 46E22 (Secondary)},
+  annote = {Comment: 34 pages}
 }
