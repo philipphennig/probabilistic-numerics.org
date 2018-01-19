@@ -8,7 +8,13 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
-<!-- TODO: automate this page! -->
+### 2018
+* *16 - 19 April*  
+  [Minisymposium on Probabilistic Numerical Methods for Quantification of Discretization Error](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63606) at the [SIAM Conference on Uncertainty Quantification](https://www.siam.org/meetings/uq18/) in Garden Grove, California.
+  Organized by Tim Sullivan, Philipp Hennig, Chris Oates and Mark Girolami
+* *11 - 13 April*  
+  [SAMSI-Lloyds-Turing Workshop on Probabilistic Numerics](https://prob-num.github.io) at the Alan Turing Institute in London, UK.
+  Organized by Chris Oates and Tim Sullivan
 
 ### 2017
 * *June 18 - 23*  
