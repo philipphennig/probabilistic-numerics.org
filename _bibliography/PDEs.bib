@@ -1,3 +1,20 @@
+@article{PhysRevE87013308,
+  title = {Information field dynamics for simulation scheme construction},
+  author = {En\ss{}lin, Torsten A.},
+  journal = {Phys. Rev. E},
+  volume = {87},
+  issue = {1},
+  pages = {013308},
+  numpages = {17},
+  year = {2013},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.87.013308},
+  link = {https://link.aps.org/doi/10.1103/PhysRevE.87.013308},
+  abstract = {Information field dynamics (IFD) is introduced here as a framework to derive numerical schemes for the simulation of physical and other fields without assuming a particular subgrid structure as many schemes do. IFD constructs an ensemble of nonparametric subgrid field configurations from the combination of the data in computer memory, representing constraints on possible field configurations, and prior assumptions on the subgrid field statistics. Each of these field configurations can formally be evolved to a later moment since any differential operator of the dynamics can act on fields living in continuous space. However, these virtually evolved fields need again a representation by data in computer memory. The maximum entropy principle of information theory guides the construction of updated data sets via entropic matching, optimally representing these field configurations at the later time. The field dynamics thereby become represented by a finite set of evolution equations for the data that can be solved numerically. The subgrid dynamics is thereby treated within auxiliary analytic considerations. The resulting scheme acts solely on the data space. It should provide a more accurate description of the physical field dynamics than simulation schemes constructed ad hoc, due to the more rigorous accounting of subgrid physics and the space discretization process. Assimilation of measurement data into an IFD simulation is conceptually straightforward since measurement and simulation data can just be merged. The IFD approach is illustrated using the example of a coarsely discretized representation of a thermally excited classical Klein-Gordon field. This should pave the way towards the construction of schemes for more complex systems like turbulent hydrodynamics.}
+}
+
+
 @article{2014arXiv14071517B,
   author =	 {{Bui-Thanh}, T. and {Girolami}, M.},
   title =	 "{Solving Large-Scale PDE-constrained Bayesian Inverse
@@ -148,3 +165,36 @@
   keywords = {65T60, 65N55, 65N75, 62C99, 42C40, 62M86, Mathematics - Numerical Analysis, Statistics - Machine Learning},
   pages = {99--128}
 }
+
+@ARTICLE{2018arXiv180200971D,
+   author = {{Dupont}, M. and {En{\ss}lin}, T.},
+    title = {Consistency and convergence of simulation schemes in Information field dynamics},
+  journal = {ArXiv e-prints},
+  archivePrefix = "arXiv",
+   eprint = {1802.00971},
+  primaryClass = "astro-ph.IM",
+  keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+     year = 2018,
+    month = feb,
+    abstract = {We explore a new simulation scheme for partial differential equations (PDE's) called Information Field Dynamics (IFD). Information field dynamics attempts to improve on existing simulation schemes by incorporating Bayesian field inference, which seeks to preserve the maximum amount of information about the field being simulated. The field inference is truly Bayesian and thus depends on a notion of prior belief. Here, we analytically prove that a restricted subset of simulation schemes in IFD are consistent, and thus deliver valid predictions in the limit of high resolutions. This has not previously been done for any IFD schemes. This restricted subset is roughly analogous to traditional fixed-grid numerical PDE solvers, given the additional restriction of translational symmetry. Furthermore, given an arbitrary IFD scheme modelling a PDE, it is a-priori not obvious to what order the scheme is accurate in space and time. For this subset of models, we also derive an easy rule-of-thumb for determining the order of accuracy of the simulation. As with all analytic consistency analysis, an analysis for nontrivial systems is intractable, thus these results are intended as a general indicator of the validity of the approach, and it is hoped that the results will generalize.},
+    link = {https://arxiv.org/abs/1802.00971},
+    file = {https://arxiv.org/pdf/1802.00971}
+}
+
+@article{PhysRevE97033314,
+  title = {Towards information-optimal simulation of partial differential equations},
+  author = {Leike, Reimar H. and En\ss{}lin, Torsten A.},
+  journal = {Phys. Rev. E},
+  volume = {97},
+  issue = {3},
+  pages = {033314},
+  numpages = {8},
+  year = {2018},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.97.033314},
+  link = {https://link.aps.org/doi/10.1103/PhysRevE.97.033314},
+   abstract = {Most simulation schemes for partial differential equations (PDEs) focus on minimizing a simple error norm of a discretized version of a field. This paper takes a fundamentally different approach; the discretized field is interpreted as data providing information about a real physical field that is unknown. This information is sought to be conserved by the scheme as the field evolves in time. Such an information theoretic approach to simulation was pursued before by information field dynamics (IFD). In this paper we work out the theory of IFD for nonlinear PDEs in a noiseless Gaussian approximation. The result is an action that can be minimized to obtain an information-optimal simulation scheme. It can be brought into a closed form using field operators to calculate the appearing Gaussian integrals. The resulting simulation schemes are tested numerically in two instances for the Burgers equation. Their accuracy surpasses finite-difference schemes on the same resolution. The IFD scheme, however, has to be correctly informed on the subgrid correlation structure. In certain limiting cases we recover well-known simulation schemes like spectral Fourier-Galerkin methods. We discuss implications of the approximations made. }
+}
+
+

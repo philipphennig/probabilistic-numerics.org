@@ -1,3 +1,18 @@
+@article{PhysRevE85021134,
+  title = {Improving stochastic estimates with inference methods: Calculating matrix diagonals},
+  author = {Selig, Marco and Oppermann, Niels and En\ss{}lin, Torsten A.},
+  journal = {Phys. Rev. E},
+  volume = {85},
+  issue = {2},
+  pages = {021134},
+  numpages = {7},
+  year = {2012},
+  month = {Feb},
+  publisher = {American Physical Society},
+  link = {https://link.aps.org/doi/10.1103/PhysRevE.85.021134},
+  abstract = {Estimating the diagonal entries of a matrix, that is not directly accessible but only available as a linear operator in the form of a computer routine, is a common necessity in many computational applications, especially in image reconstruction and statistical inference. Here, methods of statistical inference are used to improve the accuracy or the computational costs of matrix probing methods to estimate matrix diagonals. In particular, the generalized Wiener filter methodology, as developed within information field theory, is shown to significantly improve estimates based on only a few sampling probes, in cases in which some form of continuity of the solution can be assumed. The strength, length scale, and precise functional form of the exploited autocorrelation function of the matrix diagonal is determined from the probes themselves. The developed algorithm is successfully applied to mock and real world problems. These performance tests show that, in situations where a matrix diagonal has to be calculated from only a small number of computationally expensive probes, a speedup by a factor of 2 to 10 is possible with the proposed method. },
+}
+
 @article{2014arXiv14022058H,
   author =	 {P. {Hennig}},
   journal =	 {SIAM J on Optimization},
@@ -20,6 +35,22 @@ quasi-Newton and conjugate gradient algorithms, and a foundation for new
 nonlinear optimization methods.},
   file =	 {http://probabilistic-numerics.org/assets/pdf/HennigLinear2015.pdf}
 }
+
+@article{PhysRevE92013302,
+  title = {Stochastic determination of matrix determinants},
+  author = {Dorn, Sebastian and En\ss{}lin, Torsten A.},
+  journal = {Phys. Rev. E},
+  volume = {92},
+  issue = {1},
+  pages = {013302},
+  numpages = {8},
+  year = {2015},
+  month = {Jul},
+  publisher = {American Physical Society},
+  link = {https://link.aps.org/doi/10.1103/PhysRevE.92.013302},
+  abstract = {Matrix determinants play an important role in data analysis, in particular when Gaussian processes are involved. Due to currently exploding data volumes, linear operations---matrices---acting on the data are often not accessible directly but are only represented indirectly in form of a computer routine. Such a routine implements the transformation a data vector undergoes under matrix multiplication. While efficient probing routines to estimate a matrix's diagonal or trace, based solely on such computationally affordable matrix-vector multiplications, are well known and frequently used in signal inference, there is no stochastic estimate for its determinant. We introduce a probing method for the logarithm of a determinant of a linear operator. Our method rests upon a reformulation of the log-determinant by an integral representation and the transformation of the involved terms into stochastic expressions. This stochastic determinant determination enables large-size applications in Bayesian inference, in particular evidence calculations, model comparison, and posterior determination.}
+}
+
 
 @inproceedings{fitzsimons_bayesian_2017,
   title = {Bayesian {Inference} of {Log} {Determinants}},

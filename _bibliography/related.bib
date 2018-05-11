@@ -96,3 +96,20 @@
       file =     {https://arxiv.org/pdf/1609.03543v3.pdf},
       notes = {This monograph gives a strong theoretical optimality notion for using bounded computational resources to assign accurate probabilities to the outcomes of computations.}
 }
+
+@InProceedings{pmlr-v9-hennig10a,
+  title =    {Coherent Inference on Optimal Play in Game Trees},
+  author =   {Philipp Hennig and David Stern and Thore Graepel},
+  booktitle =    {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
+  pages =    {326--333},
+  year =   {2010},
+  editor =   {Yee Whye Teh and Mike Titterington},
+  volume =   {9},
+  series =   {Proceedings of Machine Learning Research},
+  address =    {Chia Laguna Resort, Sardinia, Italy},
+  month =    {13--15 May},
+  publisher =    {PMLR},
+  file =    {http://proceedings.mlr.press/v9/hennig10a/hennig10a.pdf},
+  link =    {http://proceedings.mlr.press/v9/hennig10a.html},
+  abstract =   {Round-based games are an instance of discrete planning problems. Some of the best contemporary game tree search algorithms use random roll-outs as data. Relying on a good policy, they learn on-policy values by propagating information upwards in the tree, but not between sibling nodes. Here, we present a generative model and a corresponding approximate message passing scheme for inference on the optimal, off-policy value of nodes in smooth AND/OR trees, given random roll-outs. The crucial insight is that the distribution of values in game trees is not completely arbitrary. We define a generative model of the on-policy values using a latent score for each state, representing the value under the random roll-out policy. Inference on the values under the optimal policy separates into an inductive, pre-data step and a deductive, post-data part. Both can be solved approximately with Expectation Propagation, allowing off-policy value inference for any node in the (exponentially big) tree in linear time.} 
+  }

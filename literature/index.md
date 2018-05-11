@@ -20,7 +20,6 @@ send us a pull-request, or an email with the updated file (see box on
 * <a href="#Optimization">Optimization</a>
 * <a href="#ODEs">Ordinary Differential Equations</a>
 * <a href="#PDEs">Partial Differential Equations</a>
-* <a href="#Sampling">Sampling (Monte Carlo)</a>
 * <a href="#Related">Other Related Research</a>
 
 <!-- * <a href="#ABC">Approximate Bayesian Computation</a>
@@ -67,11 +66,6 @@ ODE. Below, this is listed under <a href="#inferringODEs">"inferring ODEs"</a>.
 
 {% bibliography --file PDEs %}
 
-<h2 id="Sampling">Sampling (Monte Carlo)</h2>
-
-coming soon
-
-{% bibliography --file MonteCarlo %}
 <!-- 
 <h2 id="ABC">Approximate Bayesian Computation (ABC)</h2>
 
