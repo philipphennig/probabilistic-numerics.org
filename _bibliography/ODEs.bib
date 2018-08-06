@@ -25,7 +25,6 @@ link = {http://doi.acm.org/10.1145/362003.362013}
 }
 
 
-
 @article{skilling1991bayesian,
   author =	 {J. Skilling},
   journal =	 {Maximum Entropy and Bayesian Methods, Seattle},
@@ -42,6 +41,17 @@ link = {http://doi.acm.org/10.1145/362003.362013}
                   probability distribution prob(y(.)), from which random
                   samples show the probabilistic reliability of the
                   results. Examples are given.}
+}
+
+@inproceedings{graepel2003solving,
+  title =  {Solving noisy linear operator equations by Gaussian
+                  processes: Application to ordinary and partial differential
+                  equations},
+  author =   {Graepel, Thore},
+  booktitle =  {ICML},
+  pages =  {234--241},
+  year =   {2003},
+  file =   {http://www.aaai.org/Papers/ICML/2003/ICML03-033.pdf}
 }
 
 @article{Mosbach2009,
@@ -312,13 +322,26 @@ supplements = {http://www.probabilistic-numerics.org/22-supp.zip}
   pages = {99--128}
 }
 
+@ARTICLE{2018arXiv180101340A,
+   author = {{Abdulle}, A. and {Garegnani}, G.},
+    title = "{Random time step probabilistic methods for uncertainty quantification in chaotic and geometric numerical integration}",
+  journal = {ArXiv e-prints},
+  volume = {1801.01340},
+     year = 2018,
+    month = 1,
+  abstract= {A novel probabilistic numerical method for quantifying the uncertainty induced by the time integration of ordinary differential equations (ODEs) is introduced. Departing from the classical strategy to randomize ODE solvers by adding a random forcing term, we show that a probability measure over the numerical solution of ODEs can be obtained by introducing suitable random time-steps in a classical time integrator. This intrinsic randomization allows for the conservation of geometric properties of the underlying deterministic integrator such as mass conservation, symplecticity or conservation of first integrals. Weak and mean-square convergence analysis are derived. We also analyze the convergence of the Monte Carlo estimator for the proposed random time step method and show that the measure obtained with repeated sampling converges in mean-square sense independently of the number of samples. Numerical examples including chaotic Hamiltonian systems, chemical reactions and Bayesian inferential problems illustrate the accuracy, robustness and versatility of our probabilistic numerical method.},
+  file = {https://arxiv.org/pdf/1801.01340},
+  link = {https://arxiv.org/abs/1801.01340}
+}
+
+
 @ARTICLE{2018arXiv180709737K,
    author = {{Kersting}, H. and {Sullivan}, T.~J. and {Hennig}, P.},
     title = "{Convergence Rates of Gaussian ODE Filters}",
   journal = {ArXiv e-prints},
    volume = {1807.09737},
      year = 2018,
-    month = jul,
+    month = 7,
     abstract = {A recently-introduced class of probabilistic (uncertainty-aware) solvers for ordinary differential equations (ODEs) applies Gaussian (Kalman) filtering to initial value problems. These methods model the true solution x and its first q derivatives a priori as a Gauss--Markov process X, which is then iteratively conditioned on information about x'. We prove worst-case local convergence rates of order h^{q+1} for a wide range of versions of this Gaussian ODE filter, as well as global convergence rates of order h^q in the case of $q=1$ and an integrated Brownian motion prior, and analyze how inaccurate information on x' coming from approximate evaluations of f affects these rates. Moreover, we present explicit formulas for the steady states and show that the posterior confidence intervals are well calibrated in all considered cases that exhibit global convergence---in the sense that they globally contract at the same rate as the truncation error.},
     link = {https://arxiv.org/abs/1807.09737},
     file = {https://arxiv.org/pdf/1807.09737}
