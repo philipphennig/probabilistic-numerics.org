@@ -347,3 +347,30 @@ supplements = {http://www.probabilistic-numerics.org/22-supp.zip}
     file = {https://arxiv.org/pdf/1807.09737}
 }
 
+
+@incollection{teymur16,
+  title = {Probabilistic {{Linear Multistep Methods}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 29},
+  publisher = {{Curran Associates, Inc.}},
+  date = {2016},
+  pages = {4314--4321},
+  author = {Teymur, Onur and Zygalakis, Kostas and Calderhead, Ben},
+  editor = {Lee, D. D. and Sugiyama, M. and Luxburg, U. V. and Guyon, I. and Garnett, R.},
+  abstract = {We present a derivation and theoretical investigation of the Adams-Bashforth and Adams-Moulton family of linear multistep   methods for solving ordinary differential equations, starting from a Gaussian process (GP) framework. In the limit, this formulation coincides with the classical deterministic methods, which have been used as higher-order initial value problem solvers for over a century. Furthermore, the natural probabilistic framework provided by the GP formulation allows us to derive probabilistic versions of these methods, in the spirit of a number of other probabilistic ODE solvers presented in the recent literature. In contrast to higher-order Runge-Kutta methods, which require multiple intermediate function evaluations per step, Adams family methods make use of previous function evaluations, so that increased accuracy arising from a higher-order multistep approach comes at very little additional computational cost. We show that through a careful choice of covariance function for the GP, the posterior mean and standard deviation over the numerical solution can be made to exactly coincide with the value given by the deterministic method and its local truncation error respectively. We provide a rigorous proof of the convergence of these new methods, as well as an empirical investigation (up to fifth order) demonstrating their convergence rates in practice.},
+  link = {https://papers.nips.cc/paper/6356-probabilistic-linear-multistep-methods},
+  file = {https://papers.nips.cc/paper/6356-probabilistic-linear-multistep-methods.pdf}
+}
+
+
+@incollection{teymur18,
+  title = {{{Implicit Probabilistic Integrators for ODEs}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 31},
+  publisher = {{Curran Associates, Inc.}},
+  date = {2018},
+  author = {Teymur, Onur and Lie, Han Cheng and Sullivan, Tim and Calderhead, Ben},
+  abstract = {We introduce a family of implicit probabilistic integrators for initial value problems (IVPs) taking as a starting point the multistep Adams--Moulton method. The implicit construction allows for dynamic feedback from the forthcoming time-step, by contrast with previous probabilistic integrators, all of which are based on explicit methods. We begin with a concise survey of the rapidly-expanding field of probabilistic ODE solvers. We then introduce our method, which builds on and adapts the work of Conrad et al. (2016) and Teymur et al. (2016), and provide a rigorous proof of its well-definedness and convergence. We discuss the problem of the calibration of such integrators and suggest one approach. We give an illustrative example highlighting the effect of the use of probabilistic integrators -- including our new method -- in the setting of parameter inference within an inverse problem.},
+  link = {https://nips.cc/Conferences/2018/Schedule?showEvent=11698},
+  file = {https://arxiv.org/pdf/1805.07970.pdf}
+}
+
+
