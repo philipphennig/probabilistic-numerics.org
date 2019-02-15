@@ -8,6 +8,12 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+### 2019
+* *May 19 - 22*  
+  Minisymposium **Probabilistic Numerics and Kernel-Based Methods** at [Approximation Theory 16](https://my.vanderbilt.edu/at16/) in Nashville, Tennessee, USA. Organized by Toni Karvonen
+* *July 8 - 12*  
+  special session **Probabilistic Numerical Methods** at [MCM 2019](http://www.mcm2019.unsw.edu.au/) in Sydney, Australia. Organised by Jon Cockayne and Toni Karvonen
+
 ### 2018
 * *16 - 19 April*  
   [Minisymposium on Probabilistic Numerical Methods for Quantification of Discretization Error](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=63606) at the [SIAM Conference on Uncertainty Quantification](https://www.siam.org/meetings/uq18/) in Garden Grove, California.
