@@ -10,7 +10,7 @@ community.
 
 ### 2020
 * *March 24 - 27*  
-  Four Minisymposia on **Probabilistic Numerical Methods** at [SIAM Conference on Uncertainty Quantification](https://siam-uq20.ma.tum.de/)
+  Four Minisymposia on **Probabilistic Numerical Methods** at [SIAM Conference on Uncertainty Quantification](https://siam-uq20.ma.tum.de/)  
   **CANCELLED due to COVID-19**  
   [Recorded videos accessible here]({{site.baseurl}}/meetings/SIAMUQ2020)  
   organized by Alex Diaz, Chris Oates, Toni Karvonen, Alexandra Gessner, Philipp Hennig, and Tim Sullivan  

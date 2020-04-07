@@ -11,10 +11,9 @@ layout: default
 Four minisymposia on topics relating to *probabilistic numerics* where scheduled at the [SIAM Conference on Uncertainty Quantification 2020](https://siam-uq20.ma.tum.de/), scheduled to be held in Garching near Munich in Southern Germany from 24 to 27 March 2020. Unfortunately, the conference had to be canceled due to the outbreak of COVID-19.
 Nevertheless, many speakers provided a recording of their presentation. *Huge thanks to all contributors, despite the tough circumstances!*
 
+
 ### Probabilistic Numerical Methods for Cubature
 [Original program and abstracts](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1659#anker_session_1659)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YE0Q0jFL2lI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **The Successes and Challenges of Automatic Bayesian Cubature** [Fred J. Hickernell (Illinois Institute of Technology, US)](http://mypages.iit.edu/~hickernell/)
 
@@ -23,6 +22,7 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 **Integrals of Linearly Constrained Gaussians** [Alexandra Gessner (University of Tübingen, Germany)]()
 
 **Adaptivity in Bayesian Cubature** [Matthew Fisher (Newcastle University, UK)]()
+
 
 
 ### Probabilistic Numerical Methods: Opportunities and Challenges
@@ -36,6 +36,8 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 
 **Active Multi-Source Bayesian Quadrature for Expensive Simulations** [Maren Mahsereci (Amazon Research, UK)]
 
+
+
 ### Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part I
 [Original program and abstracts](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1662#anker_session_1662)
 
@@ -46,6 +48,8 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 **Estimation of Ordinary Differential Equation Models with Discretization Error Quantification** [Takeru Matsuda (University of Tokyo, Japan)]()
 
 **Probabilistic Rare-Event Simulation** [Alejandro Diaz (University College London, UK)]
+
+
 
 ### Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part II
 [Original program and abstracts](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1661#anker_session_1661)
