@@ -8,6 +8,13 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+### 2020
+* *March 24 - 27*  
+  Four Minisymposia on **Probabilistic Numerical Methods** at [SIAM Conference on Uncertainty Quantification](https://siam-uq20.ma.tum.de/)  
+  **CANCELLED due to COVID-19**  
+  [Recorded videos accessible here]({{site.baseurl}}/meetings/SIAMUQ2020)  
+  organized by Alex Diaz, Chris Oates, Toni Karvonen, Alexandra Gessner, Philipp Hennig, and Tim Sullivan  
+  
 ### 2019
 * *May 19 - 22*  
   Minisymposium **Probabilistic Numerics and Kernel-Based Methods** at [Approximation Theory 16](https://my.vanderbilt.edu/at16/) in Nashville, Tennessee, USA. Organized by Toni Karvonen
