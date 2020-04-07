@@ -9,12 +9,15 @@ This page lists past and future meetings of the Probabilistic Numerics
 community.
 
 ### 2020
-* *March 23 - 27*
-  Minisymposia on *Probabilistic Numerics* at [SIAM Conference on Uncertainty Quantification](https://siam-uq20.ma.tum.de/)
+* *March 23 - 27*  
+   Four Minisymposia on **Probabilistic Numerical Methods** at [SIAM Conference on Uncertainty Quantification](https://siam-uq20.ma.tum.de/)
   * [Probabilistic Numerical Methods for Cubature](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1659#anker_session_1659)
   * [Probabilistic Numerical Methods: Opportunities and Challenges](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1660#anker_session_1660)
   * [Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part I](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1662#anker_session_1662)
   * [Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part II](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1661#anker_session_1661)
+  organized by Alex Diaz, Chris Oates, Toni Karvonen, Alexandra Gessner, Philipp Hennig, and Tim Sullivan
+  **CANCELLED due to COVID-19**  
+  A selection of the scheduled talks can be watched at *LINK TO TALKS*
 
 
 ### 2019
