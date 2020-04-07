@@ -8,6 +8,15 @@ layout: default
 This page lists past and future meetings of the Probabilistic Numerics
 community.
 
+### 2020
+* *March 23 - 27*
+  Minisymposia on *Probabilistic Numerics* at [SIAM Conference on Uncertainty Quantification] (https://siam-uq20.ma.tum.de/)
+  * [Probabilistic Numerical Methods for Cubature] ( https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1659#anker_session_1659 )
+  * [Probabilistic Numerical Methods: Opportunities and Challenges] ( https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1660#anker_session_1660 )
+  * [Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part I] ( https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1662#anker_session_1662 )
+  * [Probabilistic Numerical Methods for Differential Equations and Linear Algebra, Part II] ( https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=490&ses=1661#anker_session_1661 )  
+
+
 ### 2019
 * *May 19 - 22*  
   Minisymposium **Probabilistic Numerics and Kernel-Based Methods** at [Approximation Theory 16](https://my.vanderbilt.edu/at16/) in Nashville, Tennessee, USA. Organized by Toni Karvonen
