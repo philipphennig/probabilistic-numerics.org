@@ -81,4 +81,4 @@ coming soon
 -->
 <h2 id="Related">Other Related Research</h2>
 
-{% bibliography --file Related %}
+{% bibliography --file related %}
