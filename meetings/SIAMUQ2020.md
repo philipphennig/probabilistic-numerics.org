@@ -27,6 +27,7 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 
 **Integrals of Linearly Constrained Gaussians**   
 [Alexandra Gessner (University of Tübingen, Germany)](https://www.is.mpg.de/person/agessner)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bqI6xSsE0n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/><br/>
 
 **Adaptivity in Bayesian Cubature**   
