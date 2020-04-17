@@ -91,7 +91,7 @@ The story is much more intricate---and exciting---with regards to MC
 methods. Recently, I have found myself repeatedly in discussions with
 colleagues about the helpfulness of random numbers for computations, in
 connection with our recent NIPS paper on fast Bayesian quadrature
-{% cite gunter14-fast-bayesian-quadrature --file quadrature %}. There is a famous
+{% cite gunter14-fast-bayesian-quadrature --file Quadrature %}. There is a famous
 polemic by Tony O'Hagan {% cite o1987monte --file Sampling%} pointing out that
 randomness leads to serious inefficiencies when performing a deterministic
 computation. It is well-known that, on low-dimensional problems, classic
@@ -99,7 +99,7 @@ quadrature rules can converge *much* faster than MC estimators: Depending on
 the rule used, and the smoothness of the integrand, $$\mathcal{O}(N^{-p})$$ for
 $$p\in\mathbb{N}$$ is not unusual. Classic quadrature rules are identified with maximum a
 posteriori estimators under various Gaussian process priors over the integrand
-{% cite minka2000deriving --file quadrature %}. Extending on this insight, our
+{% cite minka2000deriving --file Quadrature %}. Extending on this insight, our
 recent NIPS paper presents a general purpose quadrature method for strictly
 positive integrands (such as the probability distribution $$p$$) which
 empirically outperforms (in wall-clock time) established MCMC methods. Given
@@ -108,4 +108,4 @@ suggests an area of research that is only just beginning to take shape.
 
 ### References ###
 
-{% bibliography --cited --file related --file quadrature --file Sampling %}
+{% bibliography --cited --file related --file Quadrature --file Sampling %}
