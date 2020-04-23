@@ -18,6 +18,7 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 
 **The Successes and Challenges of Automatic Bayesian Cubature**   
 [Fred J. Hickernell (Illinois Institute of Technology, US)](http://mypages.iit.edu/~hickernell/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ks9eY9tLc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/><br/>
 
 **Gaussian processes and Uncertainty Quantification**   
