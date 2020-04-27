@@ -76,7 +76,7 @@ You can submit questions to the speakers through [this form](https://forms.gle/C
 **A Probabilistic View on Sparse Cholesky Factorization**   
 [Florian Schäfer ( California Institute of Technology, US)](https://f-t-s.github.io/)
 <br/>
-COMING SOON!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NwCD9fk80VI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/><br/>
 
 **Estimation of Ordinary Differential Equation Models with Discretization Error Quantification**   
