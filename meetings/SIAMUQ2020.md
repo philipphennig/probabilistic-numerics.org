@@ -12,12 +12,17 @@ Four minisymposia on *probabilistic numerical methods* were scheduled at the [SI
 Nevertheless, many speakers provided a recording of their presentation. *Huge thanks to all contributors, despite the tough circumstances!*
 <br/><br/>
 
+<h2>Ask the speakers!</h2>
+You can submit questions to the speakers through [this form](https://forms.gle/CYoKhdGGCs4UFCpA8) until **May 10**.
+<br/><br/>
+
 <hr align="left" width="100%">
 ### [Probabilistic Numerical Methods for Cubature](https://www.events.tum.de/frontend/index.php?page_id=3712&v=List&do=15&day=489&ses=1659#anker_session_1659)
 <br/>
 
 **The Successes and Challenges of Automatic Bayesian Cubature**   
 [Fred J. Hickernell (Illinois Institute of Technology, US)](http://mypages.iit.edu/~hickernell/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ks9eY9tLc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/><br/>
 
 **Gaussian processes and Uncertainty Quantification**   
@@ -70,6 +75,8 @@ Nevertheless, many speakers provided a recording of their presentation. *Huge th
 
 **A Probabilistic View on Sparse Cholesky Factorization**   
 [Florian Schäfer ( California Institute of Technology, US)](https://f-t-s.github.io/)
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NwCD9fk80VI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/><br/>
 
 **Estimation of Ordinary Differential Equation Models with Discretization Error Quantification**   
